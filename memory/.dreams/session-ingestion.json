@@ -1,0 +1,274 @@
+{
+  "version": 3,
+  "files": {
+    "feishu-4:sessions/feishu-4/1b62ec55-a290-4a14-a451-0a4debd2b0ba.jsonl": {
+      "mtimeMs": 1778951589408,
+      "size": 42321,
+      "contentHash": "3e5f6ee5da2ff2c70be362a2b46be686d09ab03ce79fa6c750242a6b1f679f00",
+      "lineCount": 1,
+      "lastContentLine": 1
+    },
+    "feishu-4:sessions/feishu-4/2b3896c0-2b4d-4a26-9fc7-3e202cebf763.jsonl": {
+      "mtimeMs": 1779726263693,
+      "size": 249948,
+      "contentHash": "d690eebcdb17e8f47c577ba0a5020198f759413e7e0087ca1d298c729a1e5279",
+      "lineCount": 5,
+      "lastContentLine": 5
+    },
+    "feishu-4:sessions/feishu-4/40cc0e5d-c624-4973-9380-eea91429bbb8.jsonl": {
+      "mtimeMs": 1778951781430,
+      "size": 32683,
+      "contentHash": "3dc61afdcecabe877f659932d9c21bddc1a3e0f22987499d77dade7290a33418",
+      "lineCount": 1,
+      "lastContentLine": 1
+    },
+    "feishu-4:sessions/feishu-4/4e1bc9d8-89eb-44b9-94db-f956fdb19f86.jsonl.reset.2026-05-09T08-37-23.861Z": {
+      "mtimeMs": 1777886118033,
+      "size": 1000922,
+      "contentHash": "eae41049d8e4c8113b9c835aa1b04aedca945e04a87dd81bfa445caf2f5de2e1",
+      "lineCount": 57,
+      "lastContentLine": 57
+    },
+    "feishu-4:sessions/feishu-4/5b2f8de6-48df-4ea8-adfd-8d6f4f33efe2.jsonl.reset.2026-05-04T01-42-28.507Z": {
+      "mtimeMs": 1777821756062,
+      "size": 529555,
+      "contentHash": "d22426600dcdde360168121a05c1ec6cd6c1ebfff6bc0c3e84007a712d1ee146",
+      "lineCount": 120,
+      "lastContentLine": 120
+    },
+    "feishu-4:sessions/feishu-4/6d2a1f61-2791-47ca-b05f-27d093f092da.jsonl.reset.2026-05-02T03-08-37.314Z": {
+      "mtimeMs": 1777649367593,
+      "size": 249865,
+      "contentHash": "0ead652dc93a537c3313c642193ec45fa604dfda24072ab03cd82d1a38a749dc",
+      "lineCount": 86,
+      "lastContentLine": 86
+    },
+    "feishu-4:sessions/feishu-4/986067d8-d53f-4ab8-80ac-e8c27b20d194.jsonl.reset.2026-05-16T16-28-03.583Z": {
+      "mtimeMs": 1778328425026,
+      "size": 691764,
+      "contentHash": "8a014b0d701a634353a412912767541ab413aa6788d19349079cb94e6300a282",
+      "lineCount": 42,
+      "lastContentLine": 42
+    },
+    "feishu-4:sessions/feishu-4/9b21216b-8b05-4772-abad-94f491dda49c.jsonl.reset.2026-05-25T16-17-31.227Z": {
+      "mtimeMs": 1779637870604,
+      "size": 934474,
+      "contentHash": "1d9bce7aa0b75d3cdb5668ad3a7f06215a7087ed169008d9b58a01b5b3c48cce",
+      "lineCount": 33,
+      "lastContentLine": 33
+    },
+    "feishu-4:sessions/feishu-4/b3fdfac0-95ed-4a47-a26d-a37b85b626ae.jsonl": {
+      "mtimeMs": 1778951528967,
+      "size": 36674,
+      "contentHash": "f932ba22e28135cd2b475fedb752e9b1d5b7629092d67a130bc92cc2b3af61cf",
+      "lineCount": 1,
+      "lastContentLine": 1
+    },
+    "feishu-4:sessions/feishu-4/cf04a923-59ab-4962-88c7-4da96b9a6d49.jsonl.reset.2026-05-17T01-56-32.964Z": {
+      "mtimeMs": 1778952466735,
+      "size": 297825,
+      "contentHash": "d0c8163003c2030d9dd196707070c229e60a4318a058bcf1cf36fa3cfe3b0190",
+      "lineCount": 14,
+      "lastContentLine": 14
+    },
+    "feishu-4:sessions/feishu-4/d96209cc-c58c-4016-b6a7-427c19aac1b0.jsonl.reset.2026-05-24T13-38-28.997Z": {
+      "mtimeMs": 1779462369959,
+      "size": 550736,
+      "contentHash": "cb7136ceda772e9d762502c42c87dc0827e7b4adb38bba8553950a64e3dadbd5",
+      "lineCount": 23,
+      "lastContentLine": 23
+    },
+    "feishu-4:sessions/feishu-4/efc2fcdf-af0c-4176-b221-4484c4a0ace6.jsonl.reset.2026-05-03T00-23-28.819Z": {
+      "mtimeMs": 1777733732248,
+      "size": 689444,
+      "contentHash": "126c4803d722e81c2797bc7de376e5189affdc47173671afd4c60a29fc51548e",
+      "lineCount": 138,
+      "lastContentLine": 138
+    },
+    "feishu-4:sessions/feishu-4/fa5bde33-5214-4b19-b924-0b5e25b785c9.jsonl.reset.2026-05-22T00-50-01.365Z": {
+      "mtimeMs": 1779018155945,
+      "size": 288909,
+      "contentHash": "2859383f8f7a2bfc42a2007d0af9bd6096441c1c428cf81fb9741be601b8ed1c",
+      "lineCount": 12,
+      "lastContentLine": 12
+    },
+    "feishu-6:sessions/feishu-6/08863664-da32-402d-96f5-b24091974a1d.jsonl.reset.2026-05-08T23-58-39.719Z": {
+      "mtimeMs": 1778082263541,
+      "size": 176452,
+      "contentHash": "bf376e10e196144e11ef395ee42aa87c9a100b77264c6b57a12bd3ae9d0e898f",
+      "lineCount": 10,
+      "lastContentLine": 10
+    },
+    "feishu-6:sessions/feishu-6/44854309-8eb7-40bb-9b4a-d9dcf4d15b2a.jsonl": {
+      "mtimeMs": 1779461759724,
+      "size": 747377,
+      "contentHash": "1ef756456744fc778c0b0d89e721b41d36bf54461d321090854ddb71b6336912",
+      "lineCount": 17,
+      "lastContentLine": 17
+    },
+    "feishu-6:sessions/feishu-6/76085aeb-5c71-4137-963b-23e18497fc56.jsonl.reset.2026-05-22T00-58-59.641Z": {
+      "mtimeMs": 1778948527180,
+      "size": 22837,
+      "contentHash": "da1ddf9443baef787b6b40d4766ff7fe233d9f83eae0076edfe9cc1ce048740b",
+      "lineCount": 3,
+      "lastContentLine": 3
+    },
+    "feishu-6:sessions/feishu-6/ada3a6cd-32fd-4e16-b90d-4013141c9d20.jsonl.reset.2026-05-06T15-32-33.682Z": {
+      "mtimeMs": 1777881251429,
+      "size": 518113,
+      "contentHash": "22db71b60718e0ad9676c2cd35250d748955b59485e359e1bb9869d2fc6ca90e",
+      "lineCount": 39,
+      "lastContentLine": 39
+    },
+    "feishu-6:sessions/feishu-6/b741be25-db32-4676-a748-4745a6ce8f0f.jsonl.reset.2026-05-16T16-20-32.411Z": {
+      "mtimeMs": 1778328889124,
+      "size": 725222,
+      "contentHash": "e051de79017f02f40a2228c6e4e42a7d918941acdbbffb54baba3095cde6e8c4",
+      "lineCount": 36,
+      "lastContentLine": 36
+    },
+    "feishu-6:sessions/feishu-6/d780e3c4-3660-4aa0-8b13-ba1d73d6f2d4.jsonl": {
+      "mtimeMs": 1779412773624,
+      "size": 77086,
+      "contentHash": "e8d9e6fa1ca7cbb8675114945a110540b5c62dd27eb1e82dadd4a760b0f2776a",
+      "lineCount": 2,
+      "lastContentLine": 2
+    }
+  },
+  "seenMessages": {
+    "feishu-4:1b62ec55-a290-4a14-a451-0a4debd2b0ba": [
+      "a4a1beeee16131a196b0cdddafa869b6e72eaf99"
+    ],
+    "feishu-4:40cc0e5d-c624-4973-9380-eea91429bbb8": [
+      "065f8dab55be3d1cc7030313218cb150d9e2cf94"
+    ],
+    "feishu-4:b3fdfac0-95ed-4a47-a26d-a37b85b626ae": [
+      "3930667ed4188849477e29f32796475929297c49"
+    ],
+    "feishu-4:cf04a923-59ab-4962-88c7-4da96b9a6d49": [
+      "028f9cdd5e4565e9864c37cab5bf5d97372aa1fe",
+      "84f83dbacb30c24762c40b880f43325592108be8",
+      "2813b8e79e099e2c469a328c6edc8eefb88f1dfc",
+      "83e7f0c7c5979dc0e3a8cbb3e96dc75db4e42f25",
+      "83a32e4fe6aa94dc2bec507a1ea8195f4379e01f",
+      "94ba6053f3617bacf95cdc04292d24914de1f262",
+      "9bd79742024807f3d52300bb8f6d43efdc85acb1",
+      "a2b43cfe3024ba72c069a2e9325dcfeddea9b6fe",
+      "919420fd71095a5698b8a25209a90afcf5ff1b08",
+      "53c6b7b37b15b9a5d14a439ca8a1db2c88bb38f5",
+      "bfadf8e3ac267166a56614bde2093723753a8136",
+      "ae8d1a346f7c35e495e04f4e18297973e56102a2",
+      "5ce777e97adb76b7cf41c6a084bfb5f4f77c4a7b",
+      "bb8d9538c8f40fb25c86e433def8a96db74a974b"
+    ],
+    "feishu-6:76085aeb-5c71-4137-963b-23e18497fc56": [
+      "07ff76387ead3c1ceac8b8e0b6adfac24a07bda4",
+      "343033e9345a8f9f98524e5ae5667c714991adce",
+      "76328050ee4ed711da6a93bf36d573e33a912814"
+    ],
+    "feishu-4:fa5bde33-5214-4b19-b924-0b5e25b785c9": [
+      "b04e92dd89595ce45780545a744dd7434f276900",
+      "53e90cddef013663502f7fdd885ad47db8971bc9",
+      "00ce00ae7dcfa524e58087725bd8d545e9607383",
+      "080081516062d8bfb9ea8e6c6ed6e07f6471c0d3",
+      "c244231f3f9801df9e3e42aa9b22a32ed6d42d9a",
+      "ce74f2cdf561def25f34b6fc6d1d100d3bf248af",
+      "9617c210ad9dde7b17f7712adf6647715e1face5",
+      "6cfece810aa8e3567543c3b37e100c5b2fd554b8",
+      "9c6de058fbbb40a242bfb6edaf04f4548f630c79",
+      "89eb89cc10c2f9bb0c2c759201c6248b1c573953",
+      "52f41d7d318cde12be2670ef0bf812eb8ac43aee",
+      "c43929e78104a661828acf984b16acc41bd677d7"
+    ],
+    "feishu-4:d96209cc-c58c-4016-b6a7-427c19aac1b0": [
+      "91435a2b988861f33eb786e30c8793a4f4957e26",
+      "3de4562834c92835931a2d0e9c97208d478c3276",
+      "daa86709323011c066ec30fb3ae3db16f2dd16dc",
+      "4e088fb2f9eb538a10586bdd256b448220f46717",
+      "35f80790fae531745c8a17359afd1d4f8d69ee81",
+      "4b069b4253dba2bcd8c15ea4aa6795be47be51b6",
+      "7e7a938337bb09a9efab363b7af6cc556c69efc6",
+      "c51313f3b58c8ef686944770128948b713599740",
+      "227b673a25e4c889b402c880d4684100c26c78a0",
+      "e9b9aa551bb7fb94e9e0b0f93410290a4acca8b0",
+      "3daca1f164fda11c0c5a06ccb76223661cb8d1f0",
+      "59789bfc5be2cb77f8a7ff1fb537d1e72b358214",
+      "4a00f42ab4534653a1643e35e799d40c6da9feef",
+      "e36537be9252919f4fa43b902753cb62059ef33a",
+      "2b665b123853e6d7d55e94e9bfd54b73c5f87f4d",
+      "58a2e7f83a7b3a6b3bef40458fa4befecf567d02",
+      "ba6c22c161082f1f544dad87857f3892c7db7a8c",
+      "7d3d00fe0ea13298fb6460d9c4d0684701904874",
+      "7c7e215e9704b228e18ffdf28e3303d50bda1526",
+      "c7175652e5b506c298db54459a3e745aefc4a916",
+      "5b04b3323ebb79bbf1b1513f42809051b6c9ad90",
+      "0397c81ff3e1a6a13a1ff8cd4c77b9bd8abed46d",
+      "e96babf5708b7cb6cc22e00b74170d8d164ec842"
+    ],
+    "feishu-6:44854309-8eb7-40bb-9b4a-d9dcf4d15b2a": [
+      "207e9aeb979a318f0552342fb73b881e7b1b0d2b",
+      "2ed071b419c3b3d2634bb1a2a54b0a673f86b0e6",
+      "a6e9e1d9948c7ac07b71e2d5fc1cd9a1b8e27d71",
+      "6f51beb0704108959132c1d56af165a97bb4f2cc",
+      "c3752c2e84acb87fab8674da2b0d77e88e5ef3a1",
+      "ec94ae10c1f39c792feccf4727722a917276375e",
+      "642400cbd4ecb0cb6ea64d3677e9a5eef54eb08a",
+      "a41cccb4cd7e53806e9027e2d359de33c0b46ece",
+      "4aa41abc8c40a47e7d7316ee015e207144f0361e",
+      "cafd0b397f1c718e6515606fca13a3565456c35d",
+      "26df05d433c77942019de7317d957f5e3bd1af17",
+      "5467ba41ddd80e60af4feb5f8881208a80c70384",
+      "20bd15bf15b561990dbfaebc010b3ad9e57bee86",
+      "119a657f72869177692ae45d44c5b53774838e6a",
+      "afd0d52cbaf2fc41390650d5508f4e95383d8a51",
+      "910d3231f93edb2d5891fdfdeb327228bbadbdb3",
+      "1ee137867e42e5241f517530e653ecdd339731c1"
+    ],
+    "feishu-6:d780e3c4-3660-4aa0-8b13-ba1d73d6f2d4": [
+      "04af4f33f6b09c7c1abf1eee628e02f9ffc1c06a",
+      "1a862dd06e047b7603dc9905c423cd98adee0dfe"
+    ],
+    "feishu-4:9b21216b-8b05-4772-abad-94f491dda49c": [
+      "1b11906b197f1076671f74e014b499f5921ab8fb",
+      "5eacc030b9e0e3c3c7a89010b7771e8f99af34d2",
+      "d310ce68a615f90b633ab57cfbdab1f5a09e6dca",
+      "f98ac59caa26f1ed37b358e628d55c33a13c9d97",
+      "0f2464d26d53feb7b091db52ed5e23b26a613a6f",
+      "d893d2ed44ccf06f588db8f9a3caaf651f1e59e8",
+      "5edca42099adc244c0ad56eda491ce24ecb96a02",
+      "1af1ebbd3d63260de7bdfa8a3a4383e40d82b1c9",
+      "b3841883a22a614cfb688bbea03d759415b1f81c",
+      "2a51677f736071896f259dfce09ce7a922442b2d",
+      "7f6041f6201a37571d77e7ffec4aeef55856c57a",
+      "97bac6e499696a1d0b5f4e8b37eaf0fb9f8516df",
+      "2ea5d2c4a1ced34163837bf519059e7c553761f5",
+      "79a6aff715dc6140527fa1b6f4b0119a7b04e8b9",
+      "414d630c84a78e80dc8bd38f13fb649f4820361e",
+      "2ab0082bfa5bfeb7a051caa8e717937bef55d7f1",
+      "33f57ee18659bf8c8d5a5f75e1106eb66897e41f",
+      "c860d9abbd54947b7560aa9b27fb838d29b6d352",
+      "a80fe1f8e0fc19a58f0c34b33e12ae1cec5f8058",
+      "9039042827f834844d16b77b66a9dd0fcb1c8e29",
+      "0233dddda7c27a29092da9ee33d764da274ffb60",
+      "41c03799753961d29f153e6f08c9d853d6f267c7",
+      "da8b8e26b505710536e83d30ada0c6475c6dc033",
+      "2e75b82344eb7b0cb7763204f9ab1b39e558b6fd",
+      "e0355e3c63dd3f753d7d78e7568358e2bb8408d5",
+      "6275a603beba3d8dec0802e56fc6a8deada67ab2",
+      "bf842d7cdc419813706e292a30bfe79706a2622f",
+      "861a968b8cfd294312f48ad3b98b3a40225e0e4a",
+      "cdf3a9403112487e22192cea1f030ea8935c8699",
+      "7fa0890a347e1fc956431952833111cacb02aaa5",
+      "3f687f4199d32b2fcc924d4b5e7fb5acfb9980e1",
+      "9eaede194b41521a1e1322b65bc7540bfad8c88f",
+      "59533a5e84f6241356ebce4da3833218ce881d20"
+    ],
+    "feishu-4:2b3896c0-2b4d-4a26-9fc7-3e202cebf763": [
+      "521ed0298acd7a480b10155e9b1c233356bac9ba",
+      "ac107c1cab29aa5a9d653e60c4365a40baaeb879",
+      "337b434282ca4e101712d8135b9ea745476d9d8e",
+      "fad06a0885d474b1c18439ee1f4b8eea5696a84c",
+      "48047847b51c7f14470d8c98a1afb8b4292632cb"
+    ]
+  }
+}

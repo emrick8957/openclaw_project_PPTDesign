@@ -1,0 +1,381 @@
+{
+  "deck_title": "人工智能在自动化生产系统 MBSE 中的应用：从单点 AI 走向自学习数字孪生工程闭环",
+  "audience": "技术高层 / 工程研发负责人 / 制造数字化决策人",
+  "style": "huawei_executive",
+  "source_pdf": "C:\\Users\\Administrator\\.openclaw\\media\\inbound\\人工智能在自动化生产系统基于模型的系统工程_MBSE_中的应用---af832e6b-406d-41ff-8ba9-b970f77f01d2.pdf",
+  "skill_version": "huawei_ppt_master v0.3.5-generated-image-feedback",
+  "slides": [
+    {
+      "slide_no": 1,
+      "section": "开场与阅读框架",
+      "type": "cover",
+      "page_goal": "建立本材料主题与管理视角",
+      "title": "AI进入自动化生产系统 MBSE，关键不是单点智能，而是工程闭环",
+      "conclusion": "论文提出的核心价值在于：用语义模型、知识图谱和协同仿真把 AI 纳入产品与产线开发全流程。",
+      "display_text": [
+        "研究对象：AI 在自动化生产系统 MBSE 中的应用",
+        "管理视角：不是评估单个 AI 工具，而是判断工程体系如何吸收 AI",
+        "主线：单点应用 → 语义底座 → 自学习数字孪生 → 治理闭环"
+      ],
+      "speaker_notes": "先讲结论：论文提出的核心价值在于：用语义模型、知识图谱和协同仿真把 AI 纳入产品与产线开发全流程。；再引用论文证据：Abstract, Introduction；最后落到管理启示。",
+      "chart_type": "none",
+      "chart_data": {},
+      "layout_pattern": "image_background_section_divider",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "AI进入自动化生产系统 ",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "AI-ready MBSE",
+        "工程闭环"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 2,
+      "section": "开场与阅读框架",
+      "type": "agenda",
+      "page_goal": "让高层快速理解阅读路径",
+      "title": "建议按“问题—框架—抓手—落地—决策”五步判断投入边界",
+      "conclusion": "高层应先判断 AI 是否具备工程上下文，再决定工具、数据、仿真和治理资源投入。",
+      "display_text": [
+        "为什么：AI 工程应用仍多为孤立点",
+        "是什么：自学习数字孪生作为总体框架",
+        "怎么做：GBDL/知识图谱与 FMU 协同仿真",
+        "如何落地：以自动装配系统验证路径",
+        "怎么决策：资源、边界、责任与阶段验收"
+      ],
+      "speaker_notes": "先讲结论：高层应先判断 AI 是否具备工程上下文，再决定工具、数据、仿真和治理资源投入。；再引用论文证据：Paper structure, Section 1；最后落到管理启示。",
+      "chart_type": "none",
+      "chart_data": {},
+      "layout_pattern": "multi_module_solution_overview",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "建议按“问题—框架—抓手",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "AI-ready MBSE",
+        "工程闭环"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 3,
+      "section": "核心判断与问题定性",
+      "type": "executive_summary",
+      "page_goal": "形成一页核心判断",
+      "title": "核心不在“AI 能不能用”，而在工程模型是否能承载 AI 反馈",
+      "conclusion": "论文的关键启示是：AI 只有回写到语义化工程模型，并被仿真和因果检查约束，才可能形成持续价值。",
+      "display_text": [
+        "判断一：孤立 AI 应用难以形成体系价值",
+        "判断二：语义丰富的总体模型是 AI 应用基础",
+        "判断三：AI 产生的知识必须回写到整体模型",
+        "判断四：仿真、XAI 与因果检查共同提供可信约束",
+        "建议：先建设工程语义底座，再扩大 AI 场景"
+      ],
+      "speaker_notes": "先讲结论：论文的关键启示是：AI 只有回写到语义化工程模型，并被仿真和因果检查约束，才可能形成持续价值。；再引用论文证据：Abstract, Section 2；最后落到管理启示。",
+      "chart_type": "key_findings_cards",
+      "chart_data": {
+        "cards": [
+          {
+            "headline": "判断一：孤立 AI 应用难以形成体系价值",
+            "emphasis": "high"
+          },
+          {
+            "headline": "判断二：语义丰富的总体模型是 AI 应用基础",
+            "emphasis": "medium"
+          },
+          {
+            "headline": "判断三：AI 产生的知识必须回写到整体模型",
+            "emphasis": "medium"
+          },
+          {
+            "headline": "判断四：仿真、XAI 与因果检查共同提供可信约束",
+            "emphasis": "medium"
+          },
+          {
+            "headline": "建议：先建设工程语义底座，再扩大 AI 场景",
+            "emphasis": "medium"
+          }
+        ]
+      },
+      "layout_pattern": "executive_summary_dashboard",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "核心不在“AI 能不能用",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "语义上下文",
+        "协同仿真",
+        "可解释/可回写"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 4,
+      "section": "核心判断与问题定性",
+      "type": "context_trend",
+      "page_goal": "说明为什么单点 AI 难以扩展",
+      "title": "当前瓶颈不是应用场景不足，而是产品、产线和运行数据缺少统一上下文",
+      "conclusion": "论文列出产品运行、生产运行、回收、设计、验证等七类 AI 应用，但强调它们都依赖跨生命周期数据和结构化语义。",
+      "display_text": [
+        "左侧：七类 AI 场景覆盖生命周期多个阶段",
+        "右侧：共性前提是结构数据、过程数据和行为数据统一关联",
+        "差距：没有统一上下文，AI 结果难以解释、复用和回写",
+        "管理含义：不能先铺工具，应先定义工程数据与模型边界"
+      ],
+      "speaker_notes": "先讲结论：论文列出产品运行、生产运行、回收、设计、验证等七类 AI 应用，但强调它们都依赖跨生命周期数据和结构化语义。；再引用论文证据：Section 1 seven AI areas, Figure 1；最后落到管理启示。",
+      "chart_type": "comparison_table",
+      "chart_data": {
+        "columns": [
+          "维度",
+          "单点AI",
+          "体系化MBSE+AI",
+          "判断"
+        ],
+        "rows": [
+          [
+            "应用方式",
+            "局部场景",
+            "跨生命周期闭环",
+            "体系化优先"
+          ],
+          [
+            "数据基础",
+            "孤立数据",
+            "统一语义上下文",
+            "先建底座"
+          ],
+          [
+            "管理含义",
+            "工具采购",
+            "模型边界与治理",
+            "高层需拍板"
+          ]
+        ]
+      },
+      "layout_pattern": "two_column_comparison",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "当前瓶颈不是应用场景不足",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "语义上下文",
+        "协同仿真",
+        "可解释/可回写"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 5,
+      "section": "论文框架与技术抓手",
+      "type": "framework",
+      "page_goal": "把论文研究问题转为工程推进框架",
+      "title": "研究问题可以收敛为：如何让 AI 贯穿产品与生产系统开发全阶段",
+      "conclusion": "论文把问题从“AI 用在哪里”提升为“基于 MBSE 的工程框架如何支撑 AI 在全阶段有效应用”。",
+      "display_text": [
+        "输入：产品需求、生产需求、运行数据、工程规则",
+        "过程：产品 V 模型与生产系统 V 模型互联",
+        "输出：产品定义、生产系统、运行、回收与验证闭环",
+        "约束：AI 必须嵌入 MBSE 流程，而不是游离在流程外"
+      ],
+      "speaker_notes": "先讲结论：论文把问题从“AI 用在哪里”提升为“基于 MBSE 的工程框架如何支撑 AI 在全阶段有效应用”。；再引用论文证据：Research question, Figure 1；最后落到管理启示。",
+      "chart_type": "swimlane_process",
+      "chart_data": {
+        "lanes": [
+          {
+            "name": "产品开发",
+            "steps": [
+              "需求",
+              "架构",
+              "集成",
+              "验证"
+            ]
+          },
+          {
+            "name": "生产系统开发",
+            "steps": [
+              "生产需求",
+              "系统设计",
+              "集成",
+              "验证"
+            ]
+          },
+          {
+            "name": "AI/MBSE",
+            "steps": [
+              "数据接入",
+              "语义建模",
+              "仿真验证",
+              "知识回写"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "roadmap_timeline",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "研究问题可以收敛为：如何",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "语义上下文",
+        "协同仿真",
+        "可解释/可回写"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 6,
+      "section": "论文框架与技术抓手",
+      "type": "capability_map",
+      "page_goal": "梳理论文中的 AI 应用场景与共性底座",
+      "title": "七类 AI 场景只有接入统一数据上下文，才能从点状能力变成体系价值",
+      "conclusion": "AI 可覆盖运行、设计、验证和回收等环节，但真正的体系化价值来自结构信息、过程信息和行为信息的持续贯通。",
+      "display_text": [
+        "产品运行：辅助驾驶、预测维护、监控等",
+        "生产运行：缺陷检测、异常检测、能效优化等",
+        "回收阶段：逆向物流和循环经济支持",
+        "设计阶段：产品与生产系统设计优化",
+        "验证阶段：产品与生产系统验证计划优化",
+        "统一前提：结构、过程、参数、行为数据进入数字孪生"
+      ],
+      "speaker_notes": "先讲结论：AI 可覆盖运行、设计、验证和回收等环节，但真正的体系化价值来自结构信息、过程信息和行为信息的持续贯通。；再引用论文证据：Section 1 list 1-7；最后落到管理启示。",
+      "chart_type": "capability_map",
+      "chart_data": {
+        "domains": [
+          {
+            "name": "产品运行",
+            "current_state": "论文给出方向",
+            "target_state": "接入统一上下文",
+            "actions": [
+              "补齐结构/过程/行为数据关联"
+            ]
+          },
+          {
+            "name": "生产运行",
+            "current_state": "论文给出方向",
+            "target_state": "接入统一上下文",
+            "actions": [
+              "补齐结构/过程/行为数据关联"
+            ]
+          },
+          {
+            "name": "回收阶段",
+            "current_state": "论文给出方向",
+            "target_state": "接入统一上下文",
+            "actions": [
+              "补齐结构/过程/行为数据关联"
+            ]
+          },
+          {
+            "name": "设计阶段",
+            "current_state": "论文给出方向",
+            "target_state": "接入统一上下文",
+            "actions": [
+              "补齐结构/过程/行为数据关联"
+            ]
+          },
+          {
+            "name": "验证阶段",
+            "current_state": "论文给出方向",
+            "target_state": "接入统一上下文",
+            "actions": [
+              "补齐结构/过程/行为数据关联"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "insight_panel_with_chart",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "七类 AI 场景只有接入",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "语义上下文",
+        "协同仿真",
+        "可解释/可回写"
+      ],
+      "text_density": "medium",
+      "need_compression": true,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 7,
+      "section": "论文框架与技术抓手",
+      "type": "architecture",
+      "page_goal": "解释自学习数字孪生的总体机制",
+      "title": "自学习数字孪生的本质，是把真实系统、语义模型、仿真和 AI 结果组织成闭环",
+      "conclusion": "论文中的自学习数字孪生不是“多接数据”，而是用语义模型吸收运行数据、AI 模型、仿真结果和可解释性检查。",
+      "display_text": [
+        "真实系统：传感器、PPS、外部数据源产生运行数据",
+        "语义模型：产品、生产和行为模型承载上下文",
+        "AI/XAI：识别模式、解释模型、检查因果与合理性",
+        "仿真：支撑性能预测、故障预防和长期优化",
+        "回写：AI 发现被纳入整体模型，形成自学习闭环"
+      ],
+      "speaker_notes": "先讲结论：论文中的自学习数字孪生不是“多接数据”，而是用语义模型吸收运行数据、AI 模型、仿真结果和可解释性检查。；再引用论文证据：Section 2, Figure 2；最后落到管理启示。",
+      "chart_type": "value_chain_loop",
+      "chart_data": {
+        "steps": [
+          {
+            "name": "真实系统",
+            "description": "真实系统：传感器、PPS、外部数据源产生运行数据"
+          },
+          {
+            "name": "语义模型",
+            "description": "语义模型：产品、生产和行为模型承载上下文"
+          },
+          {
+            "name": "AI/XAI",
+            "description": "AI/XAI：识别模式、解释模型、检查因果与合理性"
+          },
+          {
+            "name": "仿真",
+            "description": "仿真：支撑性能预测、故障预防和长期优化"
+          },
+          {
+            "name": "回写",
+            "description": "回写：AI 发现被纳入整体模型，形成自学习闭环"
+          }
+        ]
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "白底红黑灰；普通正文页不使用厚重红色底座；图表必须证明标题判断；多卡片页区分主卡/支撑卡/注释卡。",
+      "visual_focus": [
+        "自学习数字孪生的本质",
+        "工程闭环",
+        "治理回写"
+      ],
+      "must_highlight": [
+        "语义上下文",
+        "协同仿真",
+        "可解释/可回写"
+      ],
+      "text_density": "medium",
+      "need_compression": true,
+      "data_gaps": []
+    }
+  ]
+}

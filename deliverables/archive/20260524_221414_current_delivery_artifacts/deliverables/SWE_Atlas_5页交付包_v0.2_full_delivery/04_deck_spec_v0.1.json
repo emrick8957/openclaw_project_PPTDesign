@@ -1,0 +1,283 @@
+{
+  "deck_title": "SWE Atlas：编码智能体基准评测核心内容与启示",
+  "audience": "高层/技术管理者",
+  "style": "huawei_executive",
+  "source_file": "SWE_Atlas_编码智能体基准评测.pdf",
+  "slides": [
+    {
+      "slide_no": 1,
+      "section": "核心判断",
+      "type": "executive_summary",
+      "page_goal": "让听众快速理解论文价值和核心结论",
+      "title": "当前编码智能体的关键短板，不是“会不会写代码”，而是“能否按专业工程标准稳定交付”",
+      "conclusion": "SWE Atlas 将评测从功能正确性扩展到工程质量、运行时证据和交付一致性。",
+      "display_text": [
+        "284 个专家编写任务，覆盖 18 个活跃开源仓库",
+        "三类工作流：Codebase Q&A、Test Writing、Refactoring",
+        "不只评 bug fix，而是评测试完整性、可维护性、抽象复用和代码库卫生",
+        "头部模型已经很强，但复杂工程任务仍不稳定"
+      ],
+      "speaker_notes": "这篇论文的价值不是再给模型排一次名，而是把编码智能体的评价标准从能跑通提升到像工程师一样可靠交付。",
+      "chart_type": "key_findings_cards",
+      "chart_data": {
+        "cards": [
+          {
+            "label": "任务规模",
+            "headline": "284 tasks",
+            "description": "专家编写，18 个活跃开源仓库",
+            "emphasis": "high"
+          },
+          {
+            "label": "任务范围",
+            "headline": "3 workflows",
+            "description": "问答、测试、重构",
+            "emphasis": "medium"
+          },
+          {
+            "label": "评测升级",
+            "headline": "Beyond correctness",
+            "description": "从功能正确到工程质量",
+            "emphasis": "high"
+          }
+        ]
+      },
+      "layout_pattern": "executive_summary_dashboard",
+      "visual_notes": "白底，顶部结论标题；三张红色编号卡片；底部用红色箭头表示从功能正确性走向工程质量。",
+      "visual_focus": [
+        "284",
+        "三类工作流",
+        "工程质量"
+      ],
+      "must_highlight": [
+        "稳定交付",
+        "工程标准"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 2,
+      "section": "方法框架",
+      "type": "architecture",
+      "page_goal": "说明 SWE Atlas 如何设计任务和评测机制",
+      "title": "SWE Atlas 的核心设计，是用“真实任务 + 混合评测”衡量智能体工程能力",
+      "conclusion": "低规格、强探索、需运行验证的任务设计，叠加程序化检查与 Rubric 评审，构成更完整的工程评价框架。",
+      "display_text": [
+        "Codebase Q&A：探索代码库、运行应用、追踪运行时行为",
+        "Test Writing：定位被测代码、补齐边界、提交测试 manifest",
+        "Refactoring：保持行为不变，完成模块边界、调用链传播和旧实现清理",
+        "Rubric 捕捉测试难以覆盖的可维护性、反模式和工程规范"
+      ],
+      "speaker_notes": "SWE Atlas 的强点在于它承认软件工程不是单一 pass/fail 问题，工程质量需要多维度判定。",
+      "chart_type": "swimlane_process",
+      "chart_data": {
+        "lanes": [
+          {
+            "name": "Codebase Q&A",
+            "steps": [
+              "代码探索",
+              "运行验证",
+              "Rubric 判定"
+            ]
+          },
+          {
+            "name": "Test Writing",
+            "steps": [
+              "Manifest",
+              "Mutation check",
+              "Rubric 判定"
+            ]
+          },
+          {
+            "name": "Refactoring",
+            "steps": [
+              "Regression tests",
+              "行为保持",
+              "Rubric 判定"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "中部三泳道流程，右侧洞察栏说明 Rubric 的价值；关键节点使用红色描边。",
+      "visual_focus": [
+        "真实任务",
+        "混合评测",
+        "Rubric"
+      ],
+      "must_highlight": [
+        "程序化检查 + Rubric"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 3,
+      "section": "关键结果",
+      "type": "comparison",
+      "page_goal": "呈现主要模型表现和稳定性问题",
+      "title": "头部模型领先明显，但整体通过率和一致性仍偏低",
+      "conclusion": "GPT 5.4 与 Opus 4.7 位居第一梯队，但最佳 Pass@1 约 43%，Pass 3 约 29%，稳定可靠性仍不足。",
+      "display_text": [
+        "GPT 5.4：Pass@1 43.49%，Pass 3 29.2%",
+        "Opus 4.7：Pass@1 41.89%，Pass 3 29.2%",
+        "同一 mini-SWE-Agent 脚手架下，Opus 4.7 38.94%，GPT 5.4 38.00%",
+        "开源模型整体明显落后，GLM 5 为 24.03%"
+      ],
+      "speaker_notes": "不能只看单次成功案例，要看多次执行的一致性和工程质量通过率。",
+      "chart_type": "comparison_table",
+      "chart_data": {
+        "columns": [
+          "Model",
+          "Pass@1",
+          "Pass 3",
+          "QnA",
+          "Test Writing",
+          "Refactoring"
+        ],
+        "rows": [
+          [
+            "GPT 5.4",
+            "43.49%",
+            "29.2%",
+            "40.80%",
+            "44.36%",
+            "44.29%"
+          ],
+          [
+            "Opus 4.7",
+            "41.89%",
+            "29.2%",
+            "40.30%",
+            "38.51%",
+            "48.57%"
+          ],
+          [
+            "GPT 5.3 Codex",
+            "37.38%",
+            "24.3%",
+            "32.60%",
+            "38.98%",
+            "42.38%"
+          ],
+          [
+            "Gemini 3.1 Pro",
+            "25.23%",
+            "13.9%",
+            "16.03%",
+            "31.23%",
+            "33.81%"
+          ]
+        ]
+      },
+      "layout_pattern": "insight_panel_with_chart",
+      "visual_notes": "左侧表格，右侧突出 43.49% 与 29.2% 两个关键数字，底部红色结论条写“领先不等于稳定可靠”。",
+      "visual_focus": [
+        "43.49%",
+        "29.2%",
+        "稳定性差距"
+      ],
+      "must_highlight": [
+        "Pass@1",
+        "Pass 3"
+      ],
+      "text_density": "high",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 4,
+      "section": "失败模式",
+      "type": "problem_diagnosis",
+      "page_goal": "解释模型为什么在工程任务中失败",
+      "title": "失败模式集中在三类：缺少运行时证据、测试断言弱、重构清理不彻底",
+      "conclusion": "当前智能体经常“做得像”，但没有覆盖关键边界和工程闭环。",
+      "display_text": [
+        "Codebase Q&A：静态解释多，运行时证据不足或问题覆盖不完整",
+        "Test Writing：happy path 多，负向场景、不变量和可观察副作用覆盖不足",
+        "Refactoring：回归测试容易过，但多文件调用点、旧代码清理和接口语义保持仍是短板"
+      ],
+      "speaker_notes": "如果评测只看测试是否通过，会掩盖真实风险；必须看过程证据和交付质量。",
+      "chart_type": "key_findings_cards",
+      "chart_data": {
+        "cards": [
+          {
+            "label": "Evidence",
+            "headline": "缺少运行时证据",
+            "description": "没有充分启动应用、构造场景、追踪日志/指标",
+            "emphasis": "high"
+          },
+          {
+            "label": "Assertion",
+            "headline": "测试断言弱",
+            "description": "覆盖函数但不能杀死错误实现",
+            "emphasis": "high"
+          },
+          {
+            "label": "Cleanup",
+            "headline": "重构清理不彻底",
+            "description": "旧接口、调用点、死代码和文档未闭环",
+            "emphasis": "high"
+          }
+        ]
+      },
+      "layout_pattern": "three_column_cards",
+      "visual_notes": "三列卡片，每列上方红色标签，下方用灰色小字列出表现—原因—改进方向。",
+      "visual_focus": [
+        "Evidence",
+        "Assertion",
+        "Cleanup"
+      ],
+      "must_highlight": [
+        "工程闭环不完整"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 5,
+      "section": "转化启示",
+      "type": "decision_table",
+      "page_goal": "把论文结论转化为内部编码智能体建设建议",
+      "title": "编码智能体建设应从“能力演示”转向“评测驱动的工程闭环”",
+      "conclusion": "建议建立覆盖任务、证据、质量和稳定性的内部评测体系，并接入 CI 做持续回归。",
+      "display_text": [
+        "扩展评测对象：代码理解、测试生成、重构、排查、文档更新",
+        "分层评测标准：功能正确、工程质量、过程证据、执行稳定性",
+        "测试生成看杀伤力：引入 mutation / fault injection",
+        "重构任务强制闭环：新接口、旧接口删除、调用点覆盖、文档同步",
+        "产品化建议：沉淀真实代码库任务与 Rubric，形成持续评测基线"
+      ],
+      "speaker_notes": "这篇论文对我们的直接价值，是提供一套编码智能体从 PoC 走向工程生产的评价框架。",
+      "chart_type": "value_chain_loop",
+      "chart_data": {
+        "nodes": [
+          "真实任务集",
+          "智能体执行",
+          "运行时证据",
+          "质量 Rubric",
+          "持续回归"
+        ],
+        "center_message": "评测体系决定智能体可用边界"
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "中部用价值闭环图表达“真实任务集—智能体执行—运行时证据—质量 Rubric—持续回归”；右侧五条行动建议；底部红色结论条强调评测体系决定可用边界。",
+      "visual_focus": [
+        "任务",
+        "证据",
+        "质量",
+        "稳定性"
+      ],
+      "must_highlight": [
+        "评测驱动",
+        "持续回归"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    }
+  ]
+}

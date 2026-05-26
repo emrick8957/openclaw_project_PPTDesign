@@ -1,0 +1,564 @@
+{
+  "deck_title": "AI4Test洞察",
+  "audience": "技术高层 / 研发管理者 / 质量与交付负责人 / 业务决策人",
+  "style": "huawei_executive",
+  "slides": [
+    {
+      "slide_no": 1,
+      "section": "第一章 先把总体判断讲清",
+      "type": "cover",
+      "page_goal": "明确主题、范围和汇报对象",
+      "title": "AI4Test 的价值不在“替代测试”，而在“重构测试生产力”",
+      "conclusion": "本次讨论的重点是测试生产力升级，而不是单点工具试用。",
+      "display_text": [
+        "主题：AI4Test洞察",
+        "范围：测试设计、执行、分析、治理",
+        "输出：价值判断、推进路径、拍板建议"
+      ],
+      "speaker_notes": "开场先界定主题和范围，不讨论底层算力选型。",
+      "chart_type": "none",
+      "chart_data": {},
+      "layout_pattern": "executive_summary_dashboard",
+      "visual_notes": "封面页，标题突出，副标题和对象信息简洁下置。",
+      "visual_focus": [
+        "主题",
+        "范围",
+        "对象"
+      ],
+      "must_highlight": [
+        "AI4Test",
+        "测试生产力"
+      ],
+      "text_density": "low",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 2,
+      "section": "第一章 先把总体判断讲清",
+      "type": "executive_summary",
+      "page_goal": "让高层在1分钟内看懂核心判断",
+      "title": "当前最值得关注的不是单点提效，而是测试链路能否形成 AI 闭环",
+      "conclusion": "AI4Test 只有形成测试链路闭环，才会从效率话题升级为经营话题。",
+      "display_text": [
+        "单点辅助价值有限",
+        "闭环打通才能放大收益",
+        "组织能力比工具功能更关键",
+        "建议按链路闭环立项"
+      ],
+      "speaker_notes": "用四张卡片统一高层判断框架。",
+      "chart_type": "key_findings_cards",
+      "chart_data": {
+        "cards": [
+          {
+            "label": "判断1",
+            "headline": "单点价值有限",
+            "description": "脚本生成和问答辅助只能带来局部收益",
+            "emphasis": "medium"
+          },
+          {
+            "label": "判断2",
+            "headline": "闭环才能放大",
+            "description": "需求到缺陷回写的链路打通才会形成持续价值",
+            "emphasis": "high"
+          },
+          {
+            "label": "判断3",
+            "headline": "要看组织能力",
+            "description": "高层更应关注能力是否能被沉淀和复用",
+            "emphasis": "high"
+          },
+          {
+            "label": "判断4",
+            "headline": "建议按链路立项",
+            "description": "避免只做零散工具试点",
+            "emphasis": "high"
+          }
+        ]
+      },
+      "layout_pattern": "executive_summary_dashboard",
+      "visual_notes": "四卡片居中，右侧单独放决策提示。",
+      "visual_focus": [
+        "闭环",
+        "组织能力",
+        "决策提示"
+      ],
+      "must_highlight": [
+        "AI闭环",
+        "链路打通"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 3,
+      "section": "第一章 先把总体判断讲清",
+      "type": "judgement",
+      "page_goal": "说明为何应分场景推进",
+      "title": "AI4Test 当前适合“分场景突破”，不适合“一步到位全面替换”",
+      "conclusion": "高价值低阻力场景应优先突破，全面替代不适合作为第一阶段目标。",
+      "display_text": [
+        "高价值低难度：优先推进",
+        "高价值高难度：第二阶段布局",
+        "低价值低难度：训练场景",
+        "高风险高不确定：暂缓全面替代"
+      ],
+      "speaker_notes": "这页用优先级矩阵压住不切实际预期。",
+      "chart_type": "priority_matrix",
+      "chart_data": {
+        "x_axis": "实施难度",
+        "y_axis": "业务价值",
+        "items": [
+          {
+            "name": "用例生成",
+            "x": "低",
+            "y": "高",
+            "recommendation": "优先推进"
+          },
+          {
+            "name": "缺陷归因",
+            "x": "中",
+            "y": "高",
+            "recommendation": "第二阶段"
+          },
+          {
+            "name": "脚本初稿",
+            "x": "低",
+            "y": "中",
+            "recommendation": "训练场"
+          },
+          {
+            "name": "上线放行裁决",
+            "x": "高",
+            "y": "高",
+            "recommendation": "谨慎"
+          }
+        ]
+      },
+      "layout_pattern": "four_quadrant_judgement",
+      "visual_notes": "四象限图，下方补三条场景选择原则。",
+      "visual_focus": [
+        "优先场景",
+        "边界",
+        "分阶段"
+      ],
+      "must_highlight": [
+        "分场景突破"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 4,
+      "section": "第二章 AI4Test 为什么值得现在启动",
+      "type": "problem_diagnosis",
+      "page_goal": "解释现有测试模式的结构性压力",
+      "title": "测试体系当前的核心矛盾已从“人不够”转向“反馈速度与质量不稳定”",
+      "conclusion": "复杂系统与快迭代背景下，测试痛点已变成反馈链路失稳。",
+      "display_text": [
+        "迭代加快，回归窗口压缩",
+        "依赖变多，分析复杂度上升",
+        "经验绑定个人，资产复用不足"
+      ],
+      "speaker_notes": "讲结构性问题，不把问题归因到团队努力不足。",
+      "chart_type": "comparison_table",
+      "chart_data": {
+        "columns": [
+          "维度",
+          "传统痛点",
+          "当前影响",
+          "判断"
+        ],
+        "rows": [
+          [
+            "节奏",
+            "回归窗口紧张",
+            "反馈滞后",
+            "需要更快闭环"
+          ],
+          [
+            "复杂度",
+            "跨系统依赖高",
+            "定位困难",
+            "需要认知增强"
+          ],
+          [
+            "资产",
+            "经验分散",
+            "复用不足",
+            "需要沉淀机制"
+          ]
+        ]
+      },
+      "layout_pattern": "insight_panel_with_chart",
+      "visual_notes": "左侧主表，右侧三条洞察。",
+      "visual_focus": [
+        "反馈速度",
+        "质量稳定性"
+      ],
+      "must_highlight": [
+        "反馈链路失稳"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需补当前测试周期与回归时长基线"
+      ]
+    },
+    {
+      "slide_no": 5,
+      "section": "第二章 AI4Test 为什么值得现在启动",
+      "type": "context_trend",
+      "page_goal": "说明 AI4Test 与传统自动化的区别",
+      "title": "大模型与智能代理正在把测试活动从“工具链自动化”推向“认知型自动化”",
+      "conclusion": "AI4Test 的关键变化是认知环节开始可被增强。",
+      "display_text": [
+        "脚本化自动化解决重复执行",
+        "平台化自动化解决流程编排",
+        "认知型自动化开始进入分析与生成"
+      ],
+      "speaker_notes": "把 AI4Test 与传统自动化拉开层次。",
+      "chart_type": "trend_curve",
+      "chart_data": {
+        "x_axis": [
+          "脚本化",
+          "平台化",
+          "认知型"
+        ],
+        "series": [
+          {
+            "name": "测试自动化演进",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": "认知型",
+            "label": "当前关注点"
+          }
+        ]
+      },
+      "layout_pattern": "trend_curve_with_strategy",
+      "visual_notes": "左曲线右策略，突出当前阶段节点。",
+      "visual_focus": [
+        "认知增强",
+        "阶段演进"
+      ],
+      "must_highlight": [
+        "认知型自动化"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "当前为方向性演进框架，非统一行业标准"
+      ]
+    },
+    {
+      "slide_no": 6,
+      "section": "第二章 AI4Test 为什么值得现在启动",
+      "type": "risk",
+      "page_goal": "说明不尽快布局的代价",
+      "title": "如果不尽快布局，测试能力差距会首先体现在交付速度和质量闭环上",
+      "conclusion": "越晚布局，越难把效率优势沉淀为组织能力。",
+      "display_text": [
+        "交付速度差距",
+        "测试资产复用差距",
+        "缺陷闭环效率差距",
+        "后期整合成本上升"
+      ],
+      "speaker_notes": "强调窗口期，不制造夸张焦虑。",
+      "chart_type": "gap_heatmap",
+      "chart_data": {
+        "rows": [
+          {
+            "gap": "回归效率",
+            "impact": "高",
+            "urgency": "高",
+            "difficulty": "中",
+            "action": "优先试点"
+          },
+          {
+            "gap": "资产复用",
+            "impact": "高",
+            "urgency": "中",
+            "difficulty": "高",
+            "action": "统一沉淀"
+          },
+          {
+            "gap": "缺陷闭环",
+            "impact": "中",
+            "urgency": "高",
+            "difficulty": "中",
+            "action": "补分析链路"
+          },
+          {
+            "gap": "组织协同",
+            "impact": "中",
+            "urgency": "中",
+            "difficulty": "高",
+            "action": "提前治理"
+          }
+        ]
+      },
+      "layout_pattern": "risk_decision_matrix",
+      "visual_notes": "热力图为主，右上角补窗口期判断卡片。",
+      "visual_focus": [
+        "窗口期",
+        "差距项"
+      ],
+      "must_highlight": [
+        "尽快布局"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需补组织现状与目标差距基线"
+      ]
+    },
+    {
+      "slide_no": 7,
+      "section": "第三章 AI4Test 应该先做什么、不该先做什么",
+      "type": "capability_map",
+      "page_goal": "明确首批高价值切入场景",
+      "title": "AI4Test 最适合优先切入四类高价值场景",
+      "conclusion": "需求理解辅助、用例生成、回归编排、缺陷归因，是第一阶段最值得先做的四类场景。",
+      "display_text": [
+        "需求理解辅助",
+        "测试用例生成",
+        "回归测试编排",
+        "缺陷分析归因"
+      ],
+      "speaker_notes": "给高层一个清晰的首批试点清单。",
+      "chart_type": "capability_map",
+      "chart_data": {
+        "domains": [
+          {
+            "name": "需求理解",
+            "current_state": "依赖人工阅读",
+            "target_state": "自动抽取测试点",
+            "actions": [
+              "建立模板"
+            ]
+          },
+          {
+            "name": "用例生成",
+            "current_state": "人工编写为主",
+            "target_state": "AI辅助补全",
+            "actions": [
+              "统一格式"
+            ]
+          },
+          {
+            "name": "回归编排",
+            "current_state": "经验排序",
+            "target_state": "AI建议优先级",
+            "actions": [
+              "接入执行数据"
+            ]
+          },
+          {
+            "name": "缺陷归因",
+            "current_state": "个体经验驱动",
+            "target_state": "AI辅助聚类与回写",
+            "actions": [
+              "沉淀知识库"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "executive_summary_dashboard",
+      "visual_notes": "四张场景卡片 + 右侧适配条件说明。",
+      "visual_focus": [
+        "首批场景",
+        "适配条件"
+      ],
+      "must_highlight": [
+        "第一阶段"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需补各场景的系统接入条件"
+      ]
+    },
+    {
+      "slide_no": 8,
+      "section": "第三章 AI4Test 应该先做什么、不该先做什么",
+      "type": "architecture",
+      "page_goal": "说明落地所需底座条件",
+      "title": "AI4Test 的落地成败，取决于数据、规范、工具链和责任边界是否同时到位",
+      "conclusion": "没有底座治理，AI4Test 很容易停留在演示层。",
+      "display_text": [
+        "数据资产",
+        "规范资产",
+        "工具链接口",
+        "责任边界"
+      ],
+      "speaker_notes": "告诉高层这不是单点模型采购问题。",
+      "chart_type": "layered_stack_diagram",
+      "chart_data": {
+        "layers": [
+          {
+            "name": "数据资产层",
+            "items": [
+              "需求文档",
+              "用例库",
+              "缺陷库",
+              "执行日志"
+            ]
+          },
+          {
+            "name": "规范层",
+            "items": [
+              "提示模板",
+              "输出格式",
+              "验收规则"
+            ]
+          },
+          {
+            "name": "工具链层",
+            "items": [
+              "需求系统",
+              "测试平台",
+              "缺陷平台"
+            ]
+          },
+          {
+            "name": "治理层",
+            "items": [
+              "责任分工",
+              "审核机制",
+              "版本管理"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "layered_architecture",
+      "visual_notes": "四层架构图，右下角补当前常见缺口。",
+      "visual_focus": [
+        "底座条件",
+        "治理层"
+      ],
+      "must_highlight": [
+        "同时到位"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需补现有资产治理与系统接口现状"
+      ]
+    },
+    {
+      "slide_no": 9,
+      "section": "第三章 AI4Test 应该先做什么、不该先做什么",
+      "type": "comparison",
+      "page_goal": "明确增强与替代的边界",
+      "title": "不同测试活动对 AI 的适配度差异很大，必须区分“增强”与“替代”边界",
+      "conclusion": "规范性强、结构化高的环节更适合 AI 深度参与，高风险判断环节更适合人机协同。",
+      "display_text": [
+        "适合增强：用例补全、日志分析、缺陷聚类",
+        "谨慎替代：放行裁决、复杂业务判断"
+      ],
+      "speaker_notes": "用边界管理压住不切实际的替代预期。",
+      "chart_type": "comparison_table",
+      "chart_data": {
+        "columns": [
+          "类别",
+          "优先增强",
+          "暂不直接替代",
+          "判断"
+        ],
+        "rows": [
+          [
+            "测试活动",
+            "用例补全/回归编排/日志分析",
+            "上线放行/复杂业务裁决",
+            "人机协同更稳"
+          ]
+        ]
+      },
+      "layout_pattern": "two_column_comparison",
+      "visual_notes": "左右对照，中间用红色箭头写明边界判断。",
+      "visual_focus": [
+        "增强",
+        "替代边界"
+      ],
+      "must_highlight": [
+        "人机协同"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需补高风险环节清单"
+      ]
+    },
+    {
+      "slide_no": 10,
+      "section": "第三章 AI4Test 应该先做什么、不该先做什么",
+      "type": "risk",
+      "page_goal": "说明试点难落地的根因",
+      "title": "AI4Test 当前最大的实施风险，不是模型能力不足，而是治理机制缺位",
+      "conclusion": "制度、流程和验收机制缺位，是 AI4Test 难以规模化的主要障碍。",
+      "display_text": [
+        "质量兜底缺失",
+        "评估口径不统一",
+        "版本管理失控",
+        "试点成果难复用"
+      ],
+      "speaker_notes": "把问题从技术层转到管理层。",
+      "chart_type": "risk_matrix",
+      "chart_data": {
+        "risks": [
+          {
+            "risk": "质量兜底缺失",
+            "probability": "高",
+            "impact": "高",
+            "mitigation": "设置人工审核门槛",
+            "owner": "质量负责人"
+          },
+          {
+            "risk": "评估口径不统一",
+            "probability": "高",
+            "impact": "中",
+            "mitigation": "统一验收指标",
+            "owner": "项目负责人"
+          },
+          {
+            "risk": "资产版本失控",
+            "probability": "中",
+            "impact": "高",
+            "mitigation": "建立版本管理",
+            "owner": "平台团队"
+          },
+          {
+            "risk": "成果难复用",
+            "probability": "中",
+            "impact": "中",
+            "mitigation": "统一沉淀共性资产",
+            "owner": "牵头团队"
+          }
+        ]
+      },
+      "layout_pattern": "risk_decision_matrix",
+      "visual_notes": "表格矩阵为主，P0 风险标红。",
+      "visual_focus": [
+        "治理机制",
+        "风险闭环"
+      ],
+      "must_highlight": [
+        "治理缺位"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需补现有治理机制现状"
+      ]
+    }
+  ]
+}
