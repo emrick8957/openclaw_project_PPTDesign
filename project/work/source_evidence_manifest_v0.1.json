@@ -1,134 +1,24 @@
 {
-  "source_pdf": "C:\\Users\\Administrator\\.openclaw\\media\\inbound\\人工智能在自动化生产系统基于模型的系统工程_MBSE_中的应用---af832e6b-406d-41ff-8ba9-b970f77f01d2.pdf",
-  "extracted_text": "C:\\Users\\Administrator\\cursor\\feishu-bot4-workspace\\project\\work\\source_extract\\AI4MBSE_pdf_text.txt",
-  "paper": {
-    "title": "Application of artificial intelligence in model-based systems engineering of automated production systems",
-    "venue": "Procedia CIRP 136 (2025) 61–66",
-    "authors": [
-      "Timo Schuchter",
-      "Patrick Saft",
-      "Ralf Stetter",
-      "Markus Pfeil",
-      "Wolfram Höpken",
-      "Markus Till",
-      "Stephan Rudolph"
-    ]
-  },
+  "source_file": "examples/人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用.pdf",
+  "extracted_text": "project/work/source_extract/AI4MBSE_pdf_text_20260527.txt",
+  "paper": "Timo Schuchter et al., Procedia CIRP 136 (2025) 61–66",
   "evidence_map": [
     {
-      "slide_no": 1,
-      "evidence": [
-        "Abstract",
-        "Introduction"
-      ],
-      "use": "事实依据/论证参考"
+      "pages": "1-2",
+      "used_for": "Background: AI 在工程流程中仍有限，制造企业复杂度上升，双 V 模型与七类 AI 介入点"
     },
     {
-      "slide_no": 2,
-      "evidence": [
-        "Paper structure",
-        "Section 1"
-      ],
-      "use": "事实依据/论证参考"
+      "pages": "3-4",
+      "used_for": "Application: 自学习数字孪生、GBDL、本体、知识图谱、DC43 蓝图"
     },
     {
-      "slide_no": 3,
-      "evidence": [
-        "Abstract",
-        "Section 2"
-      ],
-      "use": "事实依据/论证参考"
+      "pages": "4-5",
+      "used_for": "Application: FMU/FMI 模块化共仿真、AI/XAI 模型接入"
     },
     {
-      "slide_no": 4,
-      "evidence": [
-        "Section 1 seven AI areas",
-        "Figure 1"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 5,
-      "evidence": [
-        "Research question",
-        "Figure 1"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 6,
-      "evidence": [
-        "Section 1 list 1-7"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 7,
-      "evidence": [
-        "Section 2",
-        "Figure 2"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 8,
-      "evidence": [
-        "Section 3",
-        "Figure 3",
-        "Figure 4"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 9,
-      "evidence": [
-        "Section 4",
-        "Figure 5",
-        "Figure 6"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 10,
-      "evidence": [
-        "Section 4",
-        "Section 5",
-        "Figure 6",
-        "Figure 8"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 11,
-      "evidence": [
-        "Section 1 standards discussion",
-        "Section 2",
-        "Section 6"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 12,
-      "evidence": [
-        "Paper framework synthesis"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 13,
-      "evidence": [
-        "Management implication derived from full paper"
-      ],
-      "use": "事实依据/论证参考"
-    },
-    {
-      "slide_no": 14,
-      "evidence": [
-        "Abstract",
-        "Section 6"
-      ],
-      "use": "事实依据/论证参考"
+      "pages": "5-6",
+      "used_for": "Application/Trends: 自动化装配应用、产品结构到装配系统贯通、总结与展望"
     }
   ],
-  "boundary": "不把论文单一案例、具体工具或未核验企业数据沉淀为通用事实；企业落地建议为基于论文框架的管理启示。"
+  "fact_policy": "未编造论文外具体指标；缺少量化收益处均写入 data_gaps。"
 }
