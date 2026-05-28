@@ -1,7 +1,7 @@
 # Package Manifest
 
-Current package version: v0.3.7-deck-spec-proof-contract
-Last updated: 2026-05-26
+Current package version: v0.3.8-deck-spec-field-dictionary
+Last updated: 2026-05-28
 
 - `CHANGELOG.md`
 - `README.md`
@@ -10,6 +10,7 @@ Last updated: 2026-05-26
 - `VERSION.md`
 - `core/anti_overfit_rules.md`
 - `core/audience_rules.md`
+- `core/deck_spec_field_dictionary.md`
 - `core/generation_workflow.md`
 - `core/output_contracts.md`
 - `core/reference_ingestion_workflow.md`
@@ -74,6 +75,9 @@ Last updated: 2026-05-26
 
 - `core/audience_rules.md`  
   根据汇报对象调整口径，包括华为内部高层、客户高层、市局/分局领导、技术团队等。
+
+- `core/deck_spec_field_dictionary.md`  
+  定义 `deck_spec.json` 的文件定位、顶层字段和 slide 字段职责，作为角色 C 理解 deck_spec 的正式交付物支持文档。
 
 - `core/reference_ingestion_workflow.md`  
   定义持续提供 PPT、PPT 图片、模板、文本材料和数据材料时的分类、抽取、沉淀、冲突处理和复用流程。
@@ -217,3 +221,11 @@ Last updated: 2026-05-26
 - `templates/chart_patterns.md`：新增各类 `chart_type` 的 proof_goal 示例与 visual_boundary 边界。
 - `eval/visual_scorecard.md`：新增 v0.3.7 deck_spec 证明契约检查与一票降级项。
 - `eval/acceptance_checklist.md`：新增 deck_spec 证明契约验收项。
+
+### 3.10 v0.3.8 deck_spec 字段字典资产
+
+本版本新增以下正式交付物支持资产：
+
+- `core/deck_spec_field_dictionary.md`：说明 `deck_spec.json` 的文件定位、顶层字段和 slide 字段，明确其是页面语义合同，不是 PPTX 或 shape 指令。
+
+边界：本版本不继续推进 `page_render_spec` / `normalized_render_model` 方案，不新增渲染 DSL，不改变默认生成链路。

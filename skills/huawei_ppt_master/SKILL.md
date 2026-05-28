@@ -1,6 +1,6 @@
 ---
 name: huawei_ppt_master
-version: 0.3.7-deck-spec-proof-contract
+version: 0.3.8-deck-spec-field-dictionary
 description: 通用华为风格 PPT 生成 Skill。根据用户输入生成 PPT 大纲、逐页文案、页面设计说明与 deck_spec.json；支持从用户持续提供的 PPT、PPT 图片、模板、文本材料中学习样式、结构、表达习惯、内容套路和方法论框架，并分层沉淀后稳定复用。AI算力、昇腾/NVIDIA、公安政务、AI平台、持续运营等仅作为条件触发主题包，不作为默认主题限制。
 ---
 
@@ -406,7 +406,7 @@ project/review/*
 4. deck_spec.json；
 5. 最小依赖包：华为风格PPT模板库`templates/`；版式模式库`visual_patterns/`；
 6. 交接单  `project/handoff/A_to_B.md` :任务是什么、当前交付了什么、核心结论是什么、哪里需要重点看；
-7. 交付物打包成zip文件 ：PPT大纲 `outoutline_v0.1.mdline`；页面设计说明 `page_design_v0.1.md`；deck_spec.json；最小依赖包:华为风格模板 `templates/*` ; 版式模板库` visual_patterns/*`；如果页面数量超过10页，分包交付；
+7. 交付物打包成zip文件 ：PPT大纲 `outoutline_v0.1.md`；页面设计说明 `page_design_v0.1.md`；`deck_spec.json`；deck_spec.json字段字典 `deck_spec_field_dictionary.md` ；最小依赖包:华为风格模板 `templates/*` ; 版式模板库` visual_patterns/*`；如果页面数量超过10页，分包交付；
 
 ### 分包交付规则补充
 当最终交付页数超过 10 页时：
@@ -460,5 +460,6 @@ project/review/*
 8. 风格符合华为高层汇报；
 9. 不编造事实；
 10. 输出能进入下一阶段。
+
 
 

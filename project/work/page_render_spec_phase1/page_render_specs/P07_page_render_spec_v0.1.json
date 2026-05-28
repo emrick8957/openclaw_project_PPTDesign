@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1",
+  "deck_id": "AI4MBSE_自动化生产系统_论文解读",
+  "slide_no": 7,
+  "page_id": "P07_dual_v_lifecycle_architecture",
+  "spec_level": "full",
+  "page_risk_level": "complex",
+  "trigger_reason": [
+    "complex_layout",
+    "strict_chart_semantics",
+    "right_insight_panel",
+    "architecture_or_lifecycle"
+  ],
+  "source_trace": {
+    "deck_spec_ref": "project/work/deck_spec_v0.1.json#/slides/7",
+    "page_design_ref": "project/work/page_design_v0.1.md#P7",
+    "page_copy_ref": "project/work/page_copy_v0.1.md#P7",
+    "source_evidence_ref": "project/work/source_evidence_manifest_v0.1.json",
+    "inherited_fields": [
+      "title",
+      "core_judgement",
+      "layout_pattern",
+      "chart_type",
+      "chart_proof_goal",
+      "chart_visual_boundary",
+      "conclusion",
+      "display_text",
+      "visual_focus",
+      "must_highlight",
+      "text_density",
+      "data_gaps"
+    ]
+  },
+  "derived_contract": {
+    "title": "七类 AI 介入点覆盖产品与生产双 V 模型，要求统一生命周期工程底座",
+    "core_judgement": "本页唯一要带走的判断：论文将 AI 介入点扩展到产品运行、生产运行、回收、产品设计、生产系统设计、产品验证和生产系统验证，说明 AI+MBSE 必须贯穿双 V 模型。",
+    "layout_pattern": "stack_architecture_with_right_insights",
+    "chart_type": "architecture_flow_diagram",
+    "chart_proof_goal": "主图表必须证明：双 V 模型, 七类介入点, 生命周期 共同支撑该页判断，而不是做装饰或概念罗列。",
+    "chart_visual_boundary": [
+      "不得画成无主次的信息堆叠",
+      "必须保留唯一主红色锚点",
+      "图表必须能解释标题判断",
+      "页脚与来源信息弱化且固定"
+    ],
+    "bottom_conclusion": "论文将 AI 介入点扩展到产品运行、生产运行、回收、产品设计、生产系统设计、产品验证和生产系统验证，说明 AI+MBSE 必须贯穿双 V 模型。",
+    "right_insight_panel": {
+      "headline": "统一生命周期工程底座",
+      "items": [
+        "七类 AI 介入点必须映射到产品/生产双 V 生命周期",
+        "右侧洞察只解释主图，不另起一套管理建议",
+        "AI 介入点不得画成孤立散点"
+      ]
+    },
+    "red_anchor": {
+      "target": "双 V 模型",
+      "budget": "普通正文页红色面积≤5%，仅保留一个主红色锚点"
+    },
+    "card_hierarchy": "双V生命周期主图为primary；七类介入点为secondary标签；右侧洞察为supporting，不得抢主图焦点",
+    "spacing_rule": "标题区约12%，主体区约78%，页脚区约5%；模块间距大于卡片内边距",
+    "visual_simplification": "删除装饰性图标、复杂背景、论文截图式长段落；保留白底、浅灰边框、红黑灰层级"
+  },
+  "subtype": {
+    "subtype_enum": "dual_v_lifecycle_architecture"
+  },
+  "render_units": [
+    {
+      "unit_id": "title",
+      "unit_type": "title",
+      "semantic_role": "页面唯一判断",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "title",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "顶部12%标题区，左对齐，1–2行",
+      "max_text_lines": 2,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "仅允许标题关键词轻量红色强调"
+      ]
+    },
+    {
+      "unit_id": "dual_v_main",
+      "unit_type": "chart",
+      "semantic_role": "表达产品V与生产V的生命周期映射关系",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "chart_data.nodes/edges",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "主体左中部约68%宽度，形成双V/闭环主图",
+      "max_text_lines": 0,
+      "overflow_action": "manual_review",
+      "visual_constraints": [
+        "双V两侧对称但不等权堆叠",
+        "箭头必须表示生命周期流向",
+        "七类介入点围绕对应阶段贴标，不得散点漂浮"
+      ]
+    },
+    {
+      "unit_id": "ai_touchpoints",
+      "unit_type": "icon_label",
+      "semantic_role": "七类AI介入点标签",
+      "content_source": {
+        "from": "page_copy",
+        "field": "P7 正文模块/关键要点",
+        "no_new_content": true
+      },
+      "priority": "secondary",
+      "region_intent": "贴附于双V阶段节点，短标签化",
+      "max_text_lines": 1,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "标签统一灰底细边框，仅关键介入点用红色细线连接"
+      ]
+    },
+    {
+      "unit_id": "right_insight",
+      "unit_type": "right_insight",
+      "semantic_role": "解释主图的管理含义",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "conclusion",
+        "no_new_content": true
+      },
+      "priority": "supporting",
+      "region_intent": "右侧洞察栏25%–30%宽度，1句结论+3条短要点",
+      "max_text_lines": 5,
+      "overflow_action": "truncate_with_review",
+      "visual_constraints": [
+        "右侧栏不得变成长段文字",
+        "只解释主图，不新增事实"
+      ]
+    },
+    {
+      "unit_id": "footer",
+      "unit_type": "footer",
+      "semantic_role": "来源和页码",
+      "content_source": {
+        "from": "page_design",
+        "field": "P7 页脚",
+        "no_new_content": true
+      },
+      "priority": "tertiary",
+      "region_intent": "底部5%安全区",
+      "max_text_lines": 1,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "浅灰8–10pt，不进入主体区"
+      ]
+    }
+  ],
+  "text_fit_policy": {
+    "title_max_lines": 2,
+    "card_title_max_lines": 1,
+    "card_body_max_lines": 2,
+    "bottom_conclusion_max_lines": 2,
+    "right_insight_max_items": 3,
+    "compression_order": [
+      "右侧洞察说明",
+      "介入点标签说明",
+      "标题副句"
+    ],
+    "manual_review_threshold": "双V节点标签超过7个或右侧洞察超过3条时进入人工评审"
+  },
+  "render_unit_policy": {
+    "red_anchor_budget": "≤5%；仅“双 V 模型”或生命周期主线使用红色",
+    "primary_focus_count": 1,
+    "card_hierarchy_rule": "主图>介入点标签>右侧洞察>页脚",
+    "bottom_bar_rule": "不使用厚重底部红条；如需收口仅浅灰底+细红线",
+    "right_insight_rule": "1句判断+最多3条短要点，宽度25%–30%",
+    "spacing_rule": "主图与洞察栏间距≥卡片内边距1.5倍；页脚独立",
+    "forbidden_patterns": [
+      "散点式AI标签",
+      "双V左右各讲一套",
+      "红色箭头过多",
+      "论文截图式长段落"
+    ]
+  },
+  "render_validation": {
+    "must_pass": [
+      "标题不超过2行，不能挤压主体区",
+      "主红色锚点只有1个，普通正文页红色面积控制在5%以内",
+      "主图必须能解释标题判断和chart_proof_goal",
+      "页脚固定在底部约5%安全区，来源信息弱化",
+      "不得新增deck_spec/page_copy/page_design之外的新事实或新判断",
+      "七类AI介入点能映射到生命周期阶段",
+      "右侧洞察解释主图而非新增内容"
+    ],
+    "manual_review_if": [
+      "节点/标签遮挡导致生命周期不可读",
+      "C端无法画出双V关系而退化为普通流程图",
+      "红色连接线超过主图注意力预算"
+    ],
+    "expected_builder_behavior": [
+      "优先生成双V生命周期主图",
+      "无法实现时返回manual_review，不静默改成普通四卡片"
+    ]
+  }
+}

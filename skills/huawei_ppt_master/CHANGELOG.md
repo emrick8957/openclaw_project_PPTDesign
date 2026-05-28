@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## v0.3.8-deck-spec-field-dictionary
+
+### 升级目标
+
+将 `deck_spec.json` 的字段说明沉淀为正式交付物支持资产，解决角色 C 对字段职责、使用方式和渲染边界理解不一致的问题。
+
+### 新增
+
+1. `core/deck_spec_field_dictionary.md`：新增 deck_spec 字段字典，包含三段核心内容：文件定位、顶层字段、slide 字段。
+
+### 修改
+
+1. `README.md`：保持原有结构，刷新项目当前状态、v0.3.8 说明、推荐调用方式和角色 C 边界。
+2. `VERSION.md`：升级到 `v0.3.8-deck-spec-field-dictionary`。
+3. `INDEX.md`：补充 deck_spec 字段字典资产。
+4. `PACKAGE_MANIFEST.md`：补充 `core/deck_spec_field_dictionary.md` 并同步版本。
+5. `SKILL.md`：版本号同步为 `0.3.8-deck-spec-field-dictionary`。
+
+### 边界
+
+1. 本版本不继续推进 `page_render_spec` / `normalized_render_model` 方案。
+2. 本版本不新增 PPTX 渲染 DSL、shape plan 或 C 端渲染协议。
+3. 本版本不改变默认生成链路和 deck_spec 现有字段，仅补充字段字典说明。
+
 ## v0.3.7-deck-spec-proof-contract
 
 ### 升级目标
@@ -212,5 +236,6 @@ v0.3 保持 v0.2 的通用华为风格生成能力与主题包隔离规则，同
 ### 兼容性
 
 v0.2 仍支持《昇腾 vs 英伟达：全方位对比与深度洞察》，但该能力由主题包触发，不再污染通用主题。
+
 
 

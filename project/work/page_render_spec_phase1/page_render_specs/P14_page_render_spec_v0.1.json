@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1",
+  "deck_id": "AI4MBSE_自动化生产系统_论文解读",
+  "slide_no": 14,
+  "page_id": "P14_decision_closeout",
+  "spec_level": "full",
+  "page_risk_level": "high_risk",
+  "trigger_reason": [
+    "strict_chart_semantics",
+    "bottom_conclusion_sensitive",
+    "decision_closeout",
+    "high_text_density"
+  ],
+  "source_trace": {
+    "deck_spec_ref": "project/work/deck_spec_v0.1.json#/slides/14",
+    "page_design_ref": "project/work/page_design_v0.1.md#P14",
+    "page_copy_ref": "project/work/page_copy_v0.1.md#P14",
+    "source_evidence_ref": "project/work/source_evidence_manifest_v0.1.json",
+    "inherited_fields": [
+      "title",
+      "core_judgement",
+      "layout_pattern",
+      "chart_type",
+      "chart_proof_goal",
+      "chart_visual_boundary",
+      "conclusion",
+      "display_text",
+      "visual_focus",
+      "must_highlight",
+      "text_density",
+      "data_gaps"
+    ]
+  },
+  "derived_contract": {
+    "title": "高层需要拍板的不是单个 AI 场景，而是 MBSE 语义底座和 AI 回写治理机制",
+    "core_judgement": "本页唯一要带走的判断：建议将 AI+MBSE 作为工程体系升级项目管理：先选自动化产线或装配系统样板，明确知识图谱、FMU 接口、XAI 审查和模型回写责任。",
+    "layout_pattern": "risk_decision_matrix",
+    "chart_type": "decision_table",
+    "chart_proof_goal": "主图表必须证明：样板选择, 数据/模型责任, 接口标准, 审查机制 共同支撑该页判断，而不是做装饰或概念罗列。",
+    "chart_visual_boundary": [
+      "不得画成无主次的信息堆叠",
+      "必须保留唯一主红色锚点",
+      "图表必须能解释标题判断",
+      "页脚与来源信息弱化且固定"
+    ],
+    "bottom_conclusion": "高层拍板重点：样板场景、接口机制、AI回写治理三项必须同步定义责任与验收产出。",
+    "right_insight_panel": {},
+    "red_anchor": {
+      "target": "拍板事项卡",
+      "budget": "红色只用于拍板事项主卡或关键风险标记，面积≤5%"
+    },
+    "card_hierarchy": "拍板事项卡为primary；执行清单表为secondary；风险/责任收口为supporting",
+    "spacing_rule": "标题区约12%，主体区约78%，页脚区约5%；模块间距大于卡片内边距",
+    "visual_simplification": "删除装饰性图标、复杂背景、论文截图式长段落；保留白底、浅灰边框、红黑灰层级"
+  },
+  "subtype": {
+    "subtype_enum": "decision_closeout"
+  },
+  "render_units": [
+    {
+      "unit_id": "title",
+      "unit_type": "title",
+      "semantic_role": "最终决策判断",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "title",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "顶部12%标题区",
+      "max_text_lines": 2,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "标题必须保留“不是单个AI场景，而是机制”判断结构"
+      ]
+    },
+    {
+      "unit_id": "decision_card",
+      "unit_type": "card",
+      "semantic_role": "高层拍板事项主卡",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "conclusion",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "主体左上或顶部主卡，占主体高度20%–25%",
+      "max_text_lines": 3,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "唯一红色锚点",
+        "不得与表格等权"
+      ]
+    },
+    {
+      "unit_id": "decision_table",
+      "unit_type": "table",
+      "semantic_role": "资源、责任、阶段产出执行清单",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "chart_data.rows",
+        "no_new_content": true
+      },
+      "priority": "secondary",
+      "region_intent": "主体中部表格，3行4列，浅灰线框",
+      "max_text_lines": 2,
+      "overflow_action": "truncate_with_review",
+      "visual_constraints": [
+        "表格不做Excel重网格",
+        "首列可轻强调，其他列灰黑层级",
+        "每格短语化"
+      ]
+    },
+    {
+      "unit_id": "bottom_conclusion",
+      "unit_type": "bottom_conclusion",
+      "semantic_role": "最终收口和下一步动作",
+      "content_source": {
+        "from": "page_render_spec",
+        "field": "derived_contract.bottom_conclusion",
+        "no_new_content": true
+      },
+      "priority": "secondary",
+      "region_intent": "底部浅灰收口区，高度≤8%",
+      "max_text_lines": 2,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "浅灰底+窄红线",
+        "不使用厚红条"
+      ]
+    },
+    {
+      "unit_id": "footer",
+      "unit_type": "footer",
+      "semantic_role": "来源和页码",
+      "content_source": {
+        "from": "page_design",
+        "field": "P14 页脚",
+        "no_new_content": true
+      },
+      "priority": "tertiary",
+      "region_intent": "底部5%安全区",
+      "max_text_lines": 1,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "浅灰8–10pt"
+      ]
+    }
+  ],
+  "text_fit_policy": {
+    "title_max_lines": 2,
+    "card_title_max_lines": 1,
+    "card_body_max_lines": 3,
+    "bottom_conclusion_max_lines": 2,
+    "right_insight_max_items": 0,
+    "compression_order": [
+      "表格单元格说明",
+      "拍板主卡说明",
+      "底部收口句"
+    ],
+    "manual_review_threshold": "表格超过3行4列、单元格超过2行或拍板卡超过3行时进入人工评审"
+  },
+  "render_unit_policy": {
+    "red_anchor_budget": "≤5%；只给拍板事项主卡/关键风险，不给整表红底",
+    "primary_focus_count": 1,
+    "card_hierarchy_rule": "拍板事项卡>执行清单表>底部收口>页脚",
+    "bottom_bar_rule": "允许浅灰底部收口区，高度≤8%，禁止厚重红底条",
+    "right_insight_rule": "本页不设右侧洞察栏，避免表格和洞察双焦点",
+    "spacing_rule": "主卡与表格间距≥卡片内边距1.5倍；底部收口与页脚分离",
+    "forbidden_patterns": [
+      "整页Excel表格",
+      "表格吞没决策结论",
+      "多个红色表头",
+      "只罗列事项无拍板动作"
+    ]
+  },
+  "render_validation": {
+    "must_pass": [
+      "标题不超过2行，不能挤压主体区",
+      "主红色锚点只有1个，普通正文页红色面积控制在5%以内",
+      "主图必须能解释标题判断和chart_proof_goal",
+      "页脚固定在底部约5%安全区，来源信息弱化",
+      "不得新增deck_spec/page_copy/page_design之外的新事实或新判断",
+      "拍板事项必须独立突出",
+      "表格只承载责任/资源/时点/产出，不吞没结论",
+      "底部形成明确管理收口"
+    ],
+    "manual_review_if": [
+      "表格视觉强于拍板卡",
+      "底部结论超过2行",
+      "C端将本页退化为普通风险矩阵"
+    ],
+    "expected_builder_behavior": [
+      "生成拍板主卡+执行清单表+底部收口结构",
+      "无法突出拍板卡时返回manual_review"
+    ]
+  }
+}

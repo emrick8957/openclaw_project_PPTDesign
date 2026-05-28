@@ -7,6 +7,7 @@
 - 执行流程：`skills/huawei_ppt_master/core/generation_workflow.md`
 - 主题路由规则：`skills/huawei_ppt_master/core/topic_router.md`
 - 防污染规则：`skills/huawei_ppt_master/core/anti_overfit_rules.md`
+- deck_spec 字段字典：`skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`
 
 ## 快速用途
 
@@ -16,3 +17,5 @@
 - 想看“为什么某主题不能写昇腾/NVIDIA” → 读 `anti_overfit_rules.md`
 - 想看“页面为什么不够华为风格/视觉偏重” → 读 `templates/visual_rules.md`、`visual_patterns/layout_library.md`、`templates/chart_patterns.md`、`eval/visual_scorecard.md`
 - 想看“页面设计说明必须给 Builder 哪些视觉约束” → 读 `prompts/generate_page_design.md` 与 `core/output_contracts.md`
+
+- 想看“deck_spec.json 每个字段给角色 C 怎么理解” → 读 `core/deck_spec_field_dictionary.md`

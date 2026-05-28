@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1",
+  "deck_id": "AI4MBSE_自动化生产系统_论文解读",
+  "slide_no": 8,
+  "page_id": "P08_self_learning_digital_twin_architecture",
+  "spec_level": "full",
+  "page_risk_level": "high_risk",
+  "trigger_reason": [
+    "complex_layout",
+    "strict_chart_semantics",
+    "architecture_or_lifecycle",
+    "bottom_conclusion_sensitive"
+  ],
+  "source_trace": {
+    "deck_spec_ref": "project/work/deck_spec_v0.1.json#/slides/8",
+    "page_design_ref": "project/work/page_design_v0.1.md#P8",
+    "page_copy_ref": "project/work/page_copy_v0.1.md#P8",
+    "source_evidence_ref": "project/work/source_evidence_manifest_v0.1.json",
+    "inherited_fields": [
+      "title",
+      "core_judgement",
+      "layout_pattern",
+      "chart_type",
+      "chart_proof_goal",
+      "chart_visual_boundary",
+      "conclusion",
+      "display_text",
+      "visual_focus",
+      "must_highlight",
+      "text_density",
+      "data_gaps"
+    ]
+  },
+  "derived_contract": {
+    "title": "自学习数字孪生应把真实系统、语义模型、仿真和 AI 结果纳入同一闭环",
+    "core_judgement": "本页唯一要带走的判断：论文提出 AI-based self-learning digital twin：真实产品与生产系统通过传感器、PPS 和外部数据接入，模型侧融合产品模型、生产模型、行为模型、仿真和 AI 组件。",
+    "layout_pattern": "layered_architecture",
+    "chart_type": "layered_stack_diagram",
+    "chart_proof_goal": "主图表必须证明：真实系统, 语义模型, 仿真, AI/XAI 共同支撑该页判断，而不是做装饰或概念罗列。",
+    "chart_visual_boundary": [
+      "不得画成无主次的信息堆叠",
+      "必须保留唯一主红色锚点",
+      "图表必须能解释标题判断",
+      "页脚与来源信息弱化且固定"
+    ],
+    "bottom_conclusion": "论文提出 AI-based self-learning digital twin：真实产品与生产系统通过传感器、PPS 和外部数据接入，模型侧融合产品模型、生产模型、行为模型、仿真和 AI 组件。",
+    "right_insight_panel": {},
+    "red_anchor": {
+      "target": "真实系统—语义模型—AI/XAI 闭环主线",
+      "budget": "红色仅用于闭环回写箭头或唯一核心节点，面积≤5%"
+    },
+    "card_hierarchy": "四层架构自下而上；真实系统层与治理闭环层形成回路；不得退化为静态堆栈",
+    "spacing_rule": "标题区约12%，主体区约78%，页脚区约5%；模块间距大于卡片内边距",
+    "visual_simplification": "删除装饰性图标、复杂背景、论文截图式长段落；保留白底、浅灰边框、红黑灰层级"
+  },
+  "subtype": {
+    "subtype_enum": "self_learning_digital_twin_architecture"
+  },
+  "render_units": [
+    {
+      "unit_id": "title",
+      "unit_type": "title",
+      "semantic_role": "页面唯一判断",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "title",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "顶部12%标题区",
+      "max_text_lines": 2,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "标题保持强判断，不改写为名词标题"
+      ]
+    },
+    {
+      "unit_id": "layer_stack",
+      "unit_type": "chart",
+      "semantic_role": "真实系统、语义模型、仿真AI、治理闭环的分层架构",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "chart_data.layers",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "主体中部，四层横向堆栈，占宽70%–80%",
+      "max_text_lines": 0,
+      "overflow_action": "manual_review",
+      "visual_constraints": [
+        "层级顺序清晰",
+        "每层最多4个短标签",
+        "不得把层级画成等权卡片墙"
+      ]
+    },
+    {
+      "unit_id": "feedback_loop",
+      "unit_type": "arrow",
+      "semantic_role": "表达自学习回写闭环",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "chart_proof_goal",
+        "no_new_content": true
+      },
+      "priority": "primary",
+      "region_intent": "从治理闭环层回指语义模型层/真实系统层的细红闭环箭头",
+      "max_text_lines": 1,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "闭环箭头是唯一红色主锚点",
+        "箭头不穿越正文文字"
+      ]
+    },
+    {
+      "unit_id": "bottom_conclusion",
+      "unit_type": "bottom_conclusion",
+      "semantic_role": "页面底部收口",
+      "content_source": {
+        "from": "deck_spec",
+        "field": "conclusion",
+        "no_new_content": true
+      },
+      "priority": "secondary",
+      "region_intent": "主体底部浅灰结论区，不超过页面高度8%",
+      "max_text_lines": 2,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "浅灰底+窄红线，不用厚重红底",
+        "不得重复标题全文"
+      ]
+    },
+    {
+      "unit_id": "footer",
+      "unit_type": "footer",
+      "semantic_role": "来源和页码",
+      "content_source": {
+        "from": "page_design",
+        "field": "P8 页脚",
+        "no_new_content": true
+      },
+      "priority": "tertiary",
+      "region_intent": "底部5%安全区",
+      "max_text_lines": 1,
+      "overflow_action": "compress",
+      "visual_constraints": [
+        "浅灰8–10pt"
+      ]
+    }
+  ],
+  "text_fit_policy": {
+    "title_max_lines": 2,
+    "card_title_max_lines": 1,
+    "card_body_max_lines": 2,
+    "bottom_conclusion_max_lines": 2,
+    "right_insight_max_items": 0,
+    "compression_order": [
+      "层内item说明",
+      "底部结论",
+      "标题副句"
+    ],
+    "manual_review_threshold": "任一层超过4个item或底部结论超过2行时进入人工评审"
+  },
+  "render_unit_policy": {
+    "red_anchor_budget": "≤5%；仅闭环箭头或核心节点可用红色",
+    "primary_focus_count": 1,
+    "card_hierarchy_rule": "四层架构主图为唯一主体；底部结论弱收口",
+    "bottom_bar_rule": "允许浅灰底部结论区，高度≤8%，禁止红底横幅",
+    "right_insight_rule": "本页不设右侧洞察栏，避免压缩架构主体",
+    "spacing_rule": "层间距稳定，层内标签对齐；页脚与底部结论区分离",
+    "forbidden_patterns": [
+      "静态四层堆叠无闭环",
+      "满屏节点",
+      "多条红色箭头抢焦点",
+      "把AI/XAI画成孤立模块"
+    ]
+  },
+  "render_validation": {
+    "must_pass": [
+      "标题不超过2行，不能挤压主体区",
+      "主红色锚点只有1个，普通正文页红色面积控制在5%以内",
+      "主图必须能解释标题判断和chart_proof_goal",
+      "页脚固定在底部约5%安全区，来源信息弱化",
+      "不得新增deck_spec/page_copy/page_design之外的新事实或新判断",
+      "必须看出真实系统、语义模型、仿真AI、治理闭环四层关系",
+      "必须看出自学习回写闭环"
+    ],
+    "manual_review_if": [
+      "闭环箭头不可读",
+      "层级标签溢出",
+      "底部结论条压迫主体区"
+    ],
+    "expected_builder_behavior": [
+      "优先生成分层架构+闭环箭头",
+      "无法表达闭环时返回manual_review"
+    ]
+  }
+}
