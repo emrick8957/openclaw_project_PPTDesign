@@ -8,6 +8,7 @@
 - 主题路由规则：`skills/huawei_ppt_master/core/topic_router.md`
 - 防污染规则：`skills/huawei_ppt_master/core/anti_overfit_rules.md`
 - deck_spec 字段字典：`skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`
+- 图表语义映射规则：`skills/huawei_ppt_master/templates/chart_patterns.md` 中 `chart_semantic_mapping` 章节
 
 ## 快速用途
 
@@ -19,3 +20,5 @@
 - 想看“页面设计说明必须给 Builder 哪些视觉约束” → 读 `prompts/generate_page_design.md` 与 `core/output_contracts.md`
 
 - 想看“deck_spec.json 每个字段给角色 C 怎么理解” → 读 `core/deck_spec_field_dictionary.md`
+
+- 想看“trend_curve 等图表如何证明 chart_proof_goal” → 读 `templates/chart_patterns.md` 的 `chart_semantic_mapping` 章节

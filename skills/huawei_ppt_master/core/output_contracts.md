@@ -103,12 +103,14 @@ PPTX Builder 注意事项：
 - `core_judgement`：本页唯一核心判断。它不是展示标题，也不是普通结论句，而是本页所有内容、图表和视觉元素必须共同服务的判断锚点。
 - `chart_proof_goal`：本页主图表必须证明什么。用于约束 `chart_type` 的论证任务，防止图表只做装饰或信息罗列。
 - `chart_visual_boundary`：本页主图表的视觉表达边界。通常为 3~5 条短约束，说明不得画偏成什么、必须体现什么、红色/主次/结构应如何控制。
+- `chart_semantic_mapping`：本页主图表的语义解释映射。用于说明主图表如何证明 `chart_proof_goal`，避免图表沦为装饰、模板或误读。`trend_curve` 必须输出，`quadrant_matrix`、`roadmap_timeline_chart`、`architecture_flow_diagram`、`layered_stack_diagram`、`value_chain_loop`、`swimlane_process`、`ecosystem_relationship_map` 等高语义风险图表建议输出。
 
 字段边界：
 
 - `core_judgement` 管“这一页唯一判断是什么”；
 - `chart_proof_goal` 管“图表要证明什么”；
 - `chart_visual_boundary` 管“图表不能怎么画 / 视觉表达边界”；
+- `chart_semantic_mapping` 管“图表如何被阅读、如何证明、坐标/阶段/节点/洞察栏分别代表什么”；
 - `chart_type` 仍只允许使用 `templates/chart_patterns.md` 中的合法枚举；
 - `layout_pattern` 仍只允许使用 `visual_patterns/layout_library.md` 中的合法枚举。
 
@@ -134,6 +136,14 @@ PPTX Builder 注意事项：
     "必须突出唯一主判断卡和支撑卡层级",
     "红色只能用于核心判断或关键风险，不能多处抢焦点"
   ],
+  "chart_semantic_mapping": {
+    "chart_reading_intent": "读者看完图后应形成的唯一判断",
+    "main_visual_logic": "主图通过主次、方向、分层、对比、趋势或闭环证明判断",
+    "axis_semantics": {},
+    "stage_or_node_meaning": {},
+    "insight_panel_logic": [],
+    "forbidden_visualization": ["不得把图表画成装饰性模板"]
+  },
   "display_text": [
     "英伟达领先在通用生态、开发者心智和训练体系",
     "昇腾具备国产化、安全可控和供应连续性优势",
@@ -196,8 +206,10 @@ PPTX Builder 注意事项：
 6. 若字段不在合法枚举内，不得输出最终 `deck_spec.json`；
 7. 必须先确定 `chart_type`，再确定 `layout_pattern`，不得反向从版式名推导图表名并直接复用同名值。
 8. 每页必须包含 `core_judgement`、`chart_proof_goal`、`chart_visual_boundary`。
-9. `chart_proof_goal` 必须能直接支撑 `core_judgement`，否则判定该页图表论证目标不成立。
-10. `chart_visual_boundary` 必须为数组，建议 3~5 条，不得为空泛口号。
+9. 当 `chart_type=trend_curve` 时，必须包含 `chart_semantic_mapping`；其他高语义风险图表建议包含该字段。
+10. `chart_semantic_mapping` 必须服务 `chart_proof_goal`，不得另起一套判断。
+11. `chart_proof_goal` 必须能直接支撑 `core_judgement`，否则判定该页图表论证目标不成立。
+12. `chart_visual_boundary` 必须为数组，建议 3~5 条，不得为空泛口号。
 
 
 ### 4.4 无精确匹配时的唯一合法处理

@@ -1,0 +1,383 @@
+{
+  "deck_title": "AI 在自动化生产系统 MBSE 中的应用：P4/P7/P8/P14 四页交付物",
+  "audience": "技术高层 / 工程研发负责人 / 智能制造与生产系统决策人",
+  "style": "huawei_executive",
+  "source": "Procedia CIRP 136 (2025) 61–66, Application of artificial intelligence in model-based systems engineering of automated production systems",
+  "version_note": "Generated under huawei_ppt_master v0.3.9-chart-semantic-mapping; includes chart_semantic_mapping for the four selected pages.",
+  "slides": [
+    {
+      "slide_no": 4,
+      "section": "Background",
+      "type": "context_trend",
+      "page_goal": "让高层形成本页唯一判断并知道下一步动作",
+      "title": "制造企业面对复杂度、竞争和可持续压力，单点 AI 难以支撑系统级工程决策",
+      "conclusion": "论文背景指出，客户期望、全球竞争、可持续要求和产业转型共同推高工程复杂度，AI 虽有潜力，但在工程流程中仍多停留在孤立应用。",
+      "core_judgement": "本页唯一要带走的判断：论文背景指出，客户期望、全球竞争、可持续要求和产业转型共同推高工程复杂度，AI 虽有潜力，但在工程流程中仍多停留在孤立应用。",
+      "chart_proof_goal": "主图表必须证明：复杂度上升, AI 孤岛, 工程流程变革 共同支撑该页判断，而不是做装饰或概念罗列。",
+      "chart_visual_boundary": [
+        "不得画成无主次的信息堆叠",
+        "必须保留唯一主红色锚点",
+        "图表必须能解释标题判断",
+        "页脚与来源信息弱化且固定"
+      ],
+      "display_text": [
+        "复杂度上升",
+        "AI 孤岛",
+        "工程流程变革"
+      ],
+      "speaker_notes": "先讲判断，再讲论文依据，最后讲管理含义。",
+      "chart_type": "trend_curve",
+      "chart_data": {
+        "x_axis": [
+          "复杂度压力上升",
+          "单点 AI 瓶颈暴露",
+          "工程流程重构"
+        ],
+        "series": [
+          {
+            "name": "系统级工程决策压力（示意）",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "x": "单点 AI 瓶颈暴露",
+            "label": "AI 孤岛难以支撑系统级决策"
+          }
+        ]
+      },
+      "layout_pattern": "trend_curve_with_strategy",
+      "visual_notes": "白底，红黑灰为主；普通正文页红色面积控制在 5%以内；标题区结论先行；主体区模块化证明判断。",
+      "visual_focus": [
+        "复杂度上升",
+        "AI 孤岛",
+        "工程流程变革"
+      ],
+      "must_highlight": [
+        "复杂度上升",
+        "AI 孤岛"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "外部压力强度需结合企业具体行业数据补充"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者应判断：外部复杂度、竞争和可持续压力正在上升，而孤立 AI 应用不足以支撑系统级工程决策，必须转向工程流程与语义底座重构。",
+        "main_visual_logic": "趋势曲线表达从“复杂度压力上升”到“单点 AI 暴露瓶颈”，再到“工程流程重构成为必要动作”的阶段转换；拐点不是收益数字，而是管理认知从工具导入转向系统工程升级。",
+        "axis_semantics": {
+          "x_axis": "阶段序列：外部压力上升 → 单点 AI 瓶颈暴露 → 工程流程重构，不代表精确年份",
+          "y_axis": "系统级工程决策压力/复杂度示意，不代表量化指标"
+        },
+        "stage_or_node_meaning": {
+          "复杂度上升": "客户期望、全球竞争、可持续要求和产业转型共同推高工程复杂度",
+          "AI 孤岛": "AI 有潜力但仍多停留在孤立应用，缺少工程语义上下文和流程闭环",
+          "工程流程变革": "需要通过 MBSE、语义模型和治理机制支撑系统级决策"
+        },
+        "insight_panel_logic": [
+          "右侧洞察应解释为什么复杂度压力会暴露单点 AI 的不足",
+          "策略建议必须从“单点 AI 不足”推导到“先重构工程过程和语义底座”"
+        ],
+        "forbidden_visualization": [
+          "不得画成无来源的精确增长曲线",
+          "不得用大红上升箭头暗示确定收益或市场规模增长",
+          "不得让右侧洞察变成与曲线无关的背景备注"
+        ]
+      }
+    },
+    {
+      "slide_no": 7,
+      "section": "Catalyst",
+      "type": "framework",
+      "page_goal": "让高层形成本页唯一判断并知道下一步动作",
+      "title": "七类 AI 介入点覆盖产品与生产双 V 模型，要求统一生命周期工程底座",
+      "conclusion": "论文将 AI 介入点扩展到产品运行、生产运行、回收、产品设计、生产系统设计、产品验证和生产系统验证，说明 AI+MBSE 必须贯穿双 V 模型。",
+      "core_judgement": "本页唯一要带走的判断：论文将 AI 介入点扩展到产品运行、生产运行、回收、产品设计、生产系统设计、产品验证和生产系统验证，说明 AI+MBSE 必须贯穿双 V 模型。",
+      "chart_proof_goal": "主图表必须证明：双 V 模型, 七类介入点, 生命周期 共同支撑该页判断，而不是做装饰或概念罗列。",
+      "chart_visual_boundary": [
+        "不得画成无主次的信息堆叠",
+        "必须保留唯一主红色锚点",
+        "图表必须能解释标题判断",
+        "页脚与来源信息弱化且固定"
+      ],
+      "display_text": [
+        "双 V 模型",
+        "七类介入点",
+        "生命周期"
+      ],
+      "speaker_notes": "先讲判断，再讲论文依据，最后讲管理含义。",
+      "chart_type": "architecture_flow_diagram",
+      "chart_data": {
+        "nodes": [
+          {
+            "id": "A",
+            "label": "产品/生产/运行数据",
+            "group": "输入"
+          },
+          {
+            "id": "B",
+            "label": "语义模型/知识图谱",
+            "group": "处理"
+          },
+          {
+            "id": "C",
+            "label": "AI/XAI 与 FMU 共仿真",
+            "group": "验证"
+          },
+          {
+            "id": "D",
+            "label": "模型回写与治理",
+            "group": "输出"
+          }
+        ],
+        "edges": [
+          {
+            "from": "A",
+            "to": "B",
+            "label": "语义化"
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "label": "仿真/学习"
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "label": "解释/审查"
+          },
+          {
+            "from": "D",
+            "to": "B",
+            "label": "回写"
+          }
+        ]
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "白底，红黑灰为主；普通正文页红色面积控制在 5%以内；标题区结论先行；主体区模块化证明判断。",
+      "visual_focus": [
+        "双 V 模型",
+        "七类介入点",
+        "生命周期"
+      ],
+      "must_highlight": [
+        "双 V 模型",
+        "七类介入点"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者应判断：AI 介入点不是零散工具点，而是覆盖产品与生产双 V 生命周期的系统性工程能力。",
+        "main_visual_logic": "主图通过产品/生产双 V 生命周期主线承载七类 AI 介入点，证明 AI+MBSE 必须贯穿设计、验证、运行和回收，而不是停留在局部算法应用。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "产品运行": "真实产品运行数据进入生命周期反馈",
+          "生产运行": "生产系统运行数据进入工程模型与优化闭环",
+          "回收": "生命周期末端信息反哺产品与生产系统设计",
+          "产品设计": "AI 支撑产品模型生成、约束检查和方案探索",
+          "生产系统设计": "AI 支撑产线、工艺和资源配置设计",
+          "产品验证": "AI 与仿真共同支撑产品侧验证",
+          "生产系统验证": "AI 与仿真共同支撑生产系统侧验证"
+        },
+        "insight_panel_logic": [
+          "右侧洞察只解释七类介入点为何要求统一生命周期底座",
+          "不得新增与双 V 主图无关的管理口号"
+        ],
+        "forbidden_visualization": [
+          "不得画成七个孤立散点或普通清单",
+          "不得把产品 V 和生产 V 画成互不关联的两套图",
+          "不得把 AI 节点全部标红导致主线失焦"
+        ]
+      }
+    },
+    {
+      "slide_no": 8,
+      "section": "Application",
+      "type": "architecture",
+      "page_goal": "让高层形成本页唯一判断并知道下一步动作",
+      "title": "自学习数字孪生应把真实系统、语义模型、仿真和 AI 结果纳入同一闭环",
+      "conclusion": "论文提出 AI-based self-learning digital twin：真实产品与生产系统通过传感器、PPS 和外部数据接入，模型侧融合产品模型、生产模型、行为模型、仿真和 AI 组件。",
+      "core_judgement": "本页唯一要带走的判断：论文提出 AI-based self-learning digital twin：真实产品与生产系统通过传感器、PPS 和外部数据接入，模型侧融合产品模型、生产模型、行为模型、仿真和 AI 组件。",
+      "chart_proof_goal": "主图表必须证明：真实系统, 语义模型, 仿真, AI/XAI 共同支撑该页判断，而不是做装饰或概念罗列。",
+      "chart_visual_boundary": [
+        "不得画成无主次的信息堆叠",
+        "必须保留唯一主红色锚点",
+        "图表必须能解释标题判断",
+        "页脚与来源信息弱化且固定"
+      ],
+      "display_text": [
+        "真实系统",
+        "语义模型",
+        "仿真",
+        "AI/XAI"
+      ],
+      "speaker_notes": "先讲判断，再讲论文依据，最后讲管理含义。",
+      "chart_type": "layered_stack_diagram",
+      "chart_data": {
+        "layers": [
+          {
+            "name": "真实系统层",
+            "items": [
+              "产品",
+              "生产系统",
+              "传感器/PPS/外部数据"
+            ]
+          },
+          {
+            "name": "语义模型层",
+            "items": [
+              "产品模型",
+              "生产模型",
+              "行为模型",
+              "知识图谱"
+            ]
+          },
+          {
+            "name": "仿真与 AI 层",
+            "items": [
+              "FMU",
+              "共仿真",
+              "ML/XAI"
+            ]
+          },
+          {
+            "name": "治理闭环层",
+            "items": [
+              "解释",
+              "因果/合理性检查",
+              "模型回写"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "layered_architecture",
+      "visual_notes": "白底，红黑灰为主；普通正文页红色面积控制在 5%以内；标题区结论先行；主体区模块化证明判断。",
+      "visual_focus": [
+        "真实系统",
+        "语义模型",
+        "仿真",
+        "AI/XAI"
+      ],
+      "must_highlight": [
+        "真实系统",
+        "语义模型"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者应判断：自学习数字孪生的关键不是单个模型，而是真实系统、语义模型、仿真和 AI/XAI 进入同一闭环。",
+        "main_visual_logic": "分层架构自下而上展示真实系统层、语义模型层、仿真与 AI 层、治理闭环层，并通过回写关系证明“自学习”来自跨层反馈而非静态堆栈。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "真实系统层": "产品、生产系统、传感器/PPS/外部数据提供现实状态输入",
+          "语义模型层": "产品模型、生产模型、行为模型和知识图谱提供统一上下文",
+          "仿真与 AI 层": "FMU、共仿真、ML/XAI 承担学习、验证和解释",
+          "治理闭环层": "解释、因果/合理性检查和模型回写形成可审查闭环"
+        },
+        "insight_panel_logic": [
+          "如设置洞察栏，只解释各层为何必须闭环连接",
+          "底部结论应收口到“同一闭环”，不能重复层级名称"
+        ],
+        "forbidden_visualization": [
+          "不得画成静态四层堆栈而没有反馈/回写语义",
+          "不得把 AI/XAI 画成孤立万能模块",
+          "不得让每层文字过多导致架构图退化为表格"
+        ]
+      }
+    },
+    {
+      "slide_no": 14,
+      "section": "决策收口",
+      "type": "decision_table",
+      "page_goal": "让高层形成本页唯一判断并知道下一步动作",
+      "title": "高层需要拍板的不是单个 AI 场景，而是 MBSE 语义底座和 AI 回写治理机制",
+      "conclusion": "建议将 AI+MBSE 作为工程体系升级项目管理：先选自动化产线或装配系统样板，明确知识图谱、FMU 接口、XAI 审查和模型回写责任。",
+      "core_judgement": "本页唯一要带走的判断：建议将 AI+MBSE 作为工程体系升级项目管理：先选自动化产线或装配系统样板，明确知识图谱、FMU 接口、XAI 审查和模型回写责任。",
+      "chart_proof_goal": "主图表必须证明：样板选择, 数据/模型责任, 接口标准, 审查机制 共同支撑该页判断，而不是做装饰或概念罗列。",
+      "chart_visual_boundary": [
+        "不得画成无主次的信息堆叠",
+        "必须保留唯一主红色锚点",
+        "图表必须能解释标题判断",
+        "页脚与来源信息弱化且固定"
+      ],
+      "display_text": [
+        "样板选择",
+        "数据/模型责任",
+        "接口标准",
+        "审查机制"
+      ],
+      "speaker_notes": "先讲判断，再讲论文依据，最后讲管理含义。",
+      "chart_type": "decision_table",
+      "chart_data": {
+        "columns": [
+          "拍板事项",
+          "推荐方案",
+          "资源/责任",
+          "阶段产出"
+        ],
+        "rows": [
+          [
+            "样板场景",
+            "选择自动化装配/产线样板",
+            "研发+制造+IT 联合",
+            "语义模型 MVP"
+          ],
+          [
+            "接口机制",
+            "定义 FMU/工具链接入边界",
+            "架构团队牵头",
+            "共仿真原型"
+          ],
+          [
+            "AI 回写治理",
+            "XAI 审查+责任闭环",
+            "工程质量/流程 Owner",
+            "可审查模型回写机制"
+          ]
+        ]
+      },
+      "layout_pattern": "risk_decision_matrix",
+      "visual_notes": "白底，红黑灰为主；普通正文页红色面积控制在 5%以内；标题区结论先行；主体区模块化证明判断。",
+      "visual_focus": [
+        "样板选择",
+        "数据/模型责任",
+        "接口标准",
+        "审查机制"
+      ],
+      "must_highlight": [
+        "样板选择",
+        "数据/模型责任"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": [
+        "需要补充企业内部系统清单、责任组织和预算约束"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者应判断：高层需要拍板的是工程体系升级机制，而不是单个 AI 场景试点。",
+        "main_visual_logic": "决策表用“拍板事项—推荐方案—资源/责任—阶段产出”证明样板选择、接口机制和 AI 回写治理必须同步定义，形成可执行闭环。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "样板场景": "先选择自动化装配/产线样板，形成语义模型 MVP",
+          "接口机制": "定义 FMU/工具链接入边界，形成共仿真原型",
+          "AI 回写治理": "建立 XAI 审查与责任闭环，形成可审查模型回写机制"
+        },
+        "insight_panel_logic": [
+          "本页优先使用拍板事项卡和执行清单表，不建议另设右侧洞察栏",
+          "底部收口应提示需要明确责任、接口和验收产出"
+        ],
+        "forbidden_visualization": [
+          "不得画成全页 Excel 大表",
+          "不得让表格吞没拍板事项",
+          "不得只列原则而缺少责任、资源和阶段产出"
+        ]
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Package Manifest
 
-Current package version: v0.3.8-deck-spec-field-dictionary
+Current package version: v0.3.9-chart-semantic-mapping
 Last updated: 2026-05-28
 
 - `CHANGELOG.md`
@@ -229,3 +229,16 @@ Last updated: 2026-05-28
 - `core/deck_spec_field_dictionary.md`：说明 `deck_spec.json` 的文件定位、顶层字段和 slide 字段，明确其是页面语义合同，不是 PPTX 或 shape 指令。
 
 边界：本版本不继续推进 `page_render_spec` / `normalized_render_model` 方案，不新增渲染 DSL，不改变默认生成链路。
+
+
+### 3.11 v0.3.9 chart_semantic_mapping 图表语义映射资产
+
+本版本同步增强以下资产：
+
+- `core/output_contracts.md`：新增 `chart_semantic_mapping` 字段契约、触发规则和示例。
+- `prompts/deck_spec_generation.md`：要求 `trend_curve` 必须输出图表语义映射，高语义风险图表建议输出。
+- `templates/chart_patterns.md`：新增 `chart_semantic_mapping` 章节、六个核心字段和 `trend_curve` 示例。
+- `core/deck_spec_field_dictionary.md`：补充 `chart_semantic_mapping` 字段说明。
+- `eval/visual_scorecard.md`：新增 v0.3.9 图表语义映射检查与一票降级项。
+
+边界：该字段是 deck_spec 语义证明增强，不是渲染 DSL；不恢复 `page_render_spec` / `normalized_render_model` 方案。

@@ -1,6 +1,6 @@
 # VERSION
 
-Current Version: v0.3.8-deck-spec-field-dictionary
+Current Version: v0.3.9-chart-semantic-mapping
 
 Version positioning:
 
@@ -14,5 +14,6 @@ Version positioning:
 - v0.3.6: Visual rules refactor. Rebuilds `templates/visual_rules.md` as a dedicated visual design guidance asset based on visual_rules_v0.2, preserves historical sedimentation, adds negative visual style boundaries, visual optimization priority, default page styles, and synchronizes `visual_boundary` / `page_type_gate` fields.
 - v0.3.7: Deck spec proof contract. Adds `core_judgement`, `chart_proof_goal`, and `chart_visual_boundary` to each deck_spec slide, so chart_type must prove the page judgement and obey visual proof boundaries.
 - v0.3.8: Deck spec field dictionary formalization. Adds `core/deck_spec_field_dictionary.md` as a formal delivery-support asset with three sections: file positioning, top-level fields, and slide fields. This version terminates the page_render_spec / normalized_render_model exploration and does not add a rendering DSL.
+- v0.3.9: Chart semantic mapping. Adds `chart_semantic_mapping` to deck_spec as a semantic proof explanation field, mandatory for `trend_curve` and recommended for high-semantic-risk charts. This is not a rendering DSL.
 
 Release date: 2026-05-28

@@ -5,7 +5,7 @@
 要求：
 
 1. 输出严格 JSON；
-2. 每页包含 slide_no、type、title、conclusion、core_judgement、chart_proof_goal、chart_visual_boundary、body/display_text、chart_type、chart_data、layout_pattern、speaker_notes、need_compression；
+2. 每页包含 slide_no、type、title、conclusion、core_judgement、chart_proof_goal、chart_visual_boundary、chart_semantic_mapping（按触发规则）、body/display_text、chart_type、chart_data、layout_pattern、speaker_notes、need_compression；
 3. 不新增事实；
 4. 不改写结论；
 5. 版式模式必须来自 `visual_patterns/layout_library.md`；
@@ -20,6 +20,8 @@
 9. 每页必须先生成 `core_judgement`，再生成 `chart_proof_goal`，最后选择 `chart_type` 和 `layout_pattern`。
 10. `chart_proof_goal` 必须回答“这个主图表要证明本页唯一核心判断中的哪一部分”。
 11. `chart_visual_boundary` 必须包含 3~5 条短约束，说明该图表不得退化为什么、必须体现什么、红色和主次如何控制。
+12. 当 `chart_type=trend_curve` 时，必须输出 `chart_semantic_mapping`；当图表为四象限、路线图、架构流转、分层架构、闭环、泳道、生态关系等高语义风险图表时，建议输出该字段。
+13. `chart_semantic_mapping` 必须包含 6 个核心字段：`chart_reading_intent`、`main_visual_logic`、`axis_semantics`、`stage_or_node_meaning`、`insight_panel_logic`、`forbidden_visualization`。
 
 生成时必须检查：
 
@@ -37,4 +39,5 @@
 - `chart_proof_goal` 是否直接服务 `core_judgement`；
 - `chart_type` 是否适合证明 `chart_proof_goal`；
 - `chart_visual_boundary` 是否具体、可执行，且不与 `visual_notes` 冲突；
+- 如已触发 `chart_semantic_mapping`，检查其是否解释了主图如何证明 `chart_proof_goal`，坐标/阶段/节点/洞察栏语义是否成立；
 - 若图表无法证明本页判断，应优先调整 `chart_type` 或拆页，不得用装饰性图表硬凑。

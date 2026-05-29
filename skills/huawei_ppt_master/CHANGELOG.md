@@ -1,5 +1,31 @@
 # CHANGELOG
 
+## v0.3.9-chart-semantic-mapping
+
+### 升级目标
+
+新增 `chart_semantic_mapping`，补齐 `chart_type` 与 `chart_proof_goal` 之间的图表语义解释层，尤其解决 `trend_curve` 等图表“看起来有趋势、实际无法证明判断”的问题。
+
+### 新增
+
+1. `core/output_contracts.md`：deck_spec 增加 `chart_semantic_mapping` 字段说明、示例和触发门禁。
+2. `prompts/deck_spec_generation.md`：要求 `trend_curve` 必须输出 `chart_semantic_mapping`，高语义风险图表建议输出。
+3. `templates/chart_patterns.md`：新增 `chart_semantic_mapping` 语义解释映射规则、六个核心字段和 `trend_curve` 示例。
+4. `eval/visual_scorecard.md`：新增 v0.3.9 图表语义映射检查与一票降级项。
+5. `core/deck_spec_field_dictionary.md`：补充 `chart_semantic_mapping` 字段说明。
+
+### 修改
+
+1. `SKILL.md` 版本升级为 `0.3.9-chart-semantic-mapping`。
+2. `README.md`、`VERSION.md`、`INDEX.md`、`QUICK_INDEX.md`、`PACKAGE_MANIFEST.md` 同步版本与资产说明。
+
+### 边界
+
+1. 本版本只增强 deck_spec 语义证明能力。
+2. 不恢复 `page_render_spec` / `normalized_render_model` 方案。
+3. 不新增 PPTX 渲染 DSL、shape plan 或 C 端渲染协议。
+4. `chart_semantic_mapping` 必须服务 `chart_proof_goal`，不得另起一套判断。
+
 ## v0.3.8-deck-spec-field-dictionary
 
 ### 升级目标

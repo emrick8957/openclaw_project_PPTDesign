@@ -1,32 +1,37 @@
-# A_to_B handoff：page_render_spec Phase 1
+# A_to_B handoff：page_render_spec / normalized_render_model 方案终止清理
 
-## 本次交付
+## 当前状态
 
-已完成 Phase 1 手工样例与配套交付物，目录：
+`page_render_spec` / `normalized_render_model` 方案已终止，不再作为 `huawei_ppt_master` 的后续推进方向，也不进入默认交付链路。
 
-`project/work/page_render_spec_phase1/`
+## 本次清理动作
 
-## 文件清单
+已将历史探索产物归档到：
 
-- 三页样例：`page_render_specs/P07_page_render_spec_v0.1.json`、`P08_page_render_spec_v0.1.json`、`P14_page_render_spec_v0.1.json`
-- 合并索引：`page_render_spec_samples_v0.1.json`
-- 上游交付物：`deck_spec.json`、`page_copy_v0.1.md`、`page_design_v0.1.md`
-- 依赖：`dependencies/visual_rules.md`、`chart_patterns.md`、`wording_rules.md`、`layout_library.md`
-- C端说明补充：`deck_spec_field_dictionary_for_role_C.md`、`page_render_spec_field_dictionary_for_role_C.md`、`role_C_consumption_guide_v0.1.md`、`render_readiness_assessment_v0.1.md`
-- 自检：`self_check_v0.1.md`
+`deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/`
+
+归档内容包括：
+
+- `project/work/page_render_spec_phase0/`
+- `project/work/page_render_spec_phase1/`
+- `project/work/generate_page_render_spec_phase1.py`
+- `deliverables/page_render_spec_phase1_delivery.zip`
+
+归档清单：
+
+`deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/ARCHIVE_MANIFEST.json`
+
+## 当前正式方向
+
+后续仅保留并维护简洁版：
+
+`skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`
+
+其定位是解释 `deck_spec.json` 的文件定位、顶层字段和 slide 字段职责，帮助角色 C 理解 deck_spec；不是渲染 DSL，不恢复 `page_render_spec` / `normalized_render_model`。
 
 ## 边界声明
 
-- 未修改 `skills/huawei_ppt_master/*`；
-- 未接入默认链路；
-- 本次是 Phase 1 手工样例，用于评审 schema 字段是否可被 C 端消费；
-- C 端无法满足约束时应返回 `manual_review`，不得静默改写页面判断。
-
-## 建议评审点
-
-1. P7 双 V 生命周期结构是否足够明确；
-2. P8 分层架构 + 闭环箭头是否能稳定渲染；
-3. P14 决策收口是否避免退化为 Excel 表格；
-4. `text_fit_policy` 和 `render_validation` 是否可执行；
-5. C端是否认可当前结论：`deck_spec` 是语义合同、`page_render_spec` 是构造约束，二者都需要 adapter 转换，不能直接当 shape 指令渲染；
-6. 是否进入 Phase 1.1/Phase 2，补充 `normalized_render_model`、layout/chart/unit 映射表。
+- 未删除历史产物，仅归档移动；
+- 未修改 `skills/huawei_ppt_master/*` 正式资产；
+- 不再建议 Phase 1.1 / Phase 2 / Phase 3 等 page_render_spec 后续阶段；
+- 后续如需角色 C 消费，应围绕 `deck_spec_field_dictionary.md` 和现有 `deck_spec.json` 语义合同推进，而不是恢复 page_render_spec。

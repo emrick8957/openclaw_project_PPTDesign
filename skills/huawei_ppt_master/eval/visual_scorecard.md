@@ -124,3 +124,26 @@
 - `chart_type` 与 `chart_proof_goal` 明显不匹配；
 - 生成图片违反 `chart_visual_boundary` 中任一硬边界；
 - 图表视觉效果与 `core_judgement` 相反或弱化了核心判断。
+
+
+## M. v0.3.9 chart_semantic_mapping 语义映射检查
+
+当 `deck_spec.json` 中出现 `chart_semantic_mapping`，或 `chart_type=trend_curve` 时，必须检查：
+
+- `chart_reading_intent` 是否明确读者看完图后应得出的判断；
+- `main_visual_logic` 是否说明主图如何证明 `chart_proof_goal`；
+- `axis_semantics` 是否解释坐标轴、矩阵或趋势语义，且没有伪造精确数据；
+- `stage_or_node_meaning` 是否说明阶段、节点、卡片的语义，避免空标签；
+- `insight_panel_logic` 是否确保右侧洞察解释主图，而不是备注列表；
+- `forbidden_visualization` 是否明确禁止误画、乱画、越界画。
+
+### M.1 一票降级项
+
+出现以下任一问题，页面最高 B 档；严重时必须返工：
+
+- `chart_type=trend_curve` 但缺少 `chart_semantic_mapping`；
+- 趋势图坐标语义不成立，或把示意趋势画成精确数据；
+- `chart_semantic_mapping` 与 `chart_proof_goal` 不一致；
+- 阶段、节点或卡片只是空标签，无法支撑页面判断；
+- 右侧洞察栏与主图无关，退化为备注列表；
+- `forbidden_visualization` 为空或只写泛化口号。

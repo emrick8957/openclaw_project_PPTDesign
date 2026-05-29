@@ -1,13 +1,18 @@
 # status
 
-- task: page_render_spec Phase 1
+- task: page_render_spec / normalized_render_model termination cleanup
 - status: completed
+- scheme_status: terminated
+- cleanup_mode: archive_only_no_deletion
 - skill_modified: false
 - default_chain_integrated: false
-- artifacts_dir: project/work/page_render_spec_phase1
-- sample_pages: P7, P8, P14
-- included_upstream_artifacts: deck_spec.json, page_copy_v0.1.md, page_design_v0.1.md
-- included_dependencies: visual_rules.md, chart_patterns.md, wording_rules.md, layout_library.md
-- c_consumption_docs_added: deck_spec_field_dictionary_for_role_C.md, page_render_spec_field_dictionary_for_role_C.md, role_C_consumption_guide_v0.1.md, render_readiness_assessment_v0.1.md
-- current_assessment: deck_spec is semantic contract; page_render_spec is construction constraint; both require C-side adapter/render planner before PPTX shape generation
-- next_recommended_phase: Phase 1.1 normalized_render_model samples or Phase 2 manual samples / Phase 3 C-consumption validation
+- archive_dir: deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup
+- archive_manifest: deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/ARCHIVE_MANIFEST.json
+- archived_items:
+  - project/work/page_render_spec_phase0/
+  - project/work/page_render_spec_phase1/
+  - project/work/generate_page_render_spec_phase1.py
+  - deliverables/page_render_spec_phase1_delivery.zip
+- official_retained_asset: skills/huawei_ppt_master/core/deck_spec_field_dictionary.md
+- current_assessment: deck_spec_field_dictionary is the retained formal support asset; page_render_spec / normalized_render_model / rendering DSL are not continued
+- next_recommended_phase: none for page_render_spec; continue only with deck_spec semantic contract and field dictionary if needed

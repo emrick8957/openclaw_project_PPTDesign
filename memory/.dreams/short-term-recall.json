@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-27T19:00:54.897Z",
+  "updatedAt": "2026-05-28T19:00:56.095Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1",
@@ -6158,6 +6158,1521 @@
         "好了",
         "直接",
         "启动"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "User: 对比页做成大表格； - 推荐侧过度红色强调。 ### 8.3 流程图 视觉要求： - 方向明确； - 节点数量克制； - 箭头样式统一； - 起点、过程、终点清晰； - 必要时表现回写或约束。 禁止： - 箭头乱飞； - 节点无主次； - 只有名词串联； - 多条路径无区分； - 流程线和卡片边框纠缠。 ### 8.4 闭环图 视觉要求： - 必须形成闭合路径； - 回写/反馈节点必须可见； - 闭环方向必须明确； - 可用一个红色节点标记关键回写点。 禁止： - 把闭环画成单向流程； - 把闭环画成分层架构； - 环形箭头只是装饰； - 闭",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "8.3",
+        "8.4",
+        "回写/反馈节点必须可见",
+        "对比",
+        "做成",
+        "表格",
+        "推荐",
+        "过度"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "User: 每个象限的位置可被坐标解释； - 目标区、风险区或优先区视觉可见。 禁止： - 没有真实 x/y 轴； - 只是四类概念并列； - 象限标签过长； - 每个象限都用强色块； - 红色占满一个象限成为大色块。 ### 8.9 表格 视觉要求： - 线条轻； - 字号清晰； - 重点行/列有弱强调； - 表格不应吞没页面结论； - 高层页优先将大表转为面板或矩阵。 禁止： - Excel 截图感； - 密集网格线； - 大表格铺满主体； - 字号过小； - 多行多列红色填充； - 表格没有视觉重点。 --- ## 9. 右侧洞察栏规则 ### 9",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "x/y",
+        "8.9",
+        "重点行/列有弱强调",
+        "象限",
+        "位置",
+        "可被",
+        "坐标",
+        "解释"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "User: 决策页：底部可放执行提示，但拍板事项应在主体突出； - 总结页：可稍强，但仍需克制； - 封面/章节页：可不用底部结论条。 ### 10.4 底部结论条负面禁止项 禁止： - 厚重红色压底条； - 底部结论条成为最大色块； - 与页脚重叠； - 挤压页脚安全区； - 放过多 bullet； - 变成第二正文区； - 只重复标题； - 使用过多红色关键词。 --- ## 11. 图片、截图、Logo 与案例素材 ### 11.1 使用原则 - 图片、截图、Logo 只能作为证明材料或辅助识别。 - 图片必须有主次。 - 案例页必须有一张主证明图",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "封面/章节页",
+        "10.4",
+        "11.1",
+        "决策",
+        "底部",
+        "可放",
+        "执行",
+        "提示"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "User: ### 12.4 路线图页 推荐： - 阶段推进； - 阶段门槛； - 验收产出； - 最终节点作为主锚点。 禁止： - 并列计划； - 无承接关系； - 无门槛； - 无验收产出； - 红色时间轴过重。 ### 12.5 决策页 推荐： - 拍板事项独立突出； - 表格弱化为执行清单； - 风险和责任视觉分层。 禁止： - 表格吞没拍板事项； - 决策点散落在表格中； - 结论被底部条替代； - 多个红色拍板项同权。 ### 12.6 总结页 推荐： - 形成最终定义、最终框架或最终判断； - 可使用一个强收口框； - 视觉比普通页更简洁。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "12.4",
+        "12.5",
+        "12.6",
+        "路线图",
+        "推荐",
+        "阶段",
+        "推进",
+        "门槛"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "User: 行列信息堆叠； - 只适合阅读，不适合汇报扫读。 ### 13.6 禁止学术论文截图风 表现包括： - 满页段落； - 公式、表格、引用堆叠； - 没有视觉结论； - 仅像论文摘要重排； - 文字密度过高。 --- ## 14. 页面自检视觉清单 生成或设计完成后，应从视觉角度检查： 1. 是否白底为主？ 2. 是否红黑灰白为主？ 3. 是否只有 1 个主红色锚点？ 4. 是否存在 3 个以上红色注意力点？ 5. 普通正文页是否出现大红底、大红条、大红卡？ 6. 标题区、主体区、页脚区比例是否稳定？ 7. 页脚是否弱化且位置稳定？ 8. 主体",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "13.6",
+        "行列",
+        "信息",
+        "适合",
+        "阅读",
+        "汇报",
+        "禁止",
+        "学术"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "User: 16.2 核心判断页 - 左侧或上方主判断； - 中部 3–4 个支撑判断； - 一个轻量建议区； - 主判断用细红边或红关键词； - 不使用大红满底主卡。 ### 16.3 流程 / 路线页 - 横向推进； - 灰色箭头； - 阶段节点统一； - 最终节点红色强调； - 底部放轻量门槛或验收口径。 ### 16.4 架构 / 能力页 - 主图居中或偏左； - 右侧洞察栏不超过 32%； - 层级或连接关系清晰； - 中心节点可作为唯一红色锚点； - 避免线条过多交叉。 ### 16.5 决策 / 收口页 - 拍板项或最终判断独立突出； -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "16.2",
+        "16.3",
+        "16.4",
+        "16.5",
+        "核心",
+        "判断",
+        "左侧",
+        "上方"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "Assistant: 可以落实，而且这版比当前 `visual_rules.md` 更完整、更边界清晰。我的判断：**可落地性 8.5/10**。 但建议 **合并沉淀，不要直接整文件覆盖**。原因是当前 Skill 里已有 0517 模板沉淀、v0.3.3/v0.3.5 规则和历史上下文，直接覆盖会丢失部分资产来源说明。 ## 1. 可以直接落实的部分 这些规则已经足够明确，可以直接进入 `templates/visual_rules.md`： - 总体视觉定位； - 色彩规则； - 标题区 / 主体区 / 页脚区比例； - 字号建议； - 红色锚点规",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "visual-rules.md",
+        "8.5/10",
+        "v0.3.3/v0.3.5",
+        "templates/visual-rules.md",
+        "可以",
+        "落实",
+        "而且",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "Assistant: decision_items_independent: table_as_support_only: ``` 否则模型生成时可能“知道规则但执行不稳定”。 ## 3. 应放在 visual_rules，但不应放在 deck_spec 的内容 这版开头写得很好： > 不承担：内容事实校验、deck_spec 字段解释、生成流程控制、评分规则、证据溯源、页面文案改写。 这个边界是对的。 建议保持： - `visual_rules.md`：只管视觉； - `chart_patterns.md`：管图表类型和数据结构； - `layout_",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "decision-items-independent",
+        "table-as-support-only",
+        "visual-rules",
+        "deck-spec",
+        "visual-rules.md",
+        "chart-patterns.md",
+        "否则",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "Assistant: 5%~10%。 4. **第 14 节页面自检清单** - 可以保留在 `visual_rules.md`； - 但正式评分仍应放在 `eval/visual_scorecard.md`。 ## 6. 推荐落地方式 我建议这样处理： 1. 不直接覆盖当前 `templates/visual_rules.md`； 2. 以这份为主干，合并当前已有 0517 / v0.3.5 沉淀内容； 3. 同步检查： - `layout_library.md` - `chart_patterns.md` - `visual_scorecard.md",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "visual-rules.md",
+        "eval/visual-scorecard.md",
+        "templates/visual-rules.md",
+        "v0.3.5",
+        "layout-library.md",
+        "chart-patterns.md",
+        "visual-scorecard.md",
+        "清单"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e6fb4216530b2f3ab3943c08f7] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 同意，启动落地",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "同意",
+        "启动",
+        "落地"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "Assistant: 同意落地。我按“重构合并”做，不简单覆盖：保留现有 0517/v0.3.5 沉淀，同时把 `visual_rules_v0.2` 作为新版主干落到 Skill 资产，并同步版本与报告。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "0517/v0.3.5",
+        "visual-rules-v0.2",
+        "同意",
+        "落地",
+        "合并",
+        "简单",
+        "覆盖",
+        "保留"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "Assistant: 已启动并完成落地，版本升级为： `huawei_ppt_master v0.3.6-visual-rules-refactor` 本次不是简单覆盖，而是按你确认的方式做了 **重构合并**： 1. 已重构： - `skills/huawei_ppt_master/templates/visual_rules.md` 2. 已同步关联资产： - `prompts/generate_page_design.md` - `core/output_contracts.md` - `core/generation_workflow.md` -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "v0.3.6-visual-rules-refactor",
+        "prompts/generate-page-design.md",
+        "core/output-contracts.md",
+        "core/generation-workflow.md",
+        "启动",
+        "完成",
+        "落地"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e48cea904a4b3713e8ebe196f0] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 启动推进 Phase 0",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "启动",
+        "推进",
+        "phase"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 我按已确认边界推进 Phase 0：只做方案冻结与草案落地，不改 `huawei_ppt_master`，也不把 `page_render_spec` 接入默认交付链。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "page-render-spec",
+        "确认",
+        "边界",
+        "推进",
+        "phase",
+        "只做",
+        "方案"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]Phase 0 已推进完成。已按约束只做方案冻结，未修改 Skill，未接入默认链路。 产物目录： `project/work/page_render_spec_phase0/` 文件清单： - `positioning_note_v0.1.md` - `page_render_spec_schema_draft_v0.1.json` - `light_full_trigger_rules_v0.1.md` - `a_c_boundary_plan_v0.1.md` - `README.md`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "positioning-note-v0.1.md",
+        "light-full-trigger-rules-v0.1.md",
+        "a-c-boundary-plan-v0.1.md",
+        "readme.md",
+        "phase",
+        "推进",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e49743ee0b4b16d94547e6e478] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 启动推进 Phase 1，除了三页样例 page\\_render\\_spec ，包括其他交付物：deck\\_spec.json,page\\_copy\\_v0.1.md,page\\_design\\_v0.1.md，依赖：visual\\_rules.md，chart\\_patterns.md，wording\\_rules.md，layout\\_library.md",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "spec.json",
+        "v0.1.md",
+        "rules.md",
+        "patterns.md",
+        "library.md",
+        "启动",
+        "推进"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 收到。我会把 Phase 1 做成一个可评审交付包：三页样例 `page_render_spec` + 现有三类上游产物 + 指定四个依赖文件；仍然不改 Skill、不接入默认链路。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "page-render-spec",
+        "收到",
+        "phase",
+        "做成",
+        "一个",
+        "评审",
+        "交付",
+        "现有"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]Phase 1 已完成。 交付目录： `project/work/page_render_spec_phase1/` 包含： - 三页样例： - `page_render_specs/P07_page_render_spec_v0.1.json` - `page_render_specs/P08_page_render_spec_v0.1.json` - `page_render_specs/P14_page_render_spec_v0.1.json` - `page_render_spec",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "page-render-spec",
+        "phase",
+        "完成",
+        "交付",
+        "目录",
+        "project",
+        "page-render-spec-phase1"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 边界； 2. **Phase 3**：进入 C 端消费验证，看 builder 能否真正吃 `page_render_spec`。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "page-render-spec",
+        "边界",
+        "phase",
+        "进入",
+        "消费",
+        "验证",
+        "builder",
+        "能否"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e49e4d014a8b30965bd4766ec2] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 发现几个问题： 1.deck_spec.json，文件每个字段的作用，角色C能理解吗？ 2.同理，page_render_spec_samples_v0.1.json。文件中每个字段的作用是什么，角色C能理解怎么用吗，是直接可以拿来渲染，还是需要角色C理解后转换？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "1.deck-spec.json",
+        "2.同理",
+        "发现",
+        "几个",
+        "问题",
+        "deck-spec.json",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 你这个问题抓得很准。现在 Phase 1 的两个 JSON **还不是“C 端零理解直接渲染”的最终协议**；它们更像 A 给 C 的“语义合同 + 构造约束”。我先把缺口补成文档化交付：字段字典、C 端消费方式、哪些字段可直用/需转换/仅校验。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "哪些字段可直用/需转换/仅校验",
+        "这个",
+        "问题",
+        "得很",
+        "现在",
+        "phase",
+        "不是",
+        "理解"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]你说得对，这是关键缺口。 结论先说： 1. `deck_spec.json` **不是直接渲染协议**，而是“页面语义合同”。角色 C 需要理解后转换。 2. `page_render_spec_samples_v0.1.json` **比 deck_spec 更接近渲染**，但仍不是 shape 级指令，也需要 C 端 adapter / render planner 转换。 3. 如果要“直接可渲染”，下一层应补 `normalized_render_model.json`，再往下才是 `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "deck-spec.json",
+        "deck-spec",
+        "normalized-render-model.json",
+        "说得",
+        "关键",
+        "缺口",
+        "结论"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 端说明文档 - 未修改 `skills/huawei_ppt_master/*` 我建议下一步不要直接进 Phase 2，先做一个 **Phase 1.1：normalized_render_model 三页样例**，把 P7/P8/P14 从“语义+约束”进一步转换成 C 更容易执行的 region/component/style/validation 模型。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "skills/huawei-ppt-master",
+        "1.1",
+        "normalized-render-model",
+        "p7/p8/p14",
+        "说明",
+        "修改",
+        "skills",
+        "huawei-ppt-master"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e4b7015bc8cb37c0e78d394360] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 终止该方案，角色C验证之后，发现落地效果差 本轮仅把deck_spec.json的字段字典说明文档：deck_spec_field_dictionary落地（文件定位，顶层字段，slide 字段三段核心内容即可），后续作为你的正式交付物之一 任务是否清晰",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "本轮仅把deck-spec.json的字段字典说明文档",
+        "deck-spec-field-dictionary落地",
+        "终止",
+        "方案",
+        "角色",
+        "验证",
+        "之后"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "User: Continue the OpenClaw runtime event.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "continue",
+        "openclaw",
+        "runtime",
+        "event"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e686e7568a4b127a1d5d56b176] ou_bcdd8c3d71c586efd32d2a102ab0a51a: deck_spec.json优化，请分析是否可行可落实 1.新增字段：本页唯一核心判断是什么？ 2.新增字段：本页 chart_type 必须证明什么？管 chart_type 的视觉表达边界",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "deck-spec.json优化",
+        "1.新增字段",
+        "2.新增字段",
+        "chart-type",
+        "deck-spec.json",
+        "分析",
+        "是否"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "Assistant: 可行，而且很有价值。这个优化能解决一个核心问题：**现在 deck_spec 有 chart_type，但缺少“这个图到底要证明什么”的强约束**，导致 Builder/图片生成时容易把图表画成“结构正确但论证无力”。 ## 结论 建议落实，但字段命名要稍微调整： 你提的两个方向都对： 1. **本页唯一核心判断是什么？** 2. **本页 chart_type 必须证明什么？管 chart_type 的视觉表达边界** 建议落成 3 个字段，而不是 2 个字段： ```json \"core_judgement\": \"\", \"cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "deck-spec",
+        "chart-type",
+        "builder/图片生成时容易把图表画成",
+        "core-judgement",
+        "可行",
+        "而且",
+        "很有",
+        "价值"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "Assistant: ### 可落实性 很高。 这会显著提升图表生成质量。 --- ## 3. 新增字段：`chart_visual_boundary` ### 作用 约束该图表不能怎么画。 不要把它写进 `chart_type` 本身。 `chart_type` 仍然只负责枚举，比如： ```json \"chart_type\": \"roadmap_timeline_chart\" ``` 视觉边界单独写： ```json \"chart_visual_boundary\": [ \"不得画成三张并列计划卡\", \"必须体现阶段门槛和验收产出\", \"不得让红色贯穿",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "chart-visual-boundary",
+        "chart-type",
+        "roadmap-timeline-chart",
+        "落实",
+        "很高",
+        "显著",
+        "提升",
+        "图表"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "Assistant: \"证明三阶段之间存在产出继承关系，后一阶段必须依赖前一阶段的模型资产、数据口径和验证机制\", \"chart_visual_boundary\": [ \"不得画成三张并列计划卡\", \"必须体现每阶段验收产出\", \"必须体现进入下一阶段的门槛\", \"红色只能用于最终复制节点或关键门槛\", \"不得使用厚重红色时间轴\" ], \"layout_pattern\": \"roadmap_timeline\" } ``` --- ## 需要同步修改的资产 如果要正式落地，建议改这些： 1. `core/output_contracts.md` - 更新",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "chart-visual-boundary",
+        "layout-pattern",
+        "roadmap-timeline",
+        "core/output-contracts.md",
+        "证明",
+        "阶段",
+        "之间",
+        "存在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "Assistant: 建议它只写 **3~5 条短约束**，格式统一： ```json \"chart_visual_boundary\": [ \"不得...\", \"必须...\", \"优先...\", \"红色只能...\" ] ``` --- ## 最终判断 **可行，建议落实。** 它补的是当前 deck_spec 最关键的缺口： 从“告诉 Builder 画什么图”，升级为“告诉 Builder 这个图必须证明什么、不能画偏成什么”。 如果你确认，我建议下一步升级为： ```text v0.3.7-deck-spec-proof-contract ```",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "chart-visual-boundary",
+        "deck-spec",
+        "v0.3.7-deck-spec-proof-contract",
+        "建议",
+        "只写",
+        "约束",
+        "格式",
+        "统一"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e687c8feca4b25025741b61843] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 启动落地",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "启动",
+        "落地"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-26.txt:73:73": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-26.txt:73:73",
+      "path": "memory/.dreams/session-corpus/2026-05-26.txt",
+      "startLine": 73,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "Assistant: 收到，启动落地。我会按 `v0.3.7-deck-spec-proof-contract` 做：更新 deck_spec 契约、生成流程、deck_spec 提示词、图表规则、自检门禁和版本索引，并写落地报告。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "0011facb946d"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "v0.3.7-deck-spec-proof-contract",
+        "deck-spec",
+        "收到",
+        "启动",
+        "落地",
+        "v0.3.7",
+        "deck",
+        "spec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 已完成落地，版本升级为： `huawei_ppt_master v0.3.7-deck-spec-proof-contract` 本次新增并固化了 deck_spec 每页 3 个字段： ```json \"core_judgement\": \"本页唯一核心判断\", \"chart_proof_goal\": \"本页主图表必须证明什么\", \"chart_visual_boundary\": [ \"不得退化为什么\", \"必须体现什么\", \"红色/主次/结构如何控制\" ] ``` 已同步修改资产： 1. `SKILL.md` 2. `core/o",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "v0.3.7-deck-spec-proof-contract",
+        "deck-spec",
+        "core-judgement",
+        "chart-proof-goal",
+        "chart-visual-boundary",
+        "红色/主次/结构如何控制",
+        "skill.md"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: `chart_type/layout_pattern` 枚举，未改变默认交付链路，只增强 deck_spec 证明约束。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "chart-type/layout-pattern",
+        "deck-spec",
+        "chart-type",
+        "layout-pattern",
+        "枚举",
+        "改变",
+        "默认",
+        "交付"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e681352f4a0b2c767dfb207a7b] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 在优化这一版提示词：提供三个输入： deck_spec.json / page_design.md / 视觉规则visual_rules.md ，给角色C生成PPT图片 请基于当前 deck_spec.json 和 page_design_v0.1.md 生成华为风格 PPT 页面图片。 优先级： 1. deck_spec.json 决定每页标题、结论、内容、chart_",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "deck-spec.json",
+        "page-design.md",
+        "视觉规则visual-rules.md",
+        "page-design-v0.1.md",
+        "提示",
+        "提供",
+        "输入"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: 总结页必须形成最终定义或最终判断框架； - 底部结论必须提供增量，不得重复标题； - 右侧洞察栏最多 1 句结论 + 3 条短要点，必须解释主图。 生成后自检： 如发现红色锚点分散、正文页红底过重、卡片同权、图表不支撑标题、案例素材墙、决策表吞没结论、路线图无门槛、总结页无定义，请直接重绘该页，不要解释原因。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "总结",
+        "必须",
+        "形成",
+        "最终",
+        "定义",
+        "判断",
+        "框架",
+        "底部"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 清晰。我会终止 `page_render_spec / normalized_render_model` 这条方案线；本轮只落地一个精简版 `deck_spec_field_dictionary`，三段内容：文件定位、顶层字段、slide 字段，并把它作为后续正式交付物之一。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "page-render-spec",
+        "normalized-render-model",
+        "deck-spec-field-dictionary",
+        "清晰",
+        "终止",
+        "方案",
+        "落地",
+        "一个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]清晰，而且我已按这个边界落地了。 本轮处理结果： - 终止 `page_render_spec / normalized_render_model` 方案线； - 仅新增正式交付物说明文档： `skills/huawei_ppt_master/core/deck_spec_field_dictionary.md` 文档只包含三段： 1. 文件定位 2. 顶层字段 3. slide 字段 已确认没有继续推进角色 C 渲染转换方案。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "page-render-spec",
+        "normalized-render-model",
+        "清晰",
+        "而且",
+        "这个",
+        "边界",
+        "落地"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e4b30d28080b3e07ad8c4e93e9] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 项目readme文档已有内容，结合项目情况，保持结构，刷新内容，同时做好版本管理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "项目",
+        "readme",
+        "已有",
+        "内容",
+        "结合",
+        "情况",
+        "保持"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 清楚。我会保留 README 的原有章节骨架，刷新为当前项目状态，并同步版本号与清单；这次只围绕 `deck_spec_field_dictionary` 正式化，不再写入 page_render_spec 方案。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "deck-spec-field-dictionary",
+        "page-render-spec",
+        "清楚",
+        "保留",
+        "readme",
+        "原有",
+        "章节",
+        "骨架"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]已完成。 本次按“保持 README 结构、刷新内容、做好版本管理”处理： 更新文件： - `skills/huawei_ppt_master/README.md` - `skills/huawei_ppt_master/SKILL.md` - `skills/huawei_ppt_master/VERSION.md` - `skills/huawei_ppt_master/CHANGELOG.md` - `skills/huawei_ppt_master/INDEX.md` - `skill",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "完成",
+        "本次",
+        "保持",
+        "readme",
+        "结构",
+        "刷新",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6eb65f66e4a4c4a738ca51bcf3a] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 对于存在chart\\_type\\+trend\\_curve的场景，优化建议：新增图表语义解释字段chart\\_semantic\\_mapping，大致想法如下： \\| 项目 \\| 说明 \\| \\| \\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\- \\| \\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "对于",
+        "存在",
+        "chart",
+        "type",
+        "trend",
+        "curve",
+        "场景"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: \\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\- \\| \\| \\`chart\\_reading\\_intent\\` \\| 图表到底要让读者得出什么判断 \\| \\| \\`main\\_visual\\_logic\\` \\| 主图应该怎么证明判断 \\| \\| \\`axis\\_semantics\\` \\| 坐标轴/矩阵/趋势语义是否成立 \\| \\| \\`stage\\_or\\_node\\_meaning\\` \\| 阶段、节点、卡片不是空标签 \\| \\| \\`insight\\_panel\\_logic\\` \\| 右侧洞察栏解释主图，而非备注 \\",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "坐标轴/矩阵/趋势语义是否成立",
+        "chart",
+        "reading",
+        "intent",
+        "图表",
+        "到底",
+        "读者",
+        "得出"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]可行，而且方向是对的。这个字段比之前 `page_render_spec` 更适合落地，因为它仍然属于 **deck_spec 语义合同增强**，不是渲染 DSL，不会把 A/C 边界搞复杂。 ## 1. 可行性判断 建议新增： `chart_semantic_mapping` 定位：补足 `chart_type + chart_proof_goal` 之间的“图表如何证明判断”的解释层。 它解决的问题很明确： - `chart_type = trend_curve` 时，C 只知道“画趋势图",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "page-render-spec",
+        "deck-spec",
+        "a/c",
+        "chart-semantic-mapping",
+        "chart-type",
+        "chart-proof-goal",
+        "trend-curve"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: \"chart_semantic_mapping\": { \"chart_reading_intent\": \"\", \"main_visual_logic\": \"\", \"axis_semantics\": {}, \"stage_or_node_meaning\": {}, \"insight_panel_logic\": [], \"forbidden_visualization\": [] } ``` 我建议字段边界这样定： | 字段 | 定位 | |---|---| | `chart_reading_intent` | 读者看完图后必须得出的判断",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "chart-semantic-mapping",
+        "chart-reading-intent",
+        "main-visual-logic",
+        "axis-semantics",
+        "stage-or-node-meaning",
+        "insight-panel-logic",
+        "forbidden-visualization",
+        "建议"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 4. `templates/chart_patterns.md` 增加各类高风险 chart_type 的 semantic mapping 示例，尤其 `trend_curve` 5. `eval/visual_scorecard.md` 增加检查项：图表语义映射是否成立 ### 版本管理同步 6. `README.md` 7. `VERSION.md` 8. `CHANGELOG.md` 9. `INDEX.md` 10. `PACKAGE_MANIFEST.md` ## 5. 推荐阶段 建议作为： `v0.3.9-chart-",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "templates/chart-patterns.md",
+        "chart-type",
+        "trend-curve",
+        "eval/visual-scorecard.md",
+        "readme.md",
+        "version.md",
+        "changelog.md",
+        "index.md"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6eb67081f0a4b3be6e1544d5709] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 确认，启动落地",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "确认",
+        "启动",
+        "落地"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 确认，开始按 `v0.3.9-chart-semantic-mapping` 落地。边界我会守住：只增强 `deck_spec` 语义证明，不恢复 `page_render_spec / normalized_render_model`，不新增渲染 DSL。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:44.386Z",
+      "lastRecalledAt": "2026-05-28T19:00:44.386Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "v0.3.9-chart-semantic-mapping",
+        "deck-spec",
+        "page-render-spec",
+        "normalized-render-model",
+        "确认",
+        "开始",
+        "v0.3.9",
+        "chart"
       ]
     }
   }

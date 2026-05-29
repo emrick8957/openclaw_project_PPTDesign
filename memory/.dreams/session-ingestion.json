@@ -20,7 +20,7 @@
       "size": 1089382,
       "contentHash": "3bfd1a8bfc9a0b9e79901490a89b742fd3e935c694770b0345022872b16ddc22",
       "lineCount": 85,
-      "lastContentLine": 48
+      "lastContentLine": 72
     },
     "feishu-4:sessions/feishu-4/40cc0e5d-c624-4973-9380-eea91429bbb8.jsonl": {
       "mtimeMs": 1778951781430,
@@ -50,7 +50,7 @@
       "lineCount": 86,
       "lastContentLine": 86
     },
-    "feishu-4:sessions/feishu-4/74b25753-c26f-417c-89b4-c9725f468425.jsonl": {
+    "feishu-4:sessions/feishu-4/74b25753-c26f-417c-89b4-c9725f468425.jsonl.reset.2026-05-28T04-43-54.465Z": {
       "mtimeMs": 1779897005230,
       "size": 392389,
       "contentHash": "9b4e04a8b7d96d21bdc2971349432d8b00ef2a9bce7cbc10eda46df304cd5fa0",
@@ -77,6 +77,13 @@
       "contentHash": "f932ba22e28135cd2b475fedb752e9b1d5b7629092d67a130bc92cc2b3af61cf",
       "lineCount": 1,
       "lastContentLine": 1
+    },
+    "feishu-4:sessions/feishu-4/cc65624e-9eec-4f5d-bf34-95704205f453.jsonl": {
+      "mtimeMs": 1779967981571,
+      "size": 928376,
+      "contentHash": "7c009e7795e56c6f10ebab2d9cafa8bfd7381bf96d2a4210b183dc6a8c35b1b7",
+      "lineCount": 29,
+      "lastContentLine": 24
     },
     "feishu-4:sessions/feishu-4/cf04a923-59ab-4962-88c7-4da96b9a6d49.jsonl.reset.2026-05-17T01-56-32.964Z": {
       "mtimeMs": 1778952466735,
@@ -332,7 +339,31 @@
       "a37d0f8826cab0069e3f4e1273a8d87bbc35ff6a",
       "fea1d2133e3258b9f3564432580997e57df08a3e",
       "d16170c8fae7e99859436a23af29e48c4e4bbed5",
-      "c6f6bd08fbfca27cabb07a36ab2de391d2669888"
+      "c6f6bd08fbfca27cabb07a36ab2de391d2669888",
+      "532c976d61cf1856b510b77b4e0a22e0206f60e9",
+      "a4e8b2501b60809b1e3523aa47c83a75f18a9a72",
+      "04d51c457a2403bbc3c80cbe96c32f3f2ed35852",
+      "fc85b602f55585c743c4a64a47e35db7e83be486",
+      "27b85bfaffbdc156db8caa7e86c92211968dcaa6",
+      "73684e329f2722d8e10dfdf0d0400faccc1fae4e",
+      "359cf3c88ba917ad53a42f29e1ea4ec5d3d799e3",
+      "b5825c4de6b4ee76b9661e8e04445ab9c8c22b3c",
+      "ef9d446792f374ca711a9855efe4dc6e7d86c918",
+      "5d1d1f8b49af2fbacc2fed568c1ffd282aaa6ecd",
+      "e55db3cb9b4823d444bd1aac3ccc45aeeab7402d",
+      "341fe7887126a4a7dde6a90c8c910acfcdc43305",
+      "182c4d47e014c13fd2abcf1cbefbfd0ded16f4af",
+      "a7b2b22445cf4d1494a62a0b5cae2d48cf4876c5",
+      "82ce066fe9446fabb20d115e980df6bff41f8304",
+      "be0b1ebafb6ab495d52cce8230754f959e0ab732",
+      "689981d8d6348f52863a6f47f1790394ccd9377f",
+      "5ecf3b88b3dc976f6fef1189ef8e6a044475cf47",
+      "4aa3a3866acfe40920bd6314eb19298322878dba",
+      "58397ff2491a584aea5c91160c01963d552ccdf6",
+      "97d29d7d808f81c7ba7ae859a890cf248790c286",
+      "2a3db8bcb0cd47720205d528e117158340588878",
+      "ceafd020991009bf0ddc50e22624bbf60de6d5cb",
+      "e29d397a628ae33052a67aab3c26169e8d14e52a"
     ],
     "feishu-4:74b25753-c26f-417c-89b4-c9725f468425": [
       "28b7a941ad16b817da686f10cdfa904fc206170f",
@@ -358,6 +389,32 @@
       "d6b0837e886f9f81c8edffec6c706a07c6910f84",
       "d4c905be68f1b775236ddfe115afd3416d4b3552",
       "fc69de57e31316be8ea9bf673cc03445c81a67e2"
+    ],
+    "feishu-4:cc65624e-9eec-4f5d-bf34-95704205f453": [
+      "348226208b16d9d31313eba754e4c3c87364bfe6",
+      "0f29e2707c9d5f48e50cd9e76536969a1f8dc3bd",
+      "b0de9e68af83cf076585c45c253f7e10c315c587",
+      "9eee5dd21b3c636dbd0c14f5361268670874d894",
+      "943e473badc48cf70fe5576d262a39b35aae9d64",
+      "94004c8215cc50684e71ce728e72aed5a87d192f",
+      "dbde32c26cee4e1ed807088397c3ee2f1b91ffd6",
+      "3f01fecf4d325544f8126fda6145209370d52a30",
+      "110ef476fc5a7e370adaafc6280aeb08f79e264f",
+      "388c0989d2d86e107589368f79886615216c59de",
+      "704247874458d9b2d68bb9d837fa82a8c0132a60",
+      "729afe4f0a30b703ea5d4a3554691fc11267d632",
+      "cfe13c040e75bec1eedb03d426257aa97cbb48ea",
+      "5833b56936a4849c030ed3d2ba3d71f6e7d583df",
+      "f31643b4218520a8514147e4856565015fcb42d8",
+      "cc6e2dcbeec5228bda13a47bec8d8da766885371",
+      "49834c502754650960e0bb7bcf5107ab264c250d",
+      "aedd6abccf67b379976f039d03cfadcec3b7b0cb",
+      "173a108db1c984a7d34c291c66ee5234cae3ef6e",
+      "c59d68436032b23eabf08339b3ae31ae229150b3",
+      "6c864eb621fc6301dd3b689d9689a8ebc764737b",
+      "d27c48d4eb6c055248eee0889f5506ba6d38a01e",
+      "7bf12416330a6e0d25d50c0d40963b80c5fa24e4",
+      "95df93e6d9205a7096b1b79afa9996ff1085796e"
     ]
   }
 }

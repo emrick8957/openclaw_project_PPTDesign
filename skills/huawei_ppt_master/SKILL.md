@@ -1,6 +1,6 @@
 ---
 name: huawei_ppt_master
-version: 0.3.8-deck-spec-field-dictionary
+version: 0.3.9-chart-semantic-mapping
 description: 通用华为风格 PPT 生成 Skill。根据用户输入生成 PPT 大纲、逐页文案、页面设计说明与 deck_spec.json；支持从用户持续提供的 PPT、PPT 图片、模板、文本材料中学习样式、结构、表达习惯、内容套路和方法论框架，并分层沉淀后稳定复用。AI算力、昇腾/NVIDIA、公安政务、AI平台、持续运营等仅作为条件触发主题包，不作为默认主题限制。
 ---
 
