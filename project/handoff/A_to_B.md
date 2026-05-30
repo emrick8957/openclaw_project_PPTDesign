@@ -1,37 +1,50 @@
-# A_to_B handoff：page_render_spec / normalized_render_model 方案终止清理
+# A_to_B handoff：AI_MBSE v0.4.0 全链路交付
 
-## 当前状态
+## 任务
 
-`page_render_spec` / `normalized_render_model` 方案已终止，不再作为 `huawei_ppt_master` 的后续推进方向，也不进入默认交付链路。
+基于 PDF `examples/人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用.pdf`，按 huawei_ppt_master v0.4.0 全链路生成华为风格 PPT 输入材料。
 
-## 本次清理动作
+## 叙事结构
 
-已将历史探索产物归档到：
+四段式：Background → Catalyst → Application → Trends。
 
-`deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/`
+## 当前交付
 
-归档内容包括：
+工作区主文件：
 
-- `project/work/page_render_spec_phase0/`
-- `project/work/page_render_spec_phase1/`
-- `project/work/generate_page_render_spec_phase1.py`
-- `deliverables/page_render_spec_phase1_delivery.zip`
+- `project/work/core_content_analysis_v0.1.md`
+- `project/work/outline_v0.1.md`
+- `project/work/page_copy_v0.1.md`
+- `project/work/page_design_v0.1.md`
+- `project/work/deck_spec_v0.1.json`
+- `project/work/source_evidence_manifest_v0.1.json`
+- `project/work/self_check_v0.1.md`
 
-归档清单：
+交付目录：
 
-`deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/ARCHIVE_MANIFEST.json`
+- `project/work/AI_MBSE_v040_full_chain_delivery/`
 
-## 当前正式方向
+交付 zip：
 
-后续仅保留并维护简洁版：
+- `deliverables/AI_MBSE_v040_full_chain_delivery.zip`
+- `deliverables/AI_MBSE_v040_part1_P1-P6.zip`
+- `deliverables/AI_MBSE_v040_part2_P7-P12.zip`
 
-`skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`
+## 核心结论
 
-其定位是解释 `deck_spec.json` 的文件定位、顶层字段和 slide 字段职责，帮助角色 C 理解 deck_spec；不是渲染 DSL，不恢复 `page_render_spec` / `normalized_render_model`。
+AI+MBSE 的核心不是引入单点算法，而是建立可被 AI 读取、验证、解释、回写并受控治理的工程模型体系。
 
-## 边界声明
+## B 侧重点看
 
-- 未删除历史产物，仅归档移动；
-- 未修改 `skills/huawei_ppt_master/*` 正式资产；
-- 不再建议 Phase 1.1 / Phase 2 / Phase 3 等 page_render_spec 后续阶段；
-- 后续如需角色 C 消费，应围绕 `deck_spec_field_dictionary.md` 和现有 `deck_spec.json` 语义合同推进，而不是恢复 page_render_spec。
+1. v0.4.0 模板印章检测是否真正避免字段机械套版；
+2. `chart_proof_goal` 是否均为关系证明而非关键词拼接；
+3. `chart_visual_boundary` 是否逐页吸收图表专属风险；
+4. deck_spec 的 chart_type / layout_pattern 是否可被 Builder 消费；
+5. 四段式结构是否符合用户指定的 Background / Catalyst / Application / Trends。
+
+## 边界
+
+- 未生成 PPTX；
+- 未使用 `page_render_spec`；
+- 未使用 `normalized_render_model`；
+- 未新增渲染 DSL。

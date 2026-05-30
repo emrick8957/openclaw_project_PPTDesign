@@ -1,4 +1,4 @@
-# huawei_ppt_master Skill v0.3.9
+# huawei_ppt_master Skill v0.4.2
 
 `huawei_ppt_master` 是一个通用华为风格 PPT 生成 Skill，用于生成：
 
@@ -7,6 +7,64 @@
 3. 页面设计说明；
 4. `deck_spec.json`；
 5. 后续 PPTX 生成所需的结构化输入与字段说明。
+
+
+## v0.4.2 relation-roles 关系角色结构化枚举
+
+v0.4.2 在 v0.4.1 字段可见性基础上，解决高语义风险关系图（双分支 / 同层对应 / 层级支撑 / 闭环，如 V 模型）的关系可消费性问题：把关系语义从散文升级为角色 C 可消费的语义级枚举，仍归 `chart_semantic_mapping`，不进 chart_data、不新增渲染 DSL。
+
+核心规则：
+
+1. 同层对应只由 `chart_semantic_mapping.correspondence_pairs` 承载（唯一事实源）；`edge_roles` 不得出现 `same_level_correspondence`；
+2. `edge_roles` 把方向性边按语义角色（flow_decompose / flow_integrate / lifecycle_close / feedback_loop）归组，边引用为结构化 `{"from":<id>,"to":<id>}`；
+3. `edge_roles` 的边、`correspondence_pairs` 的 id 必须命中 `chart_data` 已存在的边/节点，不得影子引用；
+4. 关系角色名不得回写 `chart_data`；`chart_data` 内仍禁止 `relation_type` 等 DSL 字段。
+
+同步资产：`core/deck_spec_field_dictionary.md`（§4.7）、`core/output_contracts.md`、`prompts/deck_spec_generation.md`、`templates/chart_patterns.md`、`eval/visual_scorecard.md`、`eval/regression_cases.md`。
+
+已知留项（P3，本版未处理）：`edge_roles` 词表未闭合、回归未全量补强、角色 C 依赖未声明且兜底散文未强制，后续独立小补丁跟进。
+
+边界说明：本版本不恢复 `page_render_spec` / `normalized_render_model`，不新增 PPTX 渲染 DSL。
+
+## v0.4.1 chart-data-visibility 字段可见性门禁
+
+v0.4.1 在 v0.4.0 防机械套版门禁基础上，补齐 `chart_data` 字段可见性边界，避免角色 C 将逻辑字段误渲染为页面可见标签。
+
+核心规则：
+
+1. `group`、`emphasis`、`source_status` 等 logic-only 字段只用于分组、样式强弱或来源状态判断，不得字面上屏；
+2. 可见分组标题必须使用 `label`、`name`、`headline`、`display_text`、`lane.name`、`layer.name` 或 `stage.name` 等显示内容字段；
+3. `edges.label` 可作为短动作词或短关系词上屏，但复杂方向、同层对应、层级支撑、闭环回写等关系语义必须进入 `chart_semantic_mapping`；
+4. `label` / `name` / `headline` / `items` / `edges.label` 应短语化，过长说明应放入 `description`、`speaker_notes` 或 `chart_semantic_mapping`；
+5. 禁止在 `chart_data` 内新增 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等渲染或关系 DSL 字段。
+
+同步资产：`core/deck_spec_field_dictionary.md`、`core/output_contracts.md`、`templates/chart_patterns.md`、`prompts/deck_spec_generation.md`、`eval/acceptance_checklist.md`、`eval/regression_cases.md`、`eval/visual_scorecard.md`。
+
+边界说明：本版本不恢复 `page_render_spec` / `normalized_render_model`，不新增 PPTX 渲染 DSL。
+
+## v0.4.0 anti-template-stamp-gate 防机械套版门禁
+
+v0.4.0 在 deck_spec 证明契约和 `chart_semantic_mapping` 基础上，新增字段差异化与模板印章检测，解决“JSON 合法、枚举合法、字段齐全，但多页设计说明机械重复”的问题。
+
+新增资产：
+
+- `core/field_differentiation_rules.md`：字段差异化单一真相源，定义哪些字段必须承载逐页设计决策，哪些字段可下沉为全局默认；
+- `eval/template_stamp_detection.md`：模板印章检测门禁，使用混合阈值模型和正反例检测重复字段、字面复述、骨架填词和伪差异化。
+
+核心规则：
+
+1. `core_judgement` 不得等于 `conclusion`，也不得只是固定前缀 + `conclusion`；允许正当提炼；
+2. `chart_proof_goal` 必须说明主图证明的因果、对比、演进、闭环、分层、决策或权衡关系；
+3. `chart_visual_boundary` 必须结合本页图表风险和 `chart_semantic_mapping.forbidden_visualization`；
+4. 重复检测使用混合阈值：N<=3 两两比较，N>=4 使用 `repeat_threshold=max(3,ceil(N*0.5))`；
+5. page_design 可拆为 `global_design_defaults + page_design_overrides`，但必须保留每页独立可读视图。
+
+边界说明：
+
+- 不恢复 `page_render_spec` / `normalized_render_model`；
+- 不新增渲染 DSL；
+- 不要求所有字段都差异化；
+- 保留华为风格一致性，只约束必须承载逐页设计决策的字段。
 
 ## v0.3 核心升级
 

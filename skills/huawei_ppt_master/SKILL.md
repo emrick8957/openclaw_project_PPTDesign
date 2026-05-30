@@ -1,6 +1,6 @@
 ---
 name: huawei_ppt_master
-version: 0.3.9-chart-semantic-mapping
+version: 0.4.1-chart-data-visibility
 description: 通用华为风格 PPT 生成 Skill。根据用户输入生成 PPT 大纲、逐页文案、页面设计说明与 deck_spec.json；支持从用户持续提供的 PPT、PPT 图片、模板、文本材料中学习样式、结构、表达习惯、内容套路和方法论框架，并分层沉淀后稳定复用。AI算力、昇腾/NVIDIA、公安政务、AI平台、持续运营等仅作为条件触发主题包，不作为默认主题限制。
 ---
 
@@ -96,23 +96,26 @@ huawei_pptx_builder
 2. 读取 `core/generation_workflow.md`；
 3. 读取 `core/topic_router.md`；
 4. 读取 `core/output_contracts.md`；
-5. 读取 `core/anti_overfit_rules.md`；
-6. 读取 `core/audience_rules.md`；
-7. 若用户提供 PPT、PPT 图片、模板、文本材料或数据材料，读取 `core/reference_ingestion_workflow.md` 与 `core/reference_material_policy.md`；
-8. 根据 `topic_router` 判断是否加载某个 `domain_profiles/`；
-9. 若未命中明确主题包，默认只加载 `domain_profiles/default_general.md`；
-10. 读取 `templates/page_types.md`；
-11. 读取 `templates/narrative_patterns.md`；
-12. 读取 `templates/visual_rules.md`；
-13. 读取 `templates/chart_patterns.md`；
-14. 读取 `templates/wording_rules.md`；
-15. 若任务需要复用内容套路、论证框架或行业方法论，按需读取 `methodology_patterns/`；
-16. 读取 `visual_patterns/layout_library.md`；
-17. 按需读取具体版式模式文件；
-18. 生成输出；
-19. 读取 `eval/` 验收与回归测试；
-20. 若使用参考材料学习能力，必须使用 `eval/reference_learning_regression.md` 进行专项自检；
-21. 若主题未明确涉及 AI 算力/昇腾/NVIDIA，必须使用 `eval/domain_contamination_tests.md` 自检。
+5. 读取 `core/deck_spec_field_dictionary.md`；
+6. 读取 `core/field_differentiation_rules.md`；
+7. 读取 `core/anti_overfit_rules.md`；
+8. 读取 `core/audience_rules.md`；
+9. 若用户提供 PPT、PPT 图片、模板、文本材料或数据材料，读取 `core/reference_ingestion_workflow.md` 与 `core/reference_material_policy.md`；
+10. 根据 `topic_router` 判断是否加载某个 `domain_profiles/`；
+11. 若未命中明确主题包，默认只加载 `domain_profiles/default_general.md`；
+12. 读取 `templates/page_types.md`；
+13. 读取 `templates/narrative_patterns.md`；
+14. 读取 `templates/visual_rules.md`；
+15. 读取 `templates/chart_patterns.md`；
+16. 读取 `templates/wording_rules.md`；
+17. 若任务需要复用内容套路、论证框架或行业方法论，按需读取 `methodology_patterns/`；
+18. 读取 `visual_patterns/layout_library.md`；
+19. 按需读取具体版式模式文件；
+20. 生成输出；
+21. 读取 `eval/` 验收与回归测试；
+22. 读取 `eval/template_stamp_detection.md`；
+23. 若使用参考材料学习能力，必须使用 `eval/reference_learning_regression.md` 进行专项自检；
+24. 若主题未明确涉及 AI 算力/昇腾/NVIDIA，必须使用 `eval/domain_contamination_tests.md` 自检。
 
 不得跳过 `core/topic_router.md` 和 `core/anti_overfit_rules.md`。若存在参考材料，不得跳过 `core/reference_ingestion_workflow.md` 与 `core/reference_material_policy.md`。
 
@@ -220,6 +223,9 @@ domain_profiles/default_general.md
 5. 不允许把图表类型名写入 `layout_pattern`；
 6. 如果设想的表达方式没有精确匹配，必须降级到最接近的通用类型，并在 `visual_notes` 中补充，不得创造新枚举；
 7. 若字段边界不清，优先保证合法枚举和值域正确，再通过 `visual_notes` 补细节。
+8. 必须遵守 `core/field_differentiation_rules.md`，避免 `core_judgement`、`chart_proof_goal`、`chart_visual_boundary`、`visual_notes` 等字段机械套版。
+9. 生成后必须执行 `eval/template_stamp_detection.md`，若出现 FAIL，不得输出最终交付包。
+10. 必须遵守 `core/deck_spec_field_dictionary.md` 的 chart_data 字段可见性约定：`group`、`emphasis`、`source_status` 等 logic-only 字段不得字面上屏；复杂关系语义进入 `chart_semantic_mapping`，不得在 `chart_data` 内新增 `relation_type` 等 DSL 字段。
 
 ---
 
@@ -305,6 +311,7 @@ domain_profiles/default_general.md
 7. 不允许使用 `layout_pattern` 名称作为 `chart_type`。
 8. 不允许使用 `chart_type` 名称作为 `layout_pattern`。
 9. 如果无法判断，应优先选择更通用的 `chart_type`，并在 `visual_notes` 中说明不确定点。
+10. `chart_data` 中 `label` / `name` / `headline` / `items` / `edges.label` 等可见字段必须短语化；`edges.label` 只能承载短动作词或短关系词，复杂方向、对应、层级、闭环语义必须进入 `chart_semantic_mapping`。
 
 ---
 
@@ -333,9 +340,22 @@ eval/acceptance_checklist.md
 eval/visual_scorecard.md
 eval/domain_contamination_tests.md
 eval/reference_learning_regression.md
+eval/template_stamp_detection.md
 ```
 
-### 12.2 参考材料学习自检
+### 12.2 模板印章检测自检
+
+生成 `deck_spec.json`、逐页文案、页面设计说明或 `self_check` 后，必须执行 `eval/template_stamp_detection.md` 的模板印章检测，输出：
+
+1. 重复字段统计；
+2. 复述检测；
+3. 骨架填词检测；
+4. 设计增量检测；
+5. 允许重复项。
+
+若出现 FAIL，不得输出最终交付包，必须返工对应字段；若出现 WARN，必须在自检中说明风险和处理建议。
+
+### 12.3 参考材料学习自检
 
 若使用了 PPT、PPT 图片、模板、文本材料或数据材料，必须额外检查：
 

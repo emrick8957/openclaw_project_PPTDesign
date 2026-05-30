@@ -8,7 +8,10 @@
 - 主题路由规则：`skills/huawei_ppt_master/core/topic_router.md`
 - 防污染规则：`skills/huawei_ppt_master/core/anti_overfit_rules.md`
 - deck_spec 字段字典：`skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`
+- chart_data 字段可见性：`skills/huawei_ppt_master/core/deck_spec_field_dictionary.md` 中 “chart_data 字段通则与可见性约定”
 - 图表语义映射规则：`skills/huawei_ppt_master/templates/chart_patterns.md` 中 `chart_semantic_mapping` 章节
+- 字段差异化规则：`skills/huawei_ppt_master/core/field_differentiation_rules.md`
+- 模板印章检测：`skills/huawei_ppt_master/eval/template_stamp_detection.md`
 
 ## 快速用途
 
@@ -22,3 +25,7 @@
 - 想看“deck_spec.json 每个字段给角色 C 怎么理解” → 读 `core/deck_spec_field_dictionary.md`
 
 - 想看“trend_curve 等图表如何证明 chart_proof_goal” → 读 `templates/chart_patterns.md` 的 `chart_semantic_mapping` 章节
+- 想看“如何避免多页字段机械套版” → 读 `core/field_differentiation_rules.md` 与 `eval/template_stamp_detection.md`
+
+- 想看“group/edges.label/section 等字段是否应该上屏” → 读 `core/deck_spec_field_dictionary.md` 的 chart_data 字段可见性章节，并对照 `core/output_contracts.md` 的 deck_spec 强门禁。
+- 想看“V 模型等同层对应/双分支关系如何让角色 C 可消费” → 读 `core/deck_spec_field_dictionary.md` §4.7 关系角色结构化枚举（`correspondence_pairs` / `edge_roles`）。

@@ -1,18 +1,32 @@
 # status
 
-- task: page_render_spec / normalized_render_model termination cleanup
+- task: Phase 1 landing for chart_data field rules and visibility
 - status: completed
-- scheme_status: terminated
-- cleanup_mode: archive_only_no_deletion
-- skill_modified: false
-- default_chain_integrated: false
-- archive_dir: deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup
-- archive_manifest: deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/ARCHIVE_MANIFEST.json
-- archived_items:
-  - project/work/page_render_spec_phase0/
-  - project/work/page_render_spec_phase1/
-  - project/work/generate_page_render_spec_phase1.py
-  - deliverables/page_render_spec_phase1_delivery.zip
-- official_retained_asset: skills/huawei_ppt_master/core/deck_spec_field_dictionary.md
-- current_assessment: deck_spec_field_dictionary is the retained formal support asset; page_render_spec / normalized_render_model / rendering DSL are not continued
-- next_recommended_phase: none for page_render_spec; continue only with deck_spec semantic contract and field dictionary if needed
+- previous_patch: project/review/patch_proposals/chart_data_field_rules_and_visibility_patch_v0.2.md
+- landing_report: project/review/review_reports/chart_data_visibility_phase1_landing_report_v0.1.md
+- skill_version_after_landing: v0.4.1-chart-data-visibility
+- skill_modified_this_turn: true
+- modified_formal_assets:
+  - skills/huawei_ppt_master/SKILL.md
+  - skills/huawei_ppt_master/core/deck_spec_field_dictionary.md
+  - skills/huawei_ppt_master/core/output_contracts.md
+  - skills/huawei_ppt_master/templates/chart_patterns.md
+  - skills/huawei_ppt_master/prompts/deck_spec_generation.md
+  - skills/huawei_ppt_master/eval/acceptance_checklist.md
+  - skills/huawei_ppt_master/eval/regression_cases.md
+  - skills/huawei_ppt_master/eval/visual_scorecard.md
+  - skills/huawei_ppt_master/README.md
+  - skills/huawei_ppt_master/VERSION.md
+  - skills/huawei_ppt_master/CHANGELOG.md
+  - skills/huawei_ppt_master/INDEX.md
+  - skills/huawei_ppt_master/QUICK_INDEX.md
+  - skills/huawei_ppt_master/PACKAGE_MANIFEST.md
+- validation:
+  - PASS: v0.4.1 required markers present
+  - PASS: no stale current-version markers in primary metadata
+- boundaries:
+  - no page_render_spec revival
+  - no normalized_render_model revival
+  - no rendering DSL added
+  - no relation_type added to chart_data
+- recommended_next_step: Phase 2 dry-run with sample deck_spec containing group, edges.label, section, and chart_semantic_mapping

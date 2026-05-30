@@ -2,7 +2,7 @@
 
 > huawei_ppt_master Skill 总索引。
 > 用途：快速定位 huawei_ppt_master 入口、速查文件和适用场景。
-> 更新时间：2026-05-28
+> 更新时间：2026-05-30
 
 ## 目录
 
@@ -17,6 +17,8 @@
 - **deck_spec 证明契约资产**：`core/output_contracts.md`、`prompts/deck_spec_generation.md`、`templates/chart_patterns.md`、`eval/visual_scorecard.md`；新增 `core_judgement` / `chart_proof_goal` / `chart_visual_boundary`
 - **deck_spec 字段字典**：`core/deck_spec_field_dictionary.md`；说明文件定位、顶层字段和 slide 字段，作为后续正式交付物支持资产
 - **图表语义映射资产**：`chart_semantic_mapping`；`trend_curve` 必填，高语义风险图表建议输出，用于说明主图如何证明 `chart_proof_goal`
+- **防机械套版资产**：`core/field_differentiation_rules.md`、`eval/template_stamp_detection.md`；检测字段重复、字面复述、骨架填词和缺少逐页设计决策
+- **chart_data 字段可见性资产**：`core/deck_spec_field_dictionary.md`、`core/output_contracts.md`、`prompts/deck_spec_generation.md`；约束 logic-only 字段不上屏、`edges.label` 短语化、复杂关系语义归 `chart_semantic_mapping`
 - **视觉规则重构资产**：`templates/visual_rules.md` 专职视觉指导边界、负面视觉风格总表、视觉优化优先级、默认推荐样式、`visual_boundary` / `page_type_gate` 页面设计字段
 - **典型主题**：技术方案、战略规划、竞品对比、项目复盘、客户方案、资源申请、运营治理、产品路线图、调研分析
 
@@ -29,7 +31,7 @@
 
 ## 当前状态
 
-- 当前版本：`v0.3.9-chart-semantic-mapping`
+- 当前版本：`v0.4.2-relation-roles`
 - 当前工作区已建总索引：`skills/INDEX.md`
 - 当前已收录 Skill：`huawei_ppt_master`
 - 后续新增 Skill 时，补充到本页即可

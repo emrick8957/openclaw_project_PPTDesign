@@ -1,42 +1,49 @@
-# B_to_A：防机械套版门禁 patch v0.2 交接
+# B_to_A：v0.4.1-chart-data-visibility Phase 1 落地完成
 
 ## 当前状态
 
-已按用户“OK继续”完成 `anti_template_stamp_gate_patch_v0.2.md`。
+用户确认 `chart_data_field_rules_and_visibility_patch_v0.2.md` 评审通过，并要求进入 Phase 1 小版本落地。
 
-本轮仍未修改正式 Skill 资产：`skills/huawei_ppt_master/*` 未改动。
+已完成正式 Skill 修改，当前版本：
 
-## 新增产出
+`v0.4.1-chart-data-visibility`
 
-1. v0.2 patch proposal：
-   - `project/review/patch_proposals/anti_template_stamp_gate_patch_v0.2.md`
-2. v0.2 差异评审：
-   - `project/review/review_reports/anti_template_stamp_gate_patch_v0.2_delta_review_v0.1.md`
+## 落地报告
 
-## v0.2 吸收内容
+- `project/review/review_reports/chart_data_visibility_phase1_landing_report_v0.1.md`
 
-已吸收上一轮评审的 P1/P2/P3 关键建议：
+## 正式修改文件
 
-- BL-01：阈值从固定 `>=3` 改为混合阈值：
-  - N<=3：两两比较；
-  - N>=4：`repeat_threshold=max(3,ceil(N*0.5))`。
-- BL-02：补充 `core_judgement`、`chart_proof_goal`、`chart_visual_boundary` 的 FAIL/PASS 特征与正反例。
-- BL-03：`core_judgement` 放宽为“禁止字面复述，允许正当提炼”。
-- BL-04：模板印章检测作为强制后置自检，并要求 self_check 输出检测结果。
-- BL-05：字段差异化清单单一真相源：`core/field_differentiation_rules.md`。
-- BL-06：`chart_data` 结构骨架相似不误判。
-- BL-07：page_design 下沉时保留每页独立可读视图。
+- `skills/huawei_ppt_master/SKILL.md`
+- `skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`
+- `skills/huawei_ppt_master/core/output_contracts.md`
+- `skills/huawei_ppt_master/templates/chart_patterns.md`
+- `skills/huawei_ppt_master/prompts/deck_spec_generation.md`
+- `skills/huawei_ppt_master/eval/acceptance_checklist.md`
+- `skills/huawei_ppt_master/eval/regression_cases.md`
+- `skills/huawei_ppt_master/eval/visual_scorecard.md`
+- `skills/huawei_ppt_master/README.md`
+- `skills/huawei_ppt_master/VERSION.md`
+- `skills/huawei_ppt_master/CHANGELOG.md`
+- `skills/huawei_ppt_master/INDEX.md`
+- `skills/huawei_ppt_master/QUICK_INDEX.md`
+- `skills/huawei_ppt_master/PACKAGE_MANIFEST.md`
+
+## 核心规则
+
+- logic-only 字段：`group`、`emphasis`、`source_status` 不得字面上屏；
+- 可见分组标题使用 `label/name/headline/display_text/lane.name/layer.name/stage.name`；
+- `edges.label` 只能承载短动作词或短关系词；
+- 复杂关系语义进入 `chart_semantic_mapping`；
+- 禁止 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等关系/渲染 DSL 字段进入 `chart_data`。
+
+## 验证
+
+```text
+PASS: v0.4.1 required markers present
+PASS: no stale current-version markers in primary metadata
+```
 
 ## 建议下一步
 
-建议对 v0.2 做一轮正式评审。评审通过后，再决定是否进入 Phase 1 最小资产落地。
-
-不建议直接跳过评审落地。
-
-## 边界
-
-- 不恢复 `page_render_spec`；
-- 不恢复 `normalized_render_model`；
-- 不新增渲染 DSL；
-- 不要求所有字段都差异化；
-- 当前仍是 proposal，不是正式 Skill 修改。
+进入 Phase 2 dry-run：构造一个包含 `group`、`edges.label`、`section`、`chart_semantic_mapping` 的小型 deck_spec 样例，验证角色 C 消费边界。

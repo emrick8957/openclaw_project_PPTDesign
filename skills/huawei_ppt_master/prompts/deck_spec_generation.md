@@ -28,7 +28,23 @@
 - 正文页不得默认使用厚重红色压底条；
 - `comparison_table` 页面必须让表格承担证据，结论通过标题、右侧指标卡或弱结论区呈现；
 - `swimlane_process` 与 `value_chain_loop` 的节点、箭头、连接线必须在 `visual_notes` 中说明统一规则；
-- 单页主红色视觉锚点不超过 1-2 个。
+- 单页主红色视觉锚点不超过 1-2 个；
+- 生成后必须执行模板印章检测，并在 self_check 中输出：重复字段统计、复述检测、骨架填词检测、设计增量检测、允许重复项；
+- 重复字段统计必须使用混合阈值模型：N<=3 两两比较，N>=4 使用 `repeat_threshold=max(3,ceil(N*0.5))`；
+- `core_judgement` 不能等于 `conclusion`，也不能只是固定前缀 + `conclusion`；但允许对 `conclusion` 做不同表述的正当提炼；
+- `chart_proof_goal` 必须说明主图证明的关系类型，不能只是关键词拼接；
+- `chart_visual_boundary` 必须优先吸收 `chart_semantic_mapping.forbidden_visualization` 中的本页专属风险；
+- `speaker_notes` 必须体现本页讲解顺序差异；
+- 如 `visual_notes` 或 page_design 包含通用规范，应拆为 `global_design_defaults + page_design_overrides`，并保留每页独立可读视图。
+- `chart_data` 内 logic-only 字段（如 `group`、`emphasis`、`source_status`）不得作为可见标签上屏；
+- 若需要可见分组标题，应使用 `label` / `name` / `headline` / `display_text` / `lane.name` / `layer.name` / `stage.name`，不得复用 `group`；
+- `edges.label` 只能写短动作词或短关系词，复杂方向、同层对应、层级、闭环语义必须写入 `chart_semantic_mapping`；
+- 不得在 `chart_data` 内新增 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等渲染或关系 DSL 字段；
+- `label` / `name` / `headline` / `items` / `edges.label` 应短语化，过长时放入 `description`、`speaker_notes` 或 `chart_semantic_mapping`；
+- 当主图为双分支 / 同层对应 / 层级支撑 / 闭环类时，应在 `chart_semantic_mapping` 输出 `correspondence_pairs`（同层对应）或 `edge_roles`（方向性边），把同层对应边与顺序流转边显式区分；
+- 同层对应只写入 `correspondence_pairs`，不得在 `edge_roles` 内出现 `same_level_correspondence`；
+- `correspondence_pairs` 与 `edge_roles` 内所有 id / 边必须引用 `chart_data` 内已存在的节点/边；边引用必须用结构化 `{"from":<id>,"to":<id>}`，不得用 `"from->to"` 字符串；
+- 不得把关系角色名写回 `chart_data`；关系角色只存在于 `chart_semantic_mapping`。
 
 
 ## 图表证明契约检查

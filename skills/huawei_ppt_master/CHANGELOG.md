@@ -1,5 +1,90 @@
 # CHANGELOG
 
+## v0.4.2-relation-roles
+
+### 升级目标
+
+在 v0.4.1 chart_data 字段可见性基础上，解决高语义风险关系图（双分支 / 同层对应 / 层级支撑 / 闭环，如 V 模型）的"关系可消费性"问题：关系语义只写在散文里，角色 C 读不动、无法落成几何，导致同层对应被画成发散/交叉连线、对应标签丢失。
+
+### 新增
+
+1. `core/deck_spec_field_dictionary.md` §4.7：在 `chart_semantic_mapping` 内新增两个可选语义级字段——`correspondence_pairs`（同层对应唯一事实源）与 `edge_roles`（方向性边按语义角色归组，边引用为结构化 `{from,to}`）。
+
+### 修改
+
+1. `SKILL.md`：版本升级为 `0.4.2-relation-roles`，新增关系角色硬规则（同层对应单一事实源 + edge_roles 边引用结构化与存在性）。
+2. `core/output_contracts.md`：deck_spec 强门禁新增第 22、23 条。
+3. `prompts/deck_spec_generation.md`：生成检查新增关系角色输出与一致性校验项。
+4. `templates/chart_patterns.md`：`architecture_flow_diagram` / chart_data 可见性边界处补充关系角色承载指引。
+5. `eval/visual_scorecard.md`：新增 P 章节与一票降级项（同层对应退化、双写、字符串/影子边引用、角色名回写）。
+6. `eval/regression_cases.md`：新增 Test 12（同层对应单一事实源）、Test 13（边引用结构化与存在性）。
+7. `README.md`、`VERSION.md`、`INDEX.md`、`QUICK_INDEX.md`、`PACKAGE_MANIFEST.md` 同步版本与资产说明。
+
+### 边界
+
+1. 不恢复 `page_render_spec` / `normalized_render_model`，不新增渲染 DSL。
+2. 新增枚举只出现在 `chart_semantic_mapping`，不回写 `chart_data`；`chart_data` 内仍禁止 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index`。
+3. 字段可选、向后兼容，仅高语义风险关系图建议输出。
+
+### 已知留项（P3，本版未处理）
+
+- R-03：`edge_roles` 角色受控词表未闭合（仍为"取自"，非强制 enum）。
+- R-04：回归仅覆盖两个 P2 对应项，未做全量补强。
+- R-05：角色 C 在项目外，结构化枚举收益依赖 C honor `chart_semantic_mapping`；未强制"即使输出结构化枚举也必须保留 `forbidden_visualization` 兜底散文"。
+- 后续以独立小补丁跟进。
+
+## v0.4.1-chart-data-visibility
+
+### 升级目标
+
+新增 `chart_data` 字段可见性门禁，解决角色 C 将 `group` 等逻辑字段字面渲染为可见标签、以及复杂关系语义被错误塞入 `label` 或新增关系字段的问题。
+
+### 修改
+
+1. `SKILL.md`：版本升级为 `0.4.1-chart-data-visibility`，强制读取 `core/deck_spec_field_dictionary.md`，并在 deck_spec/chart_type 硬规则中加入 chart_data 可见性约束。
+2. `core/deck_spec_field_dictionary.md`：新增“chart_data 字段通则与可见性约定”，定义拓扑/管道字段、显示内容字段、logic-only 字段、可见分组标题、`edges.label` 边界、短语化判据和关系语义承载位置。
+3. `core/output_contracts.md`：deck_spec 强门禁新增 logic-only 字段不上屏、可见分组标题字段、`edges.label` 短动作词、禁止关系/渲染 DSL 字段。
+4. `templates/chart_patterns.md`：补充 chart_data 字段可见性边界，要求复杂关系语义进入 `chart_semantic_mapping`。
+5. `prompts/deck_spec_generation.md`：生成检查新增 logic-only、可见分组、`edges.label`、短语化和 DSL 禁止项。
+6. `eval/acceptance_checklist.md`、`eval/regression_cases.md`、`eval/visual_scorecard.md`：同步新增字段可见性验收、回归与一票降级项。
+7. `README.md`、`VERSION.md`、`INDEX.md`、`QUICK_INDEX.md`、`PACKAGE_MANIFEST.md` 同步版本与资产说明。
+
+### 边界
+
+1. 不恢复 `page_render_spec` / `normalized_render_model`。
+2. 不新增 PPTX 渲染 DSL、shape plan 或 C 端渲染协议。
+3. 不在 `chart_data` 内新增 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等关系或渲染字段。
+4. `chart_data` 仍只承载拓扑和可见内容；复杂关系语义由 `chart_semantic_mapping` 承载。
+
+## v0.4.0-anti-template-stamp-gate
+
+### 升级目标
+
+新增防机械套版门禁，解决交付物“结构合法但字段机械重复、缺少逐页设计决策”的问题，避免下游生图或 PPTX Builder 被重复 `visual_notes`、`chart_visual_boundary`、`speaker_notes` 等字段误导。
+
+### 新增
+
+1. `core/field_differentiation_rules.md`：字段差异化单一真相源，定义允许重复字段、必须逐页有设计增量字段、可半重复字段，以及 `core_judgement` / `chart_proof_goal` / `chart_visual_boundary` 的 PASS/FAIL 特征和正反例。
+2. `eval/template_stamp_detection.md`：模板印章检测门禁，使用 N<=3 两两比较、N>=4 `repeat_threshold=max(3,ceil(N*0.5))` 的混合阈值模型，并要求 self_check 输出重复字段统计、复述检测、骨架填词检测、设计增量检测和允许重复项。
+
+### 修改
+
+1. `SKILL.md`：版本升级为 `0.4.0-anti-template-stamp-gate`，强制读取字段差异化规则和模板印章检测，并将模板印章检测纳入自检门禁。
+2. `core/output_contracts.md`：增加字段差异化要求和 deck_spec 强门禁。
+3. `prompts/deck_spec_generation.md`：要求生成后执行模板印章检测，并在 self_check 输出检测结果。
+4. `eval/acceptance_checklist.md`：新增防机械套版验收门禁。
+5. `eval/visual_scorecard.md`：新增模板印章一票降级项。
+6. `templates/visual_rules.md`：新增通用视觉规则下沉要求与每页独立可读视图。
+7. `templates/wording_rules.md`：新增防骨架填词规则。
+8. `README.md`、`VERSION.md`、`INDEX.md`、`QUICK_INDEX.md`、`PACKAGE_MANIFEST.md` 同步版本与资产说明。
+
+### 边界
+
+1. 不恢复 `page_render_spec` / `normalized_render_model`。
+2. 不新增 PPTX 渲染 DSL、shape plan 或 C 端渲染协议。
+3. 不要求所有字段都差异化；页脚、基础配色、安全边距、全局负面风格边界等可以保持一致。
+4. `chart_data` 的结构骨架、键名、列名、节点字段名允许相似，仅判断语义内容是否机械重复。
+
 ## v0.3.9-chart-semantic-mapping
 
 ### 升级目标

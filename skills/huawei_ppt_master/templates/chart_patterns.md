@@ -56,6 +56,20 @@
 - `swimlane_process`
 - `priority_matrix`
 
+
+### 0.4 chart_data 字段可见性边界
+
+`chart_data` 字段规则与可见性约定见 `core/deck_spec_field_dictionary.md` 的“chart_data 字段通则与可见性约定”。
+
+原则：
+
+- `chart_data` 承载拓扑和可见内容；
+- `group`、`emphasis`、`source_status` 等 logic-only 字段不得字面上屏；
+- `edges.label` 可作为短动作词上屏，但复杂方向、对应、层级、闭环语义必须写入 `chart_semantic_mapping`；
+- 不得在 `chart_data` 内发明 `relation_type` 等关系字段。
+
+表达"同层对应/双分支/闭环"时（如 V 模型），同层对应用 `correspondence_pairs`、方向性边用 `edge_roles`（边引用为结构化 `{from,to}`），均见 `core/deck_spec_field_dictionary.md` §4.7，写入 `chart_semantic_mapping`；不得在 edges 内发明关系字段，也不得在 `edge_roles` 内重复声明 `same_level_correspondence`。
+
 ---
 
 ## 1. chart_type 总表

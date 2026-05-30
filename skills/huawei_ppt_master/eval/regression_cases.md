@@ -59,3 +59,61 @@
    - 检查 P4：三类失败模式卡片是否有主次，底部结论条是否弱化；
    - 检查 P5：价值闭环是否为 4-5 个短节点，右侧行动建议是否压缩到 3-4 条；
    - 目标：`eval/visual_scorecard.md` 总体评分不低于 85，任一页面低于 80 必须返工。
+
+
+## Test 8：chart_data 字段可见性
+
+题目：构造 `architecture_flow_diagram`，节点包含 `{"id":"A","label":"产品 V 模型","group":"左支-定义"}`。
+
+验证点：
+
+- 渲染可见文本应包含 `产品 V 模型`；
+- 不得出现 `左支-定义` 字面标签；
+- `group` 只影响内部归类、布局分组或样式分组。
+
+## Test 9：可见分组标题不用 group
+
+题目：构造需要可见分组标题的架构页，节点包含 `group="model_cluster"`，页面另有 `display_text=["模型底座"]`。
+
+验证点：
+
+- 可见分组标题使用 `display_text` 或 `label/name/headline`；
+- 不显示 `model_cluster`。
+
+## Test 10：edges.label 与关系语义归位
+
+题目：构造边 `{"from":"A","to":"B","label":"回写"}`，同时在 `chart_semantic_mapping.main_visual_logic` 描述闭环关系。
+
+验证点：
+
+- `edges.label=回写` 可作为短箭头标签；
+- “为什么回写、回写形成什么闭环”必须在 `chart_semantic_mapping`；
+- `chart_data` 内不得出现 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index`。
+
+## Test 11：section 只弱显示为页眉
+
+题目：构造带 `section="第二章 路径设计"` 的正文页。
+
+验证点：
+
+- `section` 可作为页眉/章节弱标签；
+- 不得作为主体卡片标题、节点标签或图表标签。
+
+## Test 12：同层对应单一事实源（v0.4.2）
+
+题目：构造 V 模型 `architecture_flow_diagram`，在 `chart_semantic_mapping` 内同时写 `correspondence_pairs` 与 `edge_roles.same_level_correspondence`。
+
+验证点：
+
+- 必须 FAIL，提示同层对应只能由 `correspondence_pairs` 承载；
+- 修正后：同层对应仅出现在 `correspondence_pairs`，`edge_roles` 只含方向性角色（flow_decompose / flow_integrate / lifecycle_close / feedback_loop）。
+
+## Test 13：edge_roles 边引用结构化与存在性（v0.4.2）
+
+题目：构造 `edge_roles.flow_decompose=["L1->L2"]`（字符串引用），并构造一条引用 `chart_data.edges` 中不存在的边。
+
+验证点：
+
+- 字符串引用必须 FAIL，提示改用结构化 `{"from":<id>,"to":<id>}`；
+- 影子边引用必须 FAIL，提示边/节点必须命中 `chart_data` 已存在元素；
+- 关系角色名不得反向写回 `chart_data.edges`。

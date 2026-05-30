@@ -79,3 +79,40 @@
 - `chart_proof_goal` 是否直接服务 `core_judgement`；
 - `chart_type` 是否适合证明 `chart_proof_goal`；
 - `chart_visual_boundary` 是否具体、可执行，且能防止图表退化为装饰、清单、图片墙、大表格或并列计划。
+
+
+## 9. 防机械套版门禁
+
+- 是否执行了 `eval/template_stamp_detection.md`；
+- 是否在 self_check 中输出重复字段统计、复述检测、骨架填词检测、设计增量检测和允许重复项；
+- 是否使用混合阈值模型，而不是固定 `>=3 页`；
+- `core_judgement` 是否避免字面复述 `conclusion`，同时允许正当提炼；
+- `chart_proof_goal` 是否说明主图证明关系，而非关键词拼接；
+- `chart_visual_boundary` 是否逐页结合图表风险和 `forbidden_visualization`；
+- `visual_notes` 和 page_design 是否将通用规则下沉为全局默认，并提供每页 overrides；
+- `chart_data` 是否只检查语义内容，不因结构键名相似而误判。
+
+出现以下任一项，必须重写：
+
+- 模板印章检测出现 FAIL；
+- `core_judgement` 等于 `conclusion` 或固定前缀 + `conclusion`；
+- `chart_proof_goal` 只是固定前缀 + 关键词拼接 + 固定后缀，未说明关系；
+- `chart_visual_boundary` 在混合阈值模型下触发重复 FAIL；
+- page_design 的本页红色锚点、图表区、page_type_gate 在混合阈值模型下触发重复 FAIL。
+
+
+## 10. chart_data 字段可见性门禁
+
+- `chart_data` 中 logic-only 字段是否未作为可见标签上屏，包括 `group`、`emphasis`、`source_status`；
+- 若需要可见分组标题，是否使用 `label`、`name`、`headline`、`display_text`、`lane.name`、`layer.name` 或 `stage.name`，而非复用 `group`；
+- `edges.label` 是否仅承载短动作词或短关系词；
+- 复杂方向、同层对应、层级支撑、闭环回写等关系语义是否进入 `chart_semantic_mapping`；
+- `label` / `name` / `headline` / `items` / `edges.label` 是否短语化，长解释是否放入 `description`、`speaker_notes` 或 `chart_semantic_mapping`；
+- `chart_data` 内是否未新增 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等关系或渲染 DSL 字段。
+
+出现以下任一项，必须重写：
+
+- `group`、`emphasis`、`source_status` 等 logic-only 字段被字面上屏；
+- `edges.label` 被写成长句或复杂关系解释；
+- 复杂关系语义只塞进 `label`，未进入 `chart_semantic_mapping`；
+- `chart_data` 内出现 `relation_type` 或坐标/shape/edge_style 等 DSL 字段。

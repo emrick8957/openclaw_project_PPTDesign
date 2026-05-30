@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:00:56.095Z",
+  "updatedAt": "2026-05-29T19:00:57.182Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1",
@@ -3554,18 +3554,20 @@
       "source": "memory",
       "snippet": "Huawei PPT Skill / AI4MBSE work: User provided generated PPT images under `project/PPT_image/AI4MBSE_自动化生产系统` and Huawei-style templates under `tmp`, requesting self-learning, gap diagnosis, and capability iteration without directly modifying Skill assets at first.; I executed th",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "huawei-style",
@@ -3586,18 +3588,20 @@
       "source": "memory",
       "snippet": "Huawei PPT Skill / AI4MBSE work: `project/review/patch_proposals/huawei_ppt_master_iteration_proposal_v0.1.md`; `project/review/patch_proposals/huawei_ppt_master_asset_patch_v0.1.md`; Key findings from generated image review: P6 red bottom/base overweight; multi-card pages show e",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "bottom/base",
@@ -3618,18 +3622,20 @@
       "source": "memory",
       "snippet": "Huawei PPT Skill / AI4MBSE work: User replied “确认，允许沉淀”; I upgraded `skills/huawei_ppt_master` to `v0.3.5-generated-image-feedback`, directly updating Skill assets and sync files. Sedimentation report: `project/review/review_reports/huawei_ppt_master_generated_image_feedback_sedi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "skills/huawei-ppt-master",
@@ -3650,18 +3656,20 @@
       "source": "memory",
       "snippet": "AI4MBSE PDF full-chain execution: User provided `人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用.pdf` and requested full `huawei_ppt_master` chain: analyze core content and insights, strictly write artifacts, generate `deck_spec`, handoff, status, and zip; not chat-only.; I used `huawei_ppt_mast",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "full-chain",
@@ -3682,18 +3690,20 @@
       "source": "memory",
       "snippet": "AI4MBSE PDF full-chain execution: `project/work/page_design_v0.1.md`; `project/work/deck_spec_v0.1.json`; `project/work/source_evidence_manifest_v0.1.json`; `project/work/self_check_v0.1.md`",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "full-chain",
@@ -3714,18 +3724,20 @@
       "source": "memory",
       "snippet": "AI4MBSE PDF full-chain execution: `project/handoff/A_to_B.md`; `project/handoff/status.md`; Packaged deliverables:; `deliverables/AI4MBSE_自动化生产系统_MBSE交付包_part1_P1-P7.zip`",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "full-chain",
@@ -3746,18 +3758,20 @@
       "source": "memory",
       "snippet": "AI4MBSE PDF full-chain execution: `deliverables/AI4MBSE_自动化生产系统_MBSE交付包_part2_P8-P14.zip`; Core deck conclusions: AI in automated production MBSE is not about single-point tools; semantic engineering model is key; self-learning digital twin organizes real system, simulation, AI/X",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "full-chain",
@@ -3778,18 +3792,20 @@
       "source": "memory",
       "snippet": "Prompt optimization decisions: User asked whether page-image generation prompt duplicated `deck_spec` / page design. I advised yes: original prompt overlaps heavily with `page_design` fields. Recommended slimming it to a “rendering gate prompt” that respects priority: `deck_spec`",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "page-image",
@@ -3810,18 +3826,20 @@
       "source": "memory",
       "snippet": "visual_rules_v0.2 landing: User uploaded `visual_rules_v0.2.md` and asked whether it could be implemented. I judged it implementable and recommended not overwriting directly, but using it as the main trunk for a refactor while preserving existing 0517/v0.3.5 sedimentation.; User",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "visual-rules-v0.2",
@@ -3842,18 +3860,20 @@
       "source": "memory",
       "snippet": "visual_rules_v0.2 landing: New boundary: `visual_rules.md` only governs visual design; it does not handle facts, `deck_spec` field interpretation, generation process, scoring, evidence, or copywriting.; v0.3.6 report saved at `project/review/review_reports/huawei_ppt_master_visua",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "visual-rules-v0.2",
@@ -3874,18 +3894,20 @@
       "source": "memory",
       "snippet": "User preferences reinforced: User prefers direct execution and strict landing to files, not chat-only summaries.; For Skill changes, when user confirms authorization, direct modification of `skills/huawei_ppt_master/*` is acceptable, but must sync README/INDEX/PACKAGE_MANIFEST/VE",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-26T19:00:44.920Z",
-      "lastRecalledAt": "2026-05-26T19:00:44.920Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
       "queryHashes": [
         "0e882fd58aee"
       ],
       "recallDays": [
         "2026-05-27",
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-30",
+        "2026-05-29"
       ],
       "conceptTags": [
         "chat-only",
@@ -7673,6 +7695,1998 @@
         "开始",
         "v0.3.9",
         "chart"
+      ]
+    },
+    "memory:memory/2026-05-30.md:4:7": {
+      "key": "memory:memory/2026-05-30.md:4:7",
+      "path": "memory/2026-05-30.md",
+      "startLine": 4,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "huawei_ppt_master chart_data visibility patch v0.2: User requested revising `project/review/patch_proposals/chart_data_field_rules_and_visibility_patch_v0.1.md` to `chart_data_field_rules_and_visibility_patch_v0.2.md`.; I created `project/review/patch_proposals/chart_data_field_r",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "8ecfa7c4330d"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "chart-data",
+        "v0.2",
+        "visibility",
+        "patch",
+        "requested",
+        "revising",
+        "project"
+      ]
+    },
+    "memory:memory/2026-05-30.md:8:11": {
+      "key": "memory:memory/2026-05-30.md:8:11",
+      "path": "memory/2026-05-30.md",
+      "startLine": 8,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "huawei_ppt_master chart_data visibility patch v0.2: clarifies visible grouping fields vs logic-only `group`;; clarifies `edges.label` can be visible short action/relation text only, while complex direction/correspondence/layer/loop semantics must go to `chart_semantic_mapping`;;",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "8ecfa7c4330d"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "chart-data",
+        "v0.2",
+        "logic-only",
+        "edges.label",
+        "action/relation",
+        "chart-semantic-mapping",
+        "visibility"
+      ]
+    },
+    "memory:memory/2026-05-30.md:12:15": {
+      "key": "memory:memory/2026-05-30.md:12:15",
+      "path": "memory/2026-05-30.md",
+      "startLine": 12,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "huawei_ppt_master chart_data visibility patch v0.2: clarifies `section` may only be weak header/chapter label, not body node/card/chart label;; adds RT-05~RT-08 regression cases.; Boundaries preserved: no `page_render_spec`, no `normalized_render_model`, no rendering DSL, no `rel",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "8ecfa7c4330d"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "chart-data",
+        "v0.2",
+        "header/chapter",
+        "node/card/chart",
+        "rt-05",
+        "rt-08",
+        "page-render-spec"
+      ]
+    },
+    "memory:memory/2026-05-30.md:16:18": {
+      "key": "memory:memory/2026-05-30.md:16:18",
+      "path": "memory/2026-05-30.md",
+      "startLine": 16,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "huawei_ppt_master chart_data visibility patch v0.2: `project/handoff/B_to_A.md`; `project/handoff/status.md`; Recommended next step: formally review v0.2; if approved, enter Phase 1 small-version landing for `v0.4.1-chart-data-visibility`.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "8ecfa7c4330d"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "chart-data",
+        "v0.2",
+        "project/handoff/b-to-a.md",
+        "project/handoff/status.md",
+        "small-version",
+        "v0.4.1-chart-data-visibility",
+        "visibility"
+      ]
+    },
+    "memory:memory/2026-05-30.md:20:20": {
+      "key": "memory:memory/2026-05-30.md:20:20",
+      "path": "memory/2026-05-30.md",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "huawei_ppt_master chart_data visibility patch v0.2: On 2026-05-30, user approved `chart_data_field_rules_and_visibility_patch_v0.2.md` and requested Phase 1 small-version landing. I formally upgraded `skills/huawei_ppt_master` to `v0.4.1-chart-data-visibility`, modifying `SKILL.m",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "8ecfa7c4330d"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "chart-data",
+        "v0.2",
+        "small-version",
+        "skills/huawei-ppt-master",
+        "v0.4.1-chart-data-visibility",
+        "skill.m",
+        "visibility"
+      ]
+    },
+    "memory:memory/2026-05-29.md:4:7": {
+      "key": "memory:memory/2026-05-29.md:4:7",
+      "path": "memory/2026-05-29.md",
+      "startLine": 4,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "huawei_ppt_master page_render_spec termination cleanup: User confirmed `page_render_spec` scheme has been terminated and first requested only inventory/no cleanup.; I created inventory at `project/work/page_render_spec_related_files_inventory_v0.1.md` listing Phase 0/Phase 1 arti",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "page-render-spec",
+        "inventory/no",
+        "0/phase",
+        "termination",
+        "cleanup",
+        "confirmed",
+        "scheme"
+      ]
+    },
+    "memory:memory/2026-05-29.md:8:8": {
+      "key": "memory:memory/2026-05-29.md:8:8",
+      "path": "memory/2026-05-29.md",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "huawei_ppt_master page_render_spec termination cleanup: Boundary preserved: do not restore `page_render_spec`, `normalized_render_model`, or rendering DSL; retain formal `skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "huawei-ppt-master",
+        "page-render-spec",
+        "normalized-render-model",
+        "termination",
+        "cleanup",
+        "boundary",
+        "preserved",
+        "not"
+      ]
+    },
+    "memory:memory/2026-05-29.md:11:14": {
+      "key": "memory:memory/2026-05-29.md:11:14",
+      "path": "memory/2026-05-29.md",
+      "startLine": 11,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate analysis and proposal: User supplied a strong diagnosis that the AI4MBSE four-page package was “stable” mainly through mechanical templating: `core_judgement`, `chart_proof_goal`, `chart_visual_boundary`, `visual_notes`, `speaker_notes`, `page_copy`, and",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "four-page",
+        "core-judgement",
+        "chart-proof-goal",
+        "chart-visual-boundary",
+        "visual-notes",
+        "speaker-notes",
+        "page-copy"
+      ]
+    },
+    "memory:memory/2026-05-29.md:15:18": {
+      "key": "memory:memory/2026-05-29.md:15:18",
+      "path": "memory/2026-05-29.md",
+      "startLine": 15,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate analysis and proposal: `project/review/patch_proposals/anti_template_stamp_gate_patch_v0.1.md`; dry-run report `project/review/review_reports/anti_template_stamp_gate_dry_run_on_AI4MBSE_four_pages_v0.1.md`; updated `project/handoff/B_to_A.md`; Review file",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "dry-run",
+        "project/handoff/b-to-a.md",
+        "anti",
+        "template",
+        "stamp",
+        "gate",
+        "analysis"
+      ]
+    },
+    "memory:memory/2026-05-29.md:19:21": {
+      "key": "memory:memory/2026-05-29.md:19:21",
+      "path": "memory/2026-05-29.md",
+      "startLine": 19,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate analysis and proposal: I wrote continuation review `project/review/review_reports/anti_template_stamp_gate_phase0_review_response_v0.1.md`, accepting P1/P2 issues and recommending v0.2 proposal before landing.; User said “OK继续”. I produced `project/review",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "p1/p2",
+        "v0.2",
+        "project/review",
+        "anti",
+        "template",
+        "stamp",
+        "gate"
+      ]
+    },
+    "memory:memory/2026-05-29.md:24:27": {
+      "key": "memory:memory/2026-05-29.md:24:27",
+      "path": "memory/2026-05-29.md",
+      "startLine": 24,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate Phase 1 landing: User said v0.2 review passed and requested “启动Phase 1 落地”. I landed the anti-template-stamp gate into formal `skills/huawei_ppt_master` assets as `v0.4.0-anti-template-stamp-gate`.; New formal assets:; `skills/huawei_ppt_master/core/field",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "v0.2",
+        "skills/huawei-ppt-master",
+        "v0.4.0-anti-template-stamp-gate",
+        "anti",
+        "template",
+        "stamp",
+        "gate"
+      ]
+    },
+    "memory:memory/2026-05-29.md:28:31": {
+      "key": "memory:memory/2026-05-29.md:28:31",
+      "path": "memory/2026-05-29.md",
+      "startLine": 28,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate Phase 1 landing: Modified/synchronized formal assets included:; `skills/huawei_ppt_master/SKILL.md`; `skills/huawei_ppt_master/core/output_contracts.md`; `skills/huawei_ppt_master/core/deck_spec_field_dictionary.md`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "modified/synchronized",
+        "anti",
+        "template",
+        "stamp",
+        "gate",
+        "phase",
+        "landing"
+      ]
+    },
+    "memory:memory/2026-05-29.md:32:35": {
+      "key": "memory:memory/2026-05-29.md:32:35",
+      "path": "memory/2026-05-29.md",
+      "startLine": 32,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate Phase 1 landing: `skills/huawei_ppt_master/prompts/deck_spec_generation.md`; `skills/huawei_ppt_master/eval/acceptance_checklist.md`; `skills/huawei_ppt_master/eval/visual_scorecard.md`; `skills/huawei_ppt_master/templates/visual_rules.md`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "anti",
+        "template",
+        "stamp",
+        "gate",
+        "phase",
+        "landing",
+        "skills"
+      ]
+    },
+    "memory:memory/2026-05-29.md:36:39": {
+      "key": "memory:memory/2026-05-29.md:36:39",
+      "path": "memory/2026-05-29.md",
+      "startLine": 36,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate Phase 1 landing: `skills/huawei_ppt_master/templates/wording_rules.md`; `README.md`, `VERSION.md`, `CHANGELOG.md`, `INDEX.md`, `QUICK_INDEX.md`, `PACKAGE_MANIFEST.md`; Landing report: `project/review/review_reports/anti_template_stamp_gate_phase1_landing_",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "readme.md",
+        "version.md",
+        "changelog.md",
+        "index.md",
+        "quick-index.md",
+        "package-manifest.md",
+        "anti"
+      ]
+    },
+    "memory:memory/2026-05-29.md:40:43": {
+      "key": "memory:memory/2026-05-29.md:40:43",
+      "path": "memory/2026-05-29.md",
+      "startLine": 40,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "anti-template-stamp gate Phase 1 landing: Updated `project/handoff/B_to_A.md` and `project/handoff/status.md`.; Validation: asset/reference checks passed; old P4/P7/P8/P14 package dry-run produced FAIL 6 / WARN 5 / ALLOW-WARN 1, satisfying RT-00 expected-failure baseline.; Bounda",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "anti-template-stamp",
+        "project/handoff/b-to-a.md",
+        "project/handoff/status.md",
+        "asset/reference",
+        "p4/p7/p8/p14",
+        "dry-run",
+        "allow-warn",
+        "rt-00"
+      ]
+    },
+    "memory:memory/2026-05-29.md:46:49": {
+      "key": "memory:memory/2026-05-29.md:46:49",
+      "path": "memory/2026-05-29.md",
+      "startLine": 46,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "AI_MBSE PDF full-chain generation under v0.4.0: User requested full-chain `huawei_ppt_master v0.4.0` execution on `examples/人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用.pdf`, using Background / Catalyst / Application / Trends four-part structure, strict disk outputs, deck_spec, handoff/status",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ai-mbse",
+        "full-chain",
+        "v0.4.0",
+        "huawei-ppt-master",
+        "examples/人工智能在自动化生产系统基于模型的系统工程",
+        "中的应用.pdf",
+        "four-part",
+        "deck-spec"
+      ]
+    },
+    "memory:memory/2026-05-29.md:50:53": {
+      "key": "memory:memory/2026-05-29.md:50:53",
+      "path": "memory/2026-05-29.md",
+      "startLine": 50,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "AI_MBSE PDF full-chain generation under v0.4.0: `project/work/outline_v0.1.md`; `project/work/page_copy_v0.1.md`; `project/work/page_design_v0.1.md`; `project/work/deck_spec_v0.1.json`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ai-mbse",
+        "full-chain",
+        "v0.4.0",
+        "project/work/outline-v0.1.md",
+        "project/work/page-copy-v0.1.md",
+        "project/work/page-design-v0.1.md",
+        "project/work/deck-spec-v0.1.json",
+        "pdf"
+      ]
+    },
+    "memory:memory/2026-05-29.md:54:57": {
+      "key": "memory:memory/2026-05-29.md:54:57",
+      "path": "memory/2026-05-29.md",
+      "startLine": 54,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "AI_MBSE PDF full-chain generation under v0.4.0: `project/work/source_evidence_manifest_v0.1.json`; `project/work/self_check_v0.1.md`; Delivery dir: `project/work/AI_MBSE_v040_full_chain_delivery/`.; Handoff/status:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ai-mbse",
+        "full-chain",
+        "v0.4.0",
+        "project/work/self-check-v0.1.md",
+        "handoff/status",
+        "pdf",
+        "full",
+        "chain"
+      ]
+    },
+    "memory:memory/2026-05-29.md:58:59": {
+      "key": "memory:memory/2026-05-29.md:58:59",
+      "path": "memory/2026-05-29.md",
+      "startLine": 58,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "AI_MBSE PDF full-chain generation under v0.4.0: `project/handoff/A_to_B.md`; `project/handoff/status.md`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ai-mbse",
+        "full-chain",
+        "v0.4.0",
+        "project/handoff/a-to-b.md",
+        "project/handoff/status.md",
+        "pdf",
+        "full",
+        "chain"
+      ]
+    },
+    "memory:memory/2026-05-29.md:61:64": {
+      "key": "memory:memory/2026-05-29.md:61:64",
+      "path": "memory/2026-05-29.md",
+      "startLine": 61,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "AI_MBSE PDF full-chain generation under v0.4.0: `deliverables/AI_MBSE_v040_full_chain_delivery.zip`; `deliverables/AI_MBSE_v040_part1_P1-P6.zip`; `deliverables/AI_MBSE_v040_part2_P7-P12.zip`; Validation from self_check/status: 12 pages; four-part Background/Catalyst/Application/T",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ai-mbse",
+        "full-chain",
+        "v0.4.0",
+        "self-check/status",
+        "four-part",
+        "pdf",
+        "full",
+        "chain"
+      ]
+    },
+    "memory:memory/2026-05-29.md:65:67": {
+      "key": "memory:memory/2026-05-29.md:65:67",
+      "path": "memory/2026-05-29.md",
+      "startLine": 65,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "AI_MBSE PDF full-chain generation under v0.4.0: On 2026-05-30, user said “进入Phase 3：升级为 v0.4.0-anti-template-stamp-gate”. Since the formal Skill had already been upgraded in Phase 1, I treated Phase 3 as stable release confirmation rather than reapplying the same patch. I verifie",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "c7834f911a8f"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ai-mbse",
+        "full-chain",
+        "v0.4.0",
+        "v0.4.0-anti-template-stamp-gate",
+        "pdf",
+        "full",
+        "chain",
+        "generation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 这版需要继续优化：现在已经是 `v0.3.7`，提示词必须显式纳入第三个输入 `visual_rules.md`，以及 deck_spec 新增的 3 个证明字段： - `core_judgement` - `chart_proof_goal` - `chart_visual_boundary` 否则角色 C 可能只按 `title/conclusion/chart_type` 画图，图表仍可能“合法但不证明判断”。 下面是优化后的版本。 --- ## 角色 C：PPT 页面图片生成提示词 v0.3.7 ```text 任务：请作为",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "v0.3.7",
+        "visual-rules.md",
+        "deck-spec",
+        "core-judgement",
+        "chart-proof-goal",
+        "chart-visual-boundary",
+        "title/conclusion/chart-type",
+        "需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: visual_simplification - visual_boundary - page_type_gate 3. visual_rules.md 决定全局视觉边界： - 华为高层汇报风格； - 色彩、字体、区域比例、红色锚点、卡片、图表形态、页脚、安全区； - 禁止互联网发布会风、咨询海报风、卡通插画风、政务宣传风、Excel 报表风、学术论文截图风。 4. 本提示词只作为执行门禁，不得覆盖 deck_spec.json、page_design_v0.1.md 或 visual_rules.md。 二、核心执行原则 1. 每页",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "visual-simplification",
+        "visual-boundary",
+        "page-type-gate",
+        "visual-rules.md",
+        "deck-spec.json",
+        "page-design-v0.1.md",
+        "决定",
+        "全局"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: 页面应高信息密度但不拥挤，有明确阅读路径和主次关系。 四、红色锚点门禁 1. 单页只允许 1 个主红色视觉锚点，最多 2 个辅助红色强调。 2. 红色只能主要承担一种语义： - 标题关键词； - 主结论； - 关键风险； - 核心节点； - 阶段门槛； - 决策动作。 3. 普通正文页不得让红色横条、红色底座或红色大色块成为页面最大视觉块。 4. 不得同页同时出现红色标题、红色编号、红色箭头、红色卡片标题、红色底栏。 5. 如果 page_design 已指定 red_anchor，必须严格按该 red_anchor 执行。 五、卡",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "page-design",
+        "red-anchor",
+        "信息",
+        "密度",
+        "拥挤",
+        "明确",
+        "阅读",
+        "路径"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: `architecture_flow_diagram`： - 必须体现输入、处理、输出、回写或约束； - 不同层级概念不得同级摆放。 8. `roadmap_timeline_chart`： - 必须体现阶段门槛、验收产出或复制条件； - 不得只是并列计划。 9. `value_chain_loop`： - 必须形成闭环； - 回写/反馈节点必须可见。 10. `decision_table`： - 拍板事项必须独立突出； - 表格只能作为执行清单或证据支撑。 11. `case_gallery_cards`： - 不得退化为图片墙",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "architecture-flow-diagram",
+        "roadmap-timeline-chart",
+        "value-chain-loop",
+        "回写/反馈节点必须可见",
+        "decision-table",
+        "case-gallery-cards",
+        "必须",
+        "体现"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: - 必须形成最终定义、最终框架或最终判断； - 不得只是复述前文； - 不得满页 bullet。 十、负面风格禁止 禁止出现： 1. 互联网发布会风： - 大渐变背景、炫光、科技蓝紫、霓虹线条、超大口号、大图压底。 2. 咨询海报风： - 大圆角卡片、柔和阴影、玻璃拟态、浅粉/浅绿/浅蓝大色块、每个卡片都像重点。 3. 卡通插画风： - 手绘插画、拟人图标、表情符号、潮流贴纸、过度可爱化。 4. 政务宣传风： - 大红底、金色字、飘带、旗帜纹理、强装饰边框。 5. Excel 报表风： - 全页表格、密集网格线、字号过小、无视觉重点",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "浅粉/浅绿/浅蓝大色块",
+        "必须",
+        "形成",
+        "最终",
+        "定义",
+        "框架",
+        "判断",
+        "不得"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e6824fd70a4b2c78ef68a1be23] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 简化提示词，输入文件里有的内容不要体现了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "简化",
+        "提示",
+        "输入",
+        "文件",
+        "内容",
+        "不要",
+        "体现"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: 对，应该简化。输入文件里已经有的规则，不要在提示词里重复展开。角色 C 提示词只保留 **任务、输入、优先级、执行边界、失败处理**。 ## 角色 C：PPT 页面图片生成简化提示词 ```text 任务：请作为角色 C / PPTX Builder，基于输入文件生成华为风格 PPT 页面图片。 输入文件： 1. deck_spec.json 2. page_design_v0.1.md 3. templates/visual_rules.md 执行优先级： 1. deck_spec.json 决定每页内容、标题、结论、core_j",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "deck-spec.json",
+        "page-design-v0.1.md",
+        "templates/visual-rules.md",
+        "core-j",
+        "应该",
+        "简化",
+        "输入",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: visual_rules； 4. 图表是否没有证明 chart_proof_goal； 5. 是否违反 chart_visual_boundary； 6. 是否出现红色锚点分散、卡片同权、案例素材墙、决策表吞没结论、路线图无门槛、总结页无定义等硬问题。 如发现硬门禁不合格，请直接重绘该页，不要解释原因。 ``` 这版更适合当前体系： **规则放文件里，提示词只做调度和门禁。**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "visual-rules",
+        "chart-proof-goal",
+        "chart-visual-boundary",
+        "图表",
+        "是否",
+        "没有",
+        "证明",
+        "违反"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e68deef7ca0b4a7848bc367ecb] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 优化提示词： 输入增加 templates/chart_patterns.md 通用图表模式，visual_patterns/layout_library.md 页面版式库 执行优先级增加对chart_patterns.md，layout_library.md的说明 另外检查还有其他依赖文件吗？ 任务：请作为角色 C / PPTX Builder，基于输入文件生成华为风格",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "templates/chart-patterns.md",
+        "执行优先级增加对chart-patterns.md",
+        "layout-library.md的说明",
+        "提示",
+        "输入",
+        "增加",
+        "templates"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: layout_pattern； - 不得把页面做成互联网发布会风、咨询海报风、卡通插画风、政务宣传风、Excel 报表风或学术论文截图风。 生成后自检： 每页生成后自动检查： 1. 是否偏离 deck_spec； 2. 是否偏离 page_design； 3. 是否违反 visual_rules； 4. 图表是否没有证明 chart_proof_goal； 5. 是否违反 chart_visual_boundary； 6. 是否出现红色锚点分散、卡片同权、案例素材墙、决策表吞没结论、路线图无门槛、总结页无定义等硬问题。 如发现硬门禁不合格，请",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "layout-pattern",
+        "deck-spec",
+        "page-design",
+        "visual-rules",
+        "chart-proof-goal",
+        "chart-visual-boundary",
+        "不得",
+        "做成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: 对，应该把 `chart_patterns.md` 和 `layout_library.md` 加进去。 角色 C 最小输入建议升级为 **5 个文件**： 1. `deck_spec.json` 2. `page_design_v0.1.md` 3. `templates/visual_rules.md` 4. `templates/chart_patterns.md` 5. `visual_patterns/layout_library.md` 优化后提示词如下： ```text 任务：请作为角色 C / PPTX Builde",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "chart-patterns.md",
+        "layout-library.md",
+        "deck-spec.json",
+        "page-design-v0.1.md",
+        "templates/visual-rules.md",
+        "templates/chart-patterns.md",
+        "应该",
+        "加进去"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: 本提示词只作为执行门禁，不得覆盖以上输入文件。 执行要求： - 严格按 deck_spec 和 page_design 生成页面，不新增事实、数字、案例、产品名或未经确认的信息； - 每页必须服务 core_judgement； - 主图表必须证明 chart_proof_goal； - 图表视觉表达不得违反 chart_visual_boundary； - chart_type 必须按 chart_patterns.md 执行； - layout_pattern 必须按 layout_library.md 执行； - 不得混用 c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "deck-spec",
+        "page-design",
+        "core-judgement",
+        "chart-proof-goal",
+        "chart-visual-boundary",
+        "chart-type",
+        "chart-patterns.md",
+        "layout-pattern"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]已落地完成，版本升级为： `v0.3.9-chart-semantic-mapping` 本次新增字段： `chart_semantic_mapping` 结构按你确认的 6 个核心字段落地： ```json { \"chart_reading_intent\": \"\", \"main_visual_logic\": \"\", \"axis_semantics\": {}, \"stage_or_node_meaning\": {}, \"insight_panel_logic\": [], \"forbidden_",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "v0.3.9-chart-semantic-mapping",
+        "chart-semantic-mapping",
+        "chart-reading-intent",
+        "main-visual-logic",
+        "axis-semantics",
+        "stage-or-node-meaning",
+        "insight-panel-logic"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: 未发现坏转义字符残留 - 版本号、README、CHANGELOG、索引、清单已同步 - `chart_semantic_mapping` 已在相关资产中出现并形成闭环规则。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "chart-semantic-mapping",
+        "发现",
+        "字符",
+        "残留",
+        "版本",
+        "readme",
+        "changelog",
+        "索引"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6eb63f8b5480b14b402eb28d4ce] ou_bcdd8c3d71c586efd32d2a102ab0a51a: P4 / P7 / P8 / P14 单独生成这四页的交付物，deck_spec.json,page_copy.md,page_design.md，依赖：visual_rules.md，chart_patterns.md，wording_rules.md，layout_library.md，deck_spec_field_dictionary.md",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "deck-spec.json",
+        "page-copy.md",
+        "page-design.md",
+        "visual-rules.md",
+        "chart-patterns.md",
+        "wording-rules.md",
+        "layout-library.md"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 收到。我会单独抽取 P4/P7/P8/P14 做一个四页交付包，并按 v0.3.9 规则补齐 `chart_semantic_mapping`（P4 必填，P7/P8 作为高语义风险图表也补）。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "p4/p7/p8/p14",
+        "v0.3.9",
+        "chart-semantic-mapping",
+        "p7/p8",
+        "收到",
+        "单独",
+        "抽取",
+        "p14"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]]已完成四页单独交付包。 交付目录： `project/work/AI4MBSE_P4_P7_P8_P14_delivery/` 包含： - `deck_spec.json` - `page_copy.md` - `page_design.md` - `dependencies/visual_rules.md` - `dependencies/chart_patterns.md` - `dependencies/wording_rules.md` - `dependencies/layout_l",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "deck-spec.json",
+        "page-copy.md",
+        "page-design.md",
+        "dependencies/visual-rules.md",
+        "dependencies/chart-patterns.md",
+        "dependencies/wording-rules.md",
+        "dependencies/layout-l"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ebb827670acb3b10ec6142dd5d] ou_bcdd8c3d71c586efd32d2a102ab0a51a: page_render_spec已终止，梳理与page_render_spec方案的相关文件，本轮不清理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "page-render-spec已终止",
+        "梳理与page-render-spec方案的相关文件",
+        "page-render-spec",
+        "终止",
+        "梳理",
+        "方案",
+        "相关"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 我先只做“梳理清单”，不删除、不改动。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "我先",
+        "只做",
+        "梳理",
+        "清单",
+        "删除",
+        "不改"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 已完成梳理，本轮未清理、未删除、未改历史产物。 清单文件已写入： `project/work/page_render_spec_related_files_inventory_v0.1.md` 核心结论： - 可归档候选： - `project/work/page_render_spec_phase0/` - `project/work/page_render_spec_phase1/` - `project/work/generate_page_render_spec_phase1.py`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "完成",
+        "梳理",
+        "清理",
+        "删除",
+        "历史",
+        "产物",
+        "清单"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: `MEMORY.md#L41`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "l41"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ea4805e9cb8c3bb4746830f9ad] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 启动清理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "启动",
+        "清理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 收到。我按“归档清理”执行：移动历史方案产物到 archive，更新 handoff 状态；正式 Skill 资产不动。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "收到",
+        "归档",
+        "清理",
+        "执行",
+        "移动",
+        "历史",
+        "方案",
+        "产物"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 清理完成，采用“归档不删除”。 已归档到： `deliverables/archive/20260529_115110_page_render_spec_terminated_cleanup/` 已处理： - `project/work/page_render_spec_phase0/` - `project/work/page_render_spec_phase1/` - `project/work/generate_page_render_spec_phase1.py` - `deliv",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "清理",
+        "完成",
+        "采用",
+        "归档",
+        "删除",
+        "deliverables",
+        "archive"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ea6344884bcc2c0501400b4687] ou_bcdd8c3d71c586efd32d2a102ab0a51a: [Replying to: \"已完成四页单独交付包。 交付目录： project/work/AI4MBSE\\_P4\\_P7\\_P8\\_P14\\_delivery/ 包含： \\- deck\\_spec.json \\- page\\_copy.md \\- page\\_design.md \\- dependencies/visual\\_rules.md \\- dependenci",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "project/work/ai4mbse",
+        "spec.json",
+        "copy.md",
+        "design.md",
+        "dependencies/visual",
+        "rules.md",
+        "replying"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: 证据 | |---|---|---| | `title` / `conclusion` | ✅ 真差异 | 来自论文，逐页不同，质量好 | | `chart_data` | ✅ 真差异 | nodes/edges、layers、rows 结构化且可直接消费，是亮点 | | `chart_semantic_mapping` | ✅ 真差异 | 逐页语义解释扎实，是整套交付物**最有价值的部分** | | `core_judgement` | ❌ 套版 | 4 页全是 `\"本页唯一要带走的判断：\"＋conclusion 原文`，零增量信息 | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "chart-data",
+        "nodes/edges",
+        "chart-semantic-mapping",
+        "core-judgement",
+        "证据",
+        "title",
+        "conclusion",
+        "差异"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: 全部通过（JSON 合法、枚举合法、字段齐全）——但它只验\"结构在不在\"，**不验\"每页是否真的不同、是否有真实设计决策\"**。 - 对你的下游（外部模型 + 提示词生图）来说，套版字段不只是噪声，而是**主动误导**：每页喂进去的设计说明 90% 雷同，生图模型自然倾向给所有页同一种通用视觉处理 → 各页长得像、不可控。这正是\"PPT 设计交付物不稳定\"的真实根因。 ## 我建议的第一个共同工作项（最高杠杆） 把\"防机械套版\"从 `SKILL.md` 里的口号，变成**可执行的门禁 + 字段去重规则**，三条： 1. **加一道\"模板印章检",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "skill.md",
+        "全部",
+        "通过",
+        "合法",
+        "枚举",
+        "齐全",
+        "结构",
+        "不在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 这个诊断方向我认可，而且它抓到了比 JSON 合法性更底层的问题：**字段完整不等于设计有效**。我先快速核验四页交付物，再给可行性和落地阶段。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "这个",
+        "诊断",
+        "方向",
+        "认可",
+        "而且",
+        "抓到",
+        "合法性",
+        "底层"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 我认可这个诊断，且核验后基本成立。 我已写评审报告： `project/review/review_reports/AI4MBSE_four_page_template_stamp_feasibility_review_v0.1.md` 核心判断： 1. **可行性高** - 不需要恢复 `page_render_spec / normalized_render_model`； - 只是在现有 `deck_spec` 语义契约上加质量门禁； - 能直接解决“字段齐全但设计信号重复”的问题。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "page-render-spec",
+        "normalized-render-model",
+        "deck-spec",
+        "认可",
+        "这个",
+        "诊断",
+        "核验"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-27.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-27.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-05-27.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: **通常不需要**：`outline_v0.1.md`、`page_copy_v0.1.md`，因为内容已进入 `deck_spec.json` 和 `page_design_v0.1.md`。 - **按需需要**：图片、Logo、截图等素材文件；如果 deck_spec 里有 `image_ref`、案例图、截图占位，就必须一并提供。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "99886bb257c4"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "outline-v0.1.md",
+        "page-copy-v0.1.md",
+        "deck-spec.json",
+        "page-design-v0.1.md",
+        "deck-spec",
+        "image-ref",
+        "通常",
+        "不需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 1：最小资产落地，让旧四页交付包能被检出问题； - Phase 2：重生成 P4/P7/P8/P14 做对照； - Phase 3：通过后升级为 `v0.4.0-anti-template-stamp-gate`。 我的建议：先走 **Phase 0 + patch proposal**，别直接改 Skill。这个改动很有价值，但要控制好边界——不能把“华为风格一致性”误判成“机械套版”。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "p4/p7/p8/p14",
+        "v0.4.0-anti-template-stamp-gate",
+        "最小",
+        "资产",
+        "落地",
+        "交付",
+        "问题",
+        "phase"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ea7196770f4b261cb1b0129d4f] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 启动Phase 0 + patch proposal",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "启动",
+        "phase",
+        "patch",
+        "proposal"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 收到，启动 Phase 0。只做规则冻结和 patch proposal，不改正式 Skill。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "收到",
+        "启动",
+        "phase",
+        "只做",
+        "规则",
+        "冻结",
+        "patch",
+        "proposal"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] Phase 0 + patch proposal 已完成，未修改正式 Skill 资产。 产出文件： 1. 规则冻结 `project/review/review_reports/anti_template_stamp_gate_phase0_rule_freeze_v0.1.md` 2. Patch proposal `project/review/patch_proposals/anti_template_stamp_gate_patch_v0.1.md` 3. 旧四页 dry-run",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "dry-run",
+        "phase",
+        "patch",
+        "proposal",
+        "完成",
+        "修改",
+        "正式"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ea0513d3488b146da0a0627cf5] ou_bcdd8c3d71c586efd32d2a102ab0a51a: C:\\Users\\Administrator\\cursor\\feishu-bot4-workspace\\project\\review\\review_reports\\skill_review_anti_template_stamp_gate_v0.1.md Phase 0 + patch proposal 评审意见，请继续评审，个人建议P1优先，本轮暂不启动落地",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "feishu-bot4-workspace",
+        "review-reports",
+        "users",
+        "administrator",
+        "cursor",
+        "feishu",
+        "bot4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 收到，我按“继续评审、不落地”处理：吸收这份评审意见，重点拆 P1 优先级，形成下一轮可执行修订建议。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "收到",
+        "继续",
+        "评审",
+        "落地",
+        "处理",
+        "吸收",
+        "意见",
+        "重点"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 已继续评审，按你的建议 **P1 优先**，本轮未启动落地、未改正式 Skill。 新增续评报告： `project/review/review_reports/anti_template_stamp_gate_phase0_review_response_v0.1.md` 已更新交接： `project/handoff/B_to_A.md` 结论： - 接受原评审的“有条件合入”判断； - 当前 `anti_template_stamp_gate_patch_v0.1.md` **不建议直",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "project/handoff/b-to-a.md",
+        "继续",
+        "评审",
+        "你的",
+        "建议",
+        "优先",
+        "启动"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ea005b9cc88b2e9202c625731b] ou_bcdd8c3d71c586efd32d2a102ab0a51a: OK继续",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "继续"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: 继续。我按上轮结论产出 `patch v0.2`：只修 proposal，不落地正式 Skill。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "v0.2",
+        "继续",
+        "结论",
+        "patch",
+        "proposal",
+        "落地",
+        "正式",
+        "skill"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 已继续，完成 `patch v0.2`，仍未落地正式 Skill。 新增文件： 1. v0.2 proposal `project/review/patch_proposals/anti_template_stamp_gate_patch_v0.2.md` 2. v0.2 差异评审 `project/review/review_reports/anti_template_stamp_gate_patch_v0.2_delta_review_v0.1.md` 3. 已更新交接 `project",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "v0.2",
+        "继续",
+        "完成",
+        "patch",
+        "落地",
+        "正式",
+        "skill"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ea0d0f94ce8b4a4b49bfb9c026] ou_bcdd8c3d71c586efd32d2a102ab0a51a: 评审通过，启动Phase 1 落地",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "评审",
+        "通过",
+        "启动",
+        "phase",
+        "落地"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 收到，评审通过后我直接进入 Phase 1 落地。会改正式 Skill 资产，并做最小回归验证。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-29T19:00:45.491Z",
+      "lastRecalledAt": "2026-05-29T19:00:45.491Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-30",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "收到",
+        "评审",
+        "通过",
+        "直接",
+        "进入",
+        "phase",
+        "落地",
+        "改正"
       ]
     }
   }

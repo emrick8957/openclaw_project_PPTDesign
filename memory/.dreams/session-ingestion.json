@@ -20,7 +20,7 @@
       "size": 1089382,
       "contentHash": "3bfd1a8bfc9a0b9e79901490a89b742fd3e935c694770b0345022872b16ddc22",
       "lineCount": 85,
-      "lastContentLine": 72
+      "lastContentLine": 85
     },
     "feishu-4:sessions/feishu-4/40cc0e5d-c624-4973-9380-eea91429bbb8.jsonl": {
       "mtimeMs": 1778951781430,
@@ -42,6 +42,13 @@
       "contentHash": "d22426600dcdde360168121a05c1ec6cd6c1ebfff6bc0c3e84007a712d1ee146",
       "lineCount": 120,
       "lastContentLine": 120
+    },
+    "feishu-4:sessions/feishu-4/5e8029a9-8684-41ed-b0fe-15fac16ced58.jsonl": {
+      "mtimeMs": 1780075627787,
+      "size": 1592846,
+      "contentHash": "682903bae5c8ac3001108bb7fe6ae2f2a51742babd78ad37f9939f803558d314",
+      "lineCount": 49,
+      "lastContentLine": 24
     },
     "feishu-4:sessions/feishu-4/6d2a1f61-2791-47ca-b05f-27d093f092da.jsonl.reset.2026-05-02T03-08-37.314Z": {
       "mtimeMs": 1777649367593,
@@ -78,12 +85,12 @@
       "lineCount": 1,
       "lastContentLine": 1
     },
-    "feishu-4:sessions/feishu-4/cc65624e-9eec-4f5d-bf34-95704205f453.jsonl": {
+    "feishu-4:sessions/feishu-4/cc65624e-9eec-4f5d-bf34-95704205f453.jsonl.reset.2026-05-29T02-41-29.834Z": {
       "mtimeMs": 1779967981571,
       "size": 928376,
       "contentHash": "7c009e7795e56c6f10ebab2d9cafa8bfd7381bf96d2a4210b183dc6a8c35b1b7",
       "lineCount": 29,
-      "lastContentLine": 24
+      "lastContentLine": 29
     },
     "feishu-4:sessions/feishu-4/cf04a923-59ab-4962-88c7-4da96b9a6d49.jsonl.reset.2026-05-17T01-56-32.964Z": {
       "mtimeMs": 1778952466735,
@@ -363,7 +370,20 @@
       "97d29d7d808f81c7ba7ae859a890cf248790c286",
       "2a3db8bcb0cd47720205d528e117158340588878",
       "ceafd020991009bf0ddc50e22624bbf60de6d5cb",
-      "e29d397a628ae33052a67aab3c26169e8d14e52a"
+      "e29d397a628ae33052a67aab3c26169e8d14e52a",
+      "36607bdf4715aa1d9b245cbd23955d57aab83891",
+      "d5976472495f1209fe98a5f3de8ae2f182f4f91b",
+      "6ca8e4a73e43765ed4f671e544993e584f063fa5",
+      "85113c9b02da15b9d91c3f77ac819c649e7f3184",
+      "10f0da970d05fc6b98dfb03af410f27dc1575f78",
+      "db66e1d5181e3a8a2d667b9250115e1039b8e5e0",
+      "9ff915ba60c06ab85f30d209286cf801a0b5f435",
+      "eb1b47959e76e8fda048505c1cb331caeb162d4e",
+      "ba9c88e6f171666acc6d0b0ba08fb1e64caea950",
+      "27280eacec1d3ac60e115ed4746ef342fba60626",
+      "00b6ad5c0efdfa102cc2114518e23ed83a58582c",
+      "8e9e6f8b2b5bd7f3bea6816ead649fd0ac95b312",
+      "48a3025f6ea7bccbba905a2fbc06f1e1685f02c3"
     ],
     "feishu-4:74b25753-c26f-417c-89b4-c9725f468425": [
       "28b7a941ad16b817da686f10cdfa904fc206170f",
@@ -414,7 +434,38 @@
       "6c864eb621fc6301dd3b689d9689a8ebc764737b",
       "d27c48d4eb6c055248eee0889f5506ba6d38a01e",
       "7bf12416330a6e0d25d50c0d40963b80c5fa24e4",
-      "95df93e6d9205a7096b1b79afa9996ff1085796e"
+      "95df93e6d9205a7096b1b79afa9996ff1085796e",
+      "6fd5ca9990ffc618b2fd87d4bf876e82df70e3d8",
+      "799b4f1b24aad5287f998a7f2a6ab84d3be9a6b4",
+      "171a0b128b9d34d5a21854f8a7b95cf8c54ab85d",
+      "a6d2b748debfd0971200c15eaa2bd05f0d9fd304",
+      "0b045287ddf646e55f36692fab409438502352d1"
+    ],
+    "feishu-4:5e8029a9-8684-41ed-b0fe-15fac16ced58": [
+      "f175f8ab09152f6930979413010a9a7c30eaffde",
+      "11ef42db2a2490ee70b5add610c4e4bc18cedfc2",
+      "563911462801d9e21931255598455c65816df688",
+      "415159d7109edc40a2abea47cd9cccd23f5ae3f2",
+      "d546cb0ea7c4dc92ab2975f97dcb87c8e9d92d90",
+      "de3b90f8e00154e67814f78ea9220e49d361dc66",
+      "d78cc5c61c0ff90ed2c52a66047df12712ec0596",
+      "50437cc42e01042b13cfc489bdbb8b861257806d",
+      "98830408df9eaa098e9a66fe4f9ea4d6b005de29",
+      "4373639a99764db0123a429a347b92342bc5d2ea",
+      "46acfd762578a350bf54b0e0a06a084040bc6691",
+      "e33d2b413f3f97e20814c9ab771c82ad07f4be24",
+      "158e81efd704616a42382ebf484adfaa702ea9ab",
+      "daaf5218d66091aa70ac7167834bacf62ca61c18",
+      "268e7efd71f5a31d99cebe3aacefa82079efe478",
+      "d8b769143c2456bd9b5104374bb58fe1878cdc97",
+      "d8c0db466170a757bf13ae831cf0788b623907d3",
+      "dfd5629c6a3c5c4f103ed362fb7d2844c76f90d3",
+      "589170e551b53edac60adaf6e373abd7732b38df",
+      "a8a66e419f4b26b8a588e8efaaf1714ae0d86b21",
+      "7fad96a04f3e35dd0446b5f033f2e9232118cbb6",
+      "f2e1196b12c4dde120c53a4cd5bb841b474e6a31",
+      "0e90aa668eef55daa45edbc8c904b57bf9888a98",
+      "e054cd5d3bd7461deb82a044017af7f846e434e6"
     ]
   }
 }

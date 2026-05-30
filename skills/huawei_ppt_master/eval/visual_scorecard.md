@@ -147,3 +147,44 @@
 - 阶段、节点或卡片只是空标签，无法支撑页面判断；
 - 右侧洞察栏与主图无关，退化为备注列表；
 - `forbidden_visualization` 为空或只写泛化口号。
+
+
+## N. 模板印章一票降级项
+
+出现以下任一问题，页面最高 B 档；若在混合阈值模型下触发 FAIL，整套交付必须返工：
+
+- 逐页设计字段大面积重复，导致下游无法判断每页独有设计动作；
+- `core_judgement` 只是字面复述 `conclusion`；
+- `chart_proof_goal` 只是关键词拼接，未说明因果、对比、演进、闭环、分层、决策或权衡关系；
+- `chart_visual_boundary` 未结合本页 `chart_type` 和 `forbidden_visualization`；
+- page_design 重复通用约束但缺少本页主图结构、红色锚点原因、区域比例和退化边界；
+- `speaker_notes` 全 deck 使用同一句话，无法指导讲解节奏。
+
+
+## O. chart_data 字段可见性一票降级项
+
+出现以下任一问题，页面最高 B 档；严重时必须返工：
+
+- `group`、`emphasis`、`source_status` 等 logic-only 字段被字面渲染为页面主体标签；
+- `section` 被渲染为主体卡片标题、节点标签或图表标签，而不是页眉/章节弱标签；
+- `edges.label` 被写成长句或复杂关系解释，导致箭头标签变成说明段落；
+- 复杂方向、同层对应、层级支撑、闭环回写等关系语义未进入 `chart_semantic_mapping`，导致图表关系多解；
+- `chart_data` 内出现 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等关系或渲染 DSL 字段。
+
+
+## P. v0.4.2 关系角色结构化枚举检查
+
+当高语义风险关系图（双分支 / 同层对应 / 层级支撑 / 闭环）声明了关系角色时，必须检查：
+
+- 同层对应是否只由 `chart_semantic_mapping.correspondence_pairs` 承载；
+- `edge_roles` 边引用是否为结构化 `{from,to}` 且命中 `chart_data.edges` 已存在的边；
+- `correspondence_pairs` 的 id 是否命中 `chart_data` 已存在的节点。
+
+### P.1 一票降级项
+
+出现以下任一问题，页面最高 B 档；严重时必须返工：
+
+- 声明了 `correspondence_pairs` 但渲染结果中同层对应被画成发散/交叉/丢失，未呈现为可识别的同层连接；
+- `edge_roles` 内出现 `same_level_correspondence` 角色，与 `correspondence_pairs` 双写同层对应；
+- `edge_roles` 使用 `"from->to"` 字符串引用，或引用了 `chart_data` 中不存在的影子边/影子节点；
+- 关系角色名被反向写回 `chart_data.edges`（复辟 `relation_type`）。

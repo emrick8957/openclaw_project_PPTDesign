@@ -1,7 +1,7 @@
 # Package Manifest
 
-Current package version: v0.3.9-chart-semantic-mapping
-Last updated: 2026-05-28
+Current package version: v0.4.2-relation-roles
+Last updated: 2026-05-30
 
 - `CHANGELOG.md`
 - `README.md`
@@ -11,6 +11,7 @@ Last updated: 2026-05-28
 - `core/anti_overfit_rules.md`
 - `core/audience_rules.md`
 - `core/deck_spec_field_dictionary.md`
+- `core/field_differentiation_rules.md`
 - `core/generation_workflow.md`
 - `core/output_contracts.md`
 - `core/reference_ingestion_workflow.md`
@@ -27,6 +28,7 @@ Last updated: 2026-05-28
 - `eval/acceptance_checklist.md`
 - `eval/domain_contamination_tests.md`
 - `eval/reference_learning_regression.md`
+- `eval/template_stamp_detection.md`
 - `eval/regression_cases.md`
 - `eval/visual_scorecard.md`
 - `prompts/deck_spec_generation.md`
@@ -77,7 +79,10 @@ Last updated: 2026-05-28
   根据汇报对象调整口径，包括华为内部高层、客户高层、市局/分局领导、技术团队等。
 
 - `core/deck_spec_field_dictionary.md`  
-  定义 `deck_spec.json` 的文件定位、顶层字段和 slide 字段职责，作为角色 C 理解 deck_spec 的正式交付物支持文档。
+  定义 `deck_spec.json` 的文件定位、顶层字段、slide 字段职责和 chart_data 字段可见性约定，作为角色 C 理解 deck_spec 的正式交付物支持文档。
+
+- `core/field_differentiation_rules.md`  
+  定义字段差异化规则、允许重复白名单、必须逐页有设计增量字段，以及 core_judgement / chart_proof_goal / chart_visual_boundary 的正反例。
 
 - `core/reference_ingestion_workflow.md`  
   定义持续提供 PPT、PPT 图片、模板、文本材料和数据材料时的分类、抽取、沉淀、冲突处理和复用流程。
@@ -185,6 +190,9 @@ Last updated: 2026-05-28
 - `eval/reference_learning_regression.md`  
   检查参考材料学习后的视觉、结构、表达、体系、主题隔离和增量稳定性。
 
+- `eval/template_stamp_detection.md`  
+  执行防机械套版检测，检查重复字段、字面复述、骨架填词和缺少逐页设计决策。
+
 ### 3.7 `prompts/`：可复用提示词
 
 `prompts/` 仅作为提示词素材库，不得覆盖本 `SKILL.md` 中的强制规则。
@@ -242,3 +250,41 @@ Last updated: 2026-05-28
 - `eval/visual_scorecard.md`：新增 v0.3.9 图表语义映射检查与一票降级项。
 
 边界：该字段是 deck_spec 语义证明增强，不是渲染 DSL；不恢复 `page_render_spec` / `normalized_render_model` 方案。
+
+
+### 3.12 v0.4.0 防机械套版门禁资产
+
+本版本同步增强以下资产：
+
+- `core/field_differentiation_rules.md`：字段差异化单一真相源。
+- `eval/template_stamp_detection.md`：模板印章检测门禁与混合阈值模型。
+- `core/output_contracts.md`：新增字段差异化强门禁。
+- `prompts/deck_spec_generation.md`：要求 self_check 输出模板印章检测结果。
+- `eval/acceptance_checklist.md`、`eval/visual_scorecard.md`：新增防机械套版验收和一票降级项。
+- `templates/visual_rules.md`、`templates/wording_rules.md`：新增通用视觉规则下沉和防骨架填词规则。
+
+边界：不恢复 `page_render_spec` / `normalized_render_model`，不新增渲染 DSL，不要求所有字段都差异化。
+
+
+### 3.13 v0.4.1 chart_data 字段可见性资产
+
+本版本同步增强以下资产：
+
+- `core/deck_spec_field_dictionary.md`：新增 chart_data 字段分层、logic-only 字段清单、可见分组标题、`edges.label` 边界、短语化判据和关系语义承载位置。
+- `core/output_contracts.md`：deck_spec 强门禁新增 logic-only 字段不上屏、可见分组标题字段、`edges.label` 短动作词、禁止关系/渲染 DSL 字段。
+- `templates/chart_patterns.md`：新增 chart_data 字段可见性边界说明。
+- `prompts/deck_spec_generation.md`：新增生成时字段可见性检查。
+- `eval/acceptance_checklist.md`、`eval/regression_cases.md`、`eval/visual_scorecard.md`：新增验收、回归和一票降级项。
+
+### 3.14 v0.4.2 关系角色结构化枚举资产
+
+本版本同步增强以下资产：
+
+- `core/deck_spec_field_dictionary.md`：新增 §4.7 关系角色与对应关系的结构化枚举（`correspondence_pairs` / `edge_roles`）。
+- `core/output_contracts.md`：deck_spec 强门禁新增第 22、23 条（同层对应单一事实源、edge_roles 边引用结构化与存在性）。
+- `prompts/deck_spec_generation.md`：新增关系角色生成与一致性检查项。
+- `templates/chart_patterns.md`：补充关系角色承载指引。
+- `eval/visual_scorecard.md`：新增 P 章节与一票降级项。
+- `eval/regression_cases.md`：新增 Test 12、Test 13。
+
+已知留项（P3，本版未处理）：`edge_roles` 词表闭合、回归全量补强、角色 C 依赖声明与兜底散文强制，后续独立小补丁跟进。

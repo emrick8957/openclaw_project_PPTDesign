@@ -114,6 +114,17 @@ PPTX Builder 注意事项：
 - `chart_type` 仍只允许使用 `templates/chart_patterns.md` 中的合法枚举；
 - `layout_pattern` 仍只允许使用 `visual_patterns/layout_library.md` 中的合法枚举。
 
+### 4.0.1 字段差异化要求
+
+`core_judgement`、`chart_proof_goal`、`chart_visual_boundary` 不只是必填字段，还必须承载逐页设计决策。具体字段职责、允许重复白名单、正反例和下沉规则以 `core/field_differentiation_rules.md` 为准。
+
+关键要求：
+
+- `core_judgement` 不得等于 `conclusion`，也不得只是固定前缀 + `conclusion`；允许对 `conclusion` 做正当提炼或收口；
+- `chart_proof_goal` 必须说明主图证明的因果、对比、演进、闭环、分层、决策或权衡关系；
+- `chart_visual_boundary` 必须结合本页图表风险和 `chart_semantic_mapping.forbidden_visualization`，不得多页复用同一组泛化边界；
+- 通用视觉规范应下沉为全局默认，不得逐页重复伪装成页面设计。
+
 输出严格 JSON：
 
 ```json
@@ -210,6 +221,17 @@ PPTX Builder 注意事项：
 10. `chart_semantic_mapping` 必须服务 `chart_proof_goal`，不得另起一套判断。
 11. `chart_proof_goal` 必须能直接支撑 `core_judgement`，否则判定该页图表论证目标不成立。
 12. `chart_visual_boundary` 必须为数组，建议 3~5 条，不得为空泛口号。
+13. 必须通过 `eval/template_stamp_detection.md` 的模板印章检测。
+14. 重复判定必须使用混合阈值模型：N<=3 两两比较，N>=4 使用 `repeat_threshold=max(3,ceil(N*0.5))`。
+15. `core_judgement` 不得等于 `conclusion` 或固定前缀 + `conclusion`。
+16. `chart_visual_boundary`、`visual_notes` / page_design overrides 若在混合阈值模型下触发重复 FAIL，必须返工；如为通用规则，必须拆入 `global_design_defaults`。
+17. `chart_data` 的键名、列名、节点结构相似不判 FAIL，只判语义内容是否机械重复。
+18. `chart_data` 中 logic-only 字段不得作为可见标签上屏，包括但不限于 `group`、`emphasis`、`source_status`；
+19. 若需要可见分组标题，必须使用 `label`、`name`、`headline`、`display_text`、`lane.name`、`layer.name` 或 `stage.name` 等显示内容字段，不得复用 `group`；
+20. `edges.label` 只能承载短动作词或短关系词，不得承载复杂关系语义；复杂关系语义必须进入 `chart_semantic_mapping`；
+21. 不得在 `chart_data` 内新增 `relation_type`、`edge_style`、`position`、`anchor`、`x/y`、`layer_index` 等渲染或关系 DSL 字段。
+22. 高语义风险关系图（双分支 / 同层对应 / 层级支撑 / 闭环）若需声明关系角色：同层对应只能由 `chart_semantic_mapping.correspondence_pairs` 承载，`edge_roles` 不得出现 `same_level_correspondence` 角色（单一事实源）。
+23. `chart_semantic_mapping.edge_roles` 的边引用必须为结构化 `{"from":<id>,"to":<id>}`，不得使用 `"from->to"` 字符串；`edge_roles` 引用的边必须命中 `chart_data.edges` 已存在的边，`correspondence_pairs` 引用的 id 必须命中 `chart_data` 已存在的节点，不得引入影子边/影子节点。
 
 
 ### 4.4 无精确匹配时的唯一合法处理
