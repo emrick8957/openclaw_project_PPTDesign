@@ -1,6 +1,6 @@
 ---
 name: huawei_ppt_master
-version: 0.4.1-chart-data-visibility
+version: 0.4.2-relation-roles
 description: 通用华为风格 PPT 生成 Skill。根据用户输入生成 PPT 大纲、逐页文案、页面设计说明与 deck_spec.json；支持从用户持续提供的 PPT、PPT 图片、模板、文本材料中学习样式、结构、表达习惯、内容套路和方法论框架，并分层沉淀后稳定复用。AI算力、昇腾/NVIDIA、公安政务、AI平台、持续运营等仅作为条件触发主题包，不作为默认主题限制。
 ---
 
@@ -312,6 +312,7 @@ domain_profiles/default_general.md
 8. 不允许使用 `chart_type` 名称作为 `layout_pattern`。
 9. 如果无法判断，应优先选择更通用的 `chart_type`，并在 `visual_notes` 中说明不确定点。
 10. `chart_data` 中 `label` / `name` / `headline` / `items` / `edges.label` 等可见字段必须短语化；`edges.label` 只能承载短动作词或短关系词，复杂方向、对应、层级、闭环语义必须进入 `chart_semantic_mapping`。
+11. 高语义风险关系图（双分支 / 同层对应 / 层级支撑 / 闭环）声明关系角色时，同层对应只能由 `chart_semantic_mapping.correspondence_pairs` 承载（`edge_roles` 不得出现 `same_level_correspondence`）；`edge_roles` 边引用必须为结构化 `{from,to}` 且命中 `chart_data.edges` 已存在的边，详见 `core/deck_spec_field_dictionary.md` §4.7。
 
 ---
 

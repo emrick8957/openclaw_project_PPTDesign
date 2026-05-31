@@ -1,50 +1,25 @@
-# A_to_B handoff：AI_MBSE v0.4.0 全链路交付
+# A_to_B 交接单
 
 ## 任务
-
-基于 PDF `examples/人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用.pdf`，按 huawei_ppt_master v0.4.0 全链路生成华为风格 PPT 输入材料。
-
-## 叙事结构
-
-四段式：Background → Catalyst → Application → Trends。
+根据用户提供 PDF《人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用》，按 Background / Catalyst / Application / Trends 四段式，执行 huawei_ppt_master Skill 全链路，生成大纲、逐页文案、页面设计说明、deck_spec、证据清单、自检、状态与 zip。
 
 ## 当前交付
-
-工作区主文件：
-
-- `project/work/core_content_analysis_v0.1.md`
 - `project/work/outline_v0.1.md`
 - `project/work/page_copy_v0.1.md`
 - `project/work/page_design_v0.1.md`
 - `project/work/deck_spec_v0.1.json`
 - `project/work/source_evidence_manifest_v0.1.json`
 - `project/work/self_check_v0.1.md`
-
-交付目录：
-
-- `project/work/AI_MBSE_v040_full_chain_delivery/`
-
-交付 zip：
-
-- `deliverables/AI_MBSE_v040_full_chain_delivery.zip`
-- `deliverables/AI_MBSE_v040_part1_P1-P6.zip`
-- `deliverables/AI_MBSE_v040_part2_P7-P12.zip`
+- `project/work/source_pdf_text_AI_MBSE_automation.txt`
+- `deliverables/AI_MBSE_自动化生产系统_四段式交付包_part1_P1-P7.zip`
+- `deliverables/AI_MBSE_自动化生产系统_四段式交付包_part2_P8-P14.zip`
 
 ## 核心结论
+论文核心不是“AI 能做哪些点状任务”，而是以语义化工程模型为底座，把产品、生产、仿真、运行数据和 AI/XAI 统一纳入可解释、可审查、可回写的 MBSE 工程闭环。
 
-AI+MBSE 的核心不是引入单点算法，而是建立可被 AI 读取、验证、解释、回写并受控治理的工程模型体系。
-
-## B 侧重点看
-
-1. v0.4.0 模板印章检测是否真正避免字段机械套版；
-2. `chart_proof_goal` 是否均为关系证明而非关键词拼接；
-3. `chart_visual_boundary` 是否逐页吸收图表专属风险；
-4. deck_spec 的 chart_type / layout_pattern 是否可被 Builder 消费；
-5. 四段式结构是否符合用户指定的 Background / Catalyst / Application / Trends。
-
-## 边界
-
-- 未生成 PPTX；
-- 未使用 `page_render_spec`；
-- 未使用 `normalized_render_model`；
-- 未新增渲染 DSL。
+## 需要重点看
+1. P5 双 V 生命周期中七类 AI 入口是否被 Builder 正确画成关联结构，而非散点。
+2. P7 自学习数字孪生闭环是否体现“回写”。
+3. P9 FMU 模块化协同仿真是否避免把 AI/XAI 画成孤立模块。
+4. P13 趋势曲线必须作为阶段成熟度示意，不得渲染为精确增长数据。
+5. P14 决策页要突出拍板事项，表格不能吞没结论。

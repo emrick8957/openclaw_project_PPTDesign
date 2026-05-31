@@ -1,177 +1,1148 @@
 {
-  "deck_title": "AI 在自动化生产系统 MBSE 中的应用：四段式高层解读",
-  "audience": "技术高层 / 工程研发负责人 / 智能制造与生产系统决策人",
+  "deck_title": "人工智能在自动化生产系统 MBSE 中的应用——Background / Catalyst / Application / Trends 四段式解读",
+  "audience": "技术高层 / 工程管理层 / 业务决策人",
   "style": "huawei_executive",
-  "source": "Application of artificial intelligence in model-based systems engineering of automated production systems, Procedia CIRP 136 (2025) 61–66",
-  "version_note": "Generated under huawei_ppt_master v0.4.0-anti-template-stamp-gate; includes field differentiation and template-stamp self-check.",
-  "narrative_structure": [
-    "Background",
-    "Catalyst",
-    "Application",
-    "Trends"
-  ],
+  "source": "C:\\Users\\Administrator\\cursor\\feishu-bot4-workspace\\examples\\人工智能在自动化生产系统基于模型的系统工程（MBSE）中的应用.pdf",
+  "global_design_defaults": {
+    "palette": "white + #C8102E + dark gray + light gray",
+    "footer": "页脚固定 5% 安全区，含来源、页码、Confidential",
+    "red_rule": "正文页 1 个主红色锚点，最多 2 个弱强调",
+    "font": "标题 32-40pt，正文 14-18pt，注释 8-10pt"
+  },
   "slides": [
     {
       "slide_no": 1,
-      "section": "开场",
+      "section": "封面",
       "type": "cover",
-      "page_goal": "定调整份材料：把论文从技术论文翻译成高层可判断的工程体系升级议题。 本页承担四段式中的“定调”角色。",
-      "title": "AI+MBSE 的核心不是引入算法，而是重构工程语义闭环",
-      "conclusion": "论文提出的 AI-based self-learning digital twin，本质是用语义化工程模型把产品、生产系统、仿真和 AI/XAI 结果纳入同一可解释闭环。",
-      "core_judgement": "本页要建立总判断：AI+MBSE 不是单点算法试验，而是工程模型、仿真接口和治理回写共同构成的系统工程升级。",
-      "chart_proof_goal": "通过封面标题和副标题建立主题边界。",
+      "page_goal": "这份材料讲什么、为什么值得高层关注？",
+      "title": "从孤立 AI 应用走向自学习 MBSE 工程闭环",
+      "conclusion": "论文提出以语义化工程模型、自学习数字孪生、GBDL 与 FMU 协同支撑自动化生产系统中的 AI 应用。",
+      "core_judgement": "本页将论文转译为面向工程管理的四段式判断入口。",
+      "chart_proof_goal": "本页不以图表证明内容，只建立正式汇报入口和来源边界。",
       "chart_visual_boundary": [
-        "不得使用大面积科技蓝紫渐变",
-        "不得堆叠论文摘要长段落",
-        "红色只用于标题关键词或短线定锚"
+        "不得用复杂图形抢封面主标题",
+        "来源信息只放页脚或副标题",
+        "红色只作为短线定锚"
       ],
-      "display_text": [
-        "AI+MBSE",
-        "自学习数字孪生",
-        "语义工程底座",
-        "可解释闭环"
-      ],
-      "speaker_notes": "先回答“这篇论文对高层最重要的判断是什么？”，再解释论文依据（Abstract / Introduction），最后收口到“本页要建立总判断：AI+MBSE 不是单点算法试验，而是工程模型、仿...”的管理含义。",
-      "chart_type": "none",
-      "chart_data": {},
-      "layout_pattern": "image_background_section_divider",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P1 主视觉采用 image_background_section_divider，红色锚点给 AI+MBSE，主图必须服务“本页要建立总判断：AI+MBSE 不是单点算法试验，而是工程模型、仿真接口和...”这一判断，避免 不得使用科技炫光大背景。",
-      "visual_focus": [
-        "AI+MBSE",
-        "语义闭环"
-      ],
-      "must_highlight": [
-        "AI+MBSE"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [],
       "chart_semantic_mapping": {
-        "chart_reading_intent": "本页不使用主图表，读者应直接形成总判断。",
-        "main_visual_logic": "通过封面标题和副标题建立主题边界。",
+        "chart_reading_intent": "读者看完主图后应理解：论文提出以语义化工程模型、自学习数字孪生、GBDL 与 FMU 协同支撑自动化生产系统中的 AI 应用。",
+        "main_visual_logic": "本页不设主图，依靠封面/章节结构建立阅读入口。",
         "axis_semantics": {},
         "stage_or_node_meaning": {},
         "insight_panel_logic": [],
         "forbidden_visualization": [
-          "不得使用科技炫光大背景",
-          "不得把封面做成互联网发布会风"
+          "不得把封面做成正文页或复杂架构页"
         ]
-      }
+      },
+      "display_text": [
+        "AI in MBSE for Automated Production Systems",
+        "Background · Catalyst · Application · Trends",
+        "Source: Procedia CIRP 136 (2025) 61–66"
+      ],
+      "speaker_notes": "先点明本页属于 总览 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "none",
+      "chart_data": {},
+      "layout_pattern": "image_background_section_divider",
+      "visual_notes": "总览 段页面：主图承担证明，红色锚点放在“从孤立 AI 应用走向自”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "总览",
+        "none",
+        "这份材料讲什么、为什么值"
+      ],
+      "must_highlight": [
+        "总览",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
     },
     {
       "slide_no": 2,
-      "section": "阅读框架",
+      "section": "总览",
       "type": "executive_summary",
-      "page_goal": "让高层形成全文结构地图，明确每一段回答的问题。 本页承担四段式中的“框架”角色。",
-      "title": "四段式阅读框架应围绕“为什么转向、用什么催化、如何落地、趋势怎么演进”展开",
-      "conclusion": "全文可归纳为 Background、Catalyst、Application、Trends 四段：复杂度压力是背景，语义模型与双 V 生命周期是催化，自学习数字孪生是应用载体，AI-FMU 与治理回写是趋势方向。",
-      "core_judgement": "本页要让高层按四段逻辑阅读论文：先判断压力来源，再看工程底座，再看样板闭环，最后落到阶段路径和治理责任。",
-      "chart_proof_goal": "四张卡片按 Background→Catalyst→Application→Trends 递进，形成从压力、底座、应用到趋势的判断链。",
+      "page_goal": "高层应带走哪几个判断？",
+      "title": "核心判断：AI 价值不在单点算法，而在可解释、可回写的工程模型闭环",
+      "conclusion": "论文的主线是把 AI 从孤立工具纳入 MBSE 生命周期，让产品、生产、仿真与运行数据在同一语义底座上持续学习。",
+      "core_judgement": "高层应判断：该研究的主线是把 AI 从孤立工具纳入 MBSE 生命周期，让产品、生产、仿真与运行数据在同一语义底座上持续学习。",
+      "chart_proof_goal": "主图必须证明四段式判断之间存在递进关系：背景约束触发方法转变，应用验证后收敛到趋势判断。",
       "chart_visual_boundary": [
-        "不得做成普通目录清单",
-        "四卡必须体现递进关系而非并列装饰",
-        "红色只用于当前阅读主线或章节名"
+        "不得所有卡片同权",
+        "主判断卡或主红色关键词只能有一个",
+        "卡片说明控制在一行到两行"
       ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文的主线是把 AI 从孤立工具纳入 MBSE 生命周期，让产品、生产、仿真与运行数据在同一语义底座上持续学习。",
+        "main_visual_logic": "以一张主判断和若干支撑卡片形成从判断到证据的扫读路径。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "Background": "单点 AI 不够",
+          "Catalyst": "语义底座成为前提",
+          "Application": "装配系统可验证",
+          "Trends": "走向自学习闭环"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得让所有卡片同权",
+          "不得用大红卡片铺满页面"
+        ]
+      },
       "display_text": [
-        "Background：复杂度与单点 AI 瓶颈",
-        "Catalyst：双 V 生命周期与语义模型",
-        "Application：自学习数字孪生与装配样板",
-        "Trends：AI-FMU、XAI 与治理回写"
+        "单点 AI 应用正在遇到工程集成瓶颈",
+        "语义模型决定 AI 是否可解释、可复用",
+        "FMU 使 AI/XAI 可模块化进入仿真链路",
+        "趋势是自学习数字孪生而非算法堆叠"
       ],
-      "speaker_notes": "先回答“如何把 6 页论文组织成高层汇报结构？”，再解释论文依据（Abstract; Sections 1-6），最后收口到“本页要让高层按四段逻辑阅读论文：先判断压力来源，再看工程底座，再看样...”的管理含义。",
+      "speaker_notes": "先点明本页属于 总览 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
       "chart_type": "key_findings_cards",
       "chart_data": {
         "cards": [
           {
             "label": "Background",
-            "headline": "复杂度倒逼流程重构",
-            "description": "客户期望、竞争、可持续和产业转型推高工程复杂度",
-            "emphasis": "medium"
+            "headline": "单点 AI 不够",
+            "description": "复杂生产系统需要跨产品与生产全生命周期建模",
+            "emphasis": "high"
           },
           {
             "label": "Catalyst",
-            "headline": "语义模型成为 AI 前提",
-            "description": "GBDL/ontology/knowledge graph 让 AI 获得工程上下文",
-            "emphasis": "high"
+            "headline": "语义底座成为前提",
+            "description": "GBDL、知识图谱、FMU 让数据具备工程上下文",
+            "emphasis": "medium"
           },
           {
             "label": "Application",
-            "headline": "数字孪生承载闭环",
-            "description": "真实系统、模型、仿真、AI/XAI 与回写联动",
-            "emphasis": "high"
+            "headline": "装配系统可验证",
+            "description": "自动装配案例展示模型到仿真与 AI/XAI 的贯通",
+            "emphasis": "medium"
           },
           {
             "label": "Trends",
-            "headline": "从模型到治理机制",
-            "description": "AI-FMU、XAI、标准接口和责任边界成为落地关键",
+            "headline": "走向自学习闭环",
+            "description": "AI 结果回写工程模型，形成可解释与可审查能力",
             "emphasis": "medium"
           }
         ]
       },
       "layout_pattern": "executive_summary_dashboard",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P2 主视觉采用 executive_summary_dashboard，红色锚点给 四段式，主图必须服务“本页要让高层按四段逻辑阅读论文：先判断压力来源，再看工程底座，再看样板闭环，...”这一判断，避免 不得把四段做成普通目录。",
+      "visual_notes": "总览 段页面：主图承担证明，红色锚点放在“核心判断：AI 价值不在”相关关键词或关键节点；普通正文页不使用厚重红底条。",
       "visual_focus": [
-        "四段式",
-        "判断路径"
+        "总览",
+        "key_findings_cards",
+        "高层应带走哪几个判断？"
       ],
       "must_highlight": [
-        "四段式"
+        "总览",
+        "AI/MBSE"
       ],
       "text_density": "medium",
       "need_compression": false,
-      "data_gaps": [],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应按四段式建立阅读路径，知道每段回答的问题和后续判断顺序。",
-        "main_visual_logic": "四张卡片按 Background→Catalyst→Application→Trends 递进，形成从压力、底座、应用到趋势的判断链。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "Background": "复杂度倒逼流程重构",
-          "Catalyst": "语义模型成为 AI 前提",
-          "Application": "数字孪生承载闭环",
-          "Trends": "从模型到治理机制"
-        },
-        "insight_panel_logic": [
-          "右侧只收口四段式如何服务高层判断"
-        ],
-        "forbidden_visualization": [
-          "不得把四段做成普通目录",
-          "不得四卡同权无主次",
-          "不得加入未在论文中出现的商业指标"
-        ]
-      }
+      "data_gaps": []
     },
     {
       "slide_no": 3,
+      "section": "总览",
+      "type": "agenda",
+      "page_goal": "如何阅读这篇论文？",
+      "title": "四段式阅读框架：先看背景约束，再看触发机制、应用验证与趋势收口",
+      "conclusion": "按 Background、Catalyst、Application、Trends 组织，能把论文从技术概念转换成高层可判断的工程路线。",
+      "core_judgement": "高层应判断：按 Background、Catalyst、Application、Trends 组织，能把该研究从技术概念转换成高层可判断的工程路线。",
+      "chart_proof_goal": "主图必须证明四段式判断之间存在递进关系：背景约束触发方法转变，应用验证后收敛到趋势判断。",
+      "chart_visual_boundary": [
+        "不得所有卡片同权",
+        "主判断卡或主红色关键词只能有一个",
+        "卡片说明控制在一行到两行"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：按 Background、Catalyst、Application、Trends 组织，能把论文从技术概念转换成高层可判断的工程路线。",
+        "main_visual_logic": "以一张主判断和若干支撑卡片形成从判断到证据的扫读路径。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "Background": "为什么需要新框架",
+          "Catalyst": "什么让闭环可行",
+          "Application": "如何在装配系统验证",
+          "Trends": "后续会走向哪里"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得让所有卡片同权",
+          "不得用大红卡片铺满页面"
+        ]
+      },
+      "display_text": [
+        "Background：AI 单点化难以支撑集成工程",
+        "Catalyst：语义与仿真接口让 AI 可进入流程",
+        "Application：自动化装配系统验证方法可行",
+        "Trends：从辅助工具走向工程共演系统"
+      ],
+      "speaker_notes": "先点明本页属于 总览 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "key_findings_cards",
+      "chart_data": {
+        "cards": [
+          {
+            "label": "Background",
+            "headline": "为什么需要新框架",
+            "description": "制造业复杂度、AI 落地失望、双 V 生命周期"
+          },
+          {
+            "label": "Catalyst",
+            "headline": "什么让闭环可行",
+            "description": "语义模型、知识图谱、FMU、XAI"
+          },
+          {
+            "label": "Application",
+            "headline": "如何在装配系统验证",
+            "description": "产品结构、装配序列、生产系统自动贯通"
+          },
+          {
+            "label": "Trends",
+            "headline": "后续会走向哪里",
+            "description": "AI-ready 模型、自学习 DT、标准化治理"
+          }
+        ]
+      },
+      "layout_pattern": "multi_module_solution_overview",
+      "visual_notes": "总览 段页面：主图承担证明，红色锚点放在“四段式阅读框架：先看背景”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "总览",
+        "key_findings_cards",
+        "如何阅读这篇论文？"
+      ],
+      "must_highlight": [
+        "总览",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 4,
       "section": "Background",
       "type": "context_trend",
-      "page_goal": "解释 Background：外部压力如何把 AI 从工具点推向工程系统问题。 本页承担四段式中的“背景”角色。",
-      "title": "复杂度、竞争和可持续压力正在暴露单点 AI 应用的系统性短板",
-      "conclusion": "论文指出，生产企业面对客户期望、全球竞争、可持续要求和产业转型，AI 虽有潜力，但在工程流程中仍多停留在孤立应用。",
-      "core_judgement": "本页核心判断是：制造企业不能再把 AI 当作孤立工具导入，系统级工程复杂度要求先重构可被 AI 理解的流程与模型上下文。",
-      "chart_proof_goal": "趋势曲线表达从外部压力到单点 AI 瓶颈，再到工程流程重构和语义底座建设的阶段演进，不代表精确量化增长。",
+      "page_goal": "为什么现有 AI 应用不足？",
+      "title": "制造业复杂度上升后，AI 试点不能继续停留在孤立工具层",
+      "conclusion": "论文指出 AI 在工程过程中的应用仍受限于孤立场景，部分行业已经从热情进入失望期。",
+      "core_judgement": "高层应判断：该研究指出 AI 在工程过程中的应用仍受限于孤立场景，部分行业已经从热情进入失望期。",
+      "chart_proof_goal": "主图必须证明现状与目标之间存在清晰差距，并从差距导出管理动作。",
       "chart_visual_boundary": [
-        "不得把示意曲线画成精确增长数据",
-        "必须标明“阶段示意”避免伪量化",
-        "红色只标单点 AI 瓶颈或流程重构拐点"
+        "不得画成 Excel 大表",
+        "表格只做证据，结论必须独立呈现",
+        "最多强调 1 个关键差异行"
       ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文指出 AI 在工程过程中的应用仍受限于孤立场景，部分行业已经从热情进入失望期。",
+        "main_visual_logic": "通过现状与目标、难点与价值的对照证明管理含义。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {},
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得退化为 Excel 大表",
+          "表格不得吞没标题结论"
+        ]
+      },
       "display_text": [
-        "外部复杂度上升",
-        "单点 AI 瓶颈暴露",
-        "工程流程重构",
-        "语义底座成为前提"
+        "复杂性来自客户期望、全球竞争与可持续要求",
+        "AI 落地需要流程、实践与管理方式同步变化",
+        "孤立应用难以支撑产品—生产系统集成设计"
       ],
-      "speaker_notes": "先回答“为什么论文认为 AI 不能停留在孤立应用？”，再解释论文依据（Page 1 Introduction），最后收口到“本页核心判断是：制造企业不能再把 AI 当作孤立工具导入，系统级工程...”的管理含义。",
+      "speaker_notes": "先点明本页属于 Background 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "comparison_table",
+      "chart_data": {
+        "columns": [
+          "维度",
+          "孤立 AI 应用",
+          "MBSE 闭环要求",
+          "管理含义"
+        ],
+        "rows": [
+          [
+            "作用范围",
+            "单点任务优化",
+            "跨产品与生产生命周期",
+            "不能按工具采购推进"
+          ],
+          [
+            "数据基础",
+            "局部数据",
+            "结构+行为+过程数据",
+            "先建语义底座"
+          ],
+          [
+            "工程结果",
+            "难回写",
+            "可解释、可追溯、可回写",
+            "需要流程与治理配套"
+          ]
+        ]
+      },
+      "layout_pattern": "two_column_comparison",
+      "visual_notes": "Background 段页面：主图承担证明，红色锚点放在“制造业复杂度上升后，AI”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Background",
+        "comparison_table",
+        "为什么现有 AI 应用不"
+      ],
+      "must_highlight": [
+        "Background",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 5,
+      "section": "Background",
+      "type": "framework",
+      "page_goal": "AI 应该进入哪些工程环节？",
+      "title": "双 V 模型揭示 AI 不是一个场景，而是贯穿产品与生产系统全周期的七类入口",
+      "conclusion": "论文将产品开发 V 模型与生产系统开发 V 模型连接，并标注 7 类适合 AI 介入的阶段。",
+      "core_judgement": "高层应判断：该研究将产品开发 V 模型与生产系统开发 V 模型连接，并标注 7 类适合 AI 介入的阶段。",
+      "chart_proof_goal": "主图必须证明工程对象之间存在可执行流转或生命周期协同，而不是概念并列。",
+      "chart_visual_boundary": [
+        "不得把节点画成无关系散点",
+        "箭头标签必须短语化",
+        "红色只标关键协同或断点"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文将产品开发 V 模型与生产系统开发 V 模型连接，并标注 7 类适合 AI 介入的阶段。",
+        "main_visual_logic": "通过节点流向证明工程对象之间存在输入、处理、输出或协同关系。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "P1": "产品设计",
+          "P2": "产品验证",
+          "O1": "产品运行",
+          "R1": "产品回收",
+          "S1": "生产设计",
+          "S2": "生产验证",
+          "O2": "生产运行"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得把不同层级概念画成散点",
+          "箭头标签只保留短动作词"
+        ],
+        "edge_roles": {
+          "flow_decompose": [
+            {
+              "from": "P1",
+              "to": "P2"
+            },
+            {
+              "from": "P2",
+              "to": "O1"
+            },
+            {
+              "from": "O1",
+              "to": "R1"
+            }
+          ]
+        }
+      },
+      "display_text": [
+        "AI 可用于产品运行、生产运行、产品回收",
+        "AI 可辅助产品设计、生产系统设计",
+        "AI 可支持产品验证与生产系统验证",
+        "关键是让双 V 生命周期共享语义模型"
+      ],
+      "speaker_notes": "先点明本页属于 Background 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "architecture_flow_diagram",
+      "chart_data": {
+        "nodes": [
+          {
+            "id": "P1",
+            "label": "产品设计"
+          },
+          {
+            "id": "P2",
+            "label": "产品验证"
+          },
+          {
+            "id": "O1",
+            "label": "产品运行"
+          },
+          {
+            "id": "R1",
+            "label": "产品回收"
+          },
+          {
+            "id": "S1",
+            "label": "生产设计"
+          },
+          {
+            "id": "S2",
+            "label": "生产验证"
+          },
+          {
+            "id": "O2",
+            "label": "生产运行"
+          }
+        ],
+        "edges": [
+          {
+            "from": "P1",
+            "to": "P2",
+            "label": "验证"
+          },
+          {
+            "from": "P2",
+            "to": "O1",
+            "label": "交付"
+          },
+          {
+            "from": "O1",
+            "to": "R1",
+            "label": "回收"
+          },
+          {
+            "from": "S1",
+            "to": "S2",
+            "label": "验证"
+          },
+          {
+            "from": "S2",
+            "to": "O2",
+            "label": "投产"
+          },
+          {
+            "from": "P1",
+            "to": "S1",
+            "label": "协同"
+          }
+        ]
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "Background 段页面：主图承担证明，红色锚点放在“双 V 模型揭示 AI ”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Background",
+        "architecture_flow_diagram",
+        "AI 应该进入哪些工程环"
+      ],
+      "must_highlight": [
+        "Background",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 6,
+      "section": "Background",
+      "type": "problem_diagnosis",
+      "page_goal": "AI-ready 工程模型缺什么？",
+      "title": "真正短板不是数据数量，而是数据缺少工程参考、上下文和生命周期语义",
+      "conclusion": "论文强调 AI 需要结构信息、过程信息和双向数据交换，才能形成可用的数字孪生。",
+      "core_judgement": "高层应判断：该研究强调 AI 需要结构信息、过程信息和双向数据交换，才能形成可用的数字孪生。",
+      "chart_proof_goal": "主图必须证明底层数据、语义模型、仿真分析和治理闭环存在层间支撑关系。",
+      "chart_visual_boundary": [
+        "不得只是层级堆叠清单",
+        "层间支撑关系必须可见",
+        "右侧说明不得压过主架构"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文强调 AI 需要结构信息、过程信息和双向数据交换，才能形成可用的数字孪生。",
+        "main_visual_logic": "以层级支撑关系说明从真实系统到语义模型、仿真分析和治理闭环的承载链。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "真实系统层": "产品运行数据 / 生产运行数据 / 传感器/外部数据",
+          "语义模型层": "产品模型 / 生产模型 / 行为模型",
+          "分析仿真层": "仿真 / AI/XAI / 因果与可解释性检查",
+          "闭环治理层": "模型回写 / 一致性维护 / 生命周期追踪"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得只堆层级清单",
+          "每层必须体现支撑上一层"
+        ]
+      },
+      "display_text": [
+        "数据必须连接到产品部件、装配过程、行为模型等参考实体",
+        "知识图谱用于保存上下文，而不是只存数据表",
+        "数字孪生需要与真实系统双向交换"
+      ],
+      "speaker_notes": "先点明本页属于 Background 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "layered_stack_diagram",
+      "chart_data": {
+        "layers": [
+          {
+            "name": "真实系统层",
+            "items": [
+              "产品运行数据",
+              "生产运行数据",
+              "传感器/外部数据"
+            ]
+          },
+          {
+            "name": "语义模型层",
+            "items": [
+              "产品模型",
+              "生产模型",
+              "行为模型"
+            ]
+          },
+          {
+            "name": "分析仿真层",
+            "items": [
+              "仿真",
+              "AI/XAI",
+              "因果与可解释性检查"
+            ]
+          },
+          {
+            "name": "闭环治理层",
+            "items": [
+              "模型回写",
+              "一致性维护",
+              "生命周期追踪"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "layered_architecture",
+      "visual_notes": "Background 段页面：主图承担证明，红色锚点放在“真正短板不是数据数量，而”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Background",
+        "layered_stack_diagram",
+        "AI-ready 工程模"
+      ],
+      "must_highlight": [
+        "Background",
+        "语义模型"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 7,
+      "section": "Catalyst",
+      "type": "architecture",
+      "page_goal": "什么机制让 AI 从分析走向学习？",
+      "title": "自学习数字孪生把运行数据、语义模型、仿真和 XAI 接成可回写闭环",
+      "conclusion": "论文提出的核心概念是 AI-based self-learning digital twin：AI 识别的模式被重新纳入总体模型。",
+      "core_judgement": "高层应判断：该研究提出的核心概念是 AI-based self-learning digital twin：AI 识别的模式被重新纳入总体模型。",
+      "chart_proof_goal": "主图必须证明采集、学习、解释、回写构成闭环，否则自学习数字孪生不成立。",
+      "chart_visual_boundary": [
+        "必须形成闭合路径",
+        "回写节点必须清晰可见",
+        "红色只用于回写或核心闭环节点"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文提出的核心概念是 AI-based self-learning digital twin：AI 识别的模式被重新纳入总体模型。",
+        "main_visual_logic": "用闭环路径证明 AI 洞察必须回写工程模型才形成自学习能力。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "采集": "传感器、PPS、外部数据进入模型",
+          "标注": "运行数据绑定产品/生产语义",
+          "学习": "ML 识别模式与因果线索",
+          "解释": "XAI 解释模型影响因素",
+          "回写": "洞察进入总体工程模型"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得画成单向流程",
+          "回写节点必须可见"
+        ]
+      },
+      "display_text": [
+        "真实系统数据进入产品/生产/行为模型",
+        "AI 生成模式识别与预测能力",
+        "XAI 对 AI 模型进行解释与描述",
+        "结果回写后支持仿真、预测与持续优化"
+      ],
+      "speaker_notes": "先点明本页属于 Catalyst 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "value_chain_loop",
+      "chart_data": {
+        "steps": [
+          {
+            "name": "采集",
+            "description": "传感器、PPS、外部数据进入模型"
+          },
+          {
+            "name": "标注",
+            "description": "运行数据绑定产品/生产语义"
+          },
+          {
+            "name": "学习",
+            "description": "ML 识别模式与因果线索"
+          },
+          {
+            "name": "解释",
+            "description": "XAI 解释模型影响因素"
+          },
+          {
+            "name": "回写",
+            "description": "洞察进入总体工程模型"
+          }
+        ]
+      },
+      "layout_pattern": "ecosystem_map",
+      "visual_notes": "Catalyst 段页面：主图承担证明，红色锚点放在“自学习数字孪生把运行数据”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Catalyst",
+        "value_chain_loop",
+        "什么机制让 AI 从分析"
+      ],
+      "must_highlight": [
+        "Catalyst",
+        "语义模型"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 8,
+      "section": "Catalyst",
+      "type": "capability_map",
+      "page_goal": "语义底座由什么构成？",
+      "title": "GBDL 与本体把工程知识结构化，解决“数据到知识”之间的断层",
+      "conclusion": "GBDL 通过词汇、规则、本体和知识图谱，将需求、功能、物理、几何、工艺等域连接起来。",
+      "core_judgement": "高层应判断：GBDL 通过词汇、规则、本体和知识图谱，将需求、功能、物理、几何、工艺等域连接起来。",
+      "chart_proof_goal": "主图必须证明语义底座由多类工程知识域共同构成，并分别支撑 AI 应用。",
+      "chart_visual_boundary": [
+        "不得只是能力清单",
+        "能力域与工程语义关系必须可见",
+        "连接线少而清晰"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：GBDL 通过词汇、规则、本体和知识图谱，将需求、功能、物理、几何、工艺等域连接起来。",
+        "main_visual_logic": "用能力域映射证明语义底座由多类工程知识共同构成。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "需求域": "层级化需求",
+          "功能域": "过程与对象可追踪",
+          "物理/几何域": "行为与几何贯通",
+          "装配域": "序列与资源可生成"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得只列能力名",
+          "必须呈现能力与工程语义的关系"
+        ]
+      },
+      "display_text": [
+        "词汇定义工程实体，规则定义实体如何组合",
+        "本体提供分类、关系和公理化知识",
+        "知识图谱成为产品与生产知识的中心仓库"
+      ],
+      "speaker_notes": "先点明本页属于 Catalyst 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "capability_map",
+      "chart_data": {
+        "domains": [
+          {
+            "name": "需求域",
+            "current_state": "需求分散",
+            "target_state": "层级化需求",
+            "actions": [
+              "关联模块与特征"
+            ]
+          },
+          {
+            "name": "功能域",
+            "current_state": "功能描述孤立",
+            "target_state": "过程与对象可追踪",
+            "actions": [
+              "映射物质/能量/信号"
+            ]
+          },
+          {
+            "name": "物理/几何域",
+            "current_state": "模型割裂",
+            "target_state": "行为与几何贯通",
+            "actions": [
+              "规则驱动生成"
+            ]
+          },
+          {
+            "name": "装配域",
+            "current_state": "工艺依赖经验",
+            "target_state": "序列与资源可生成",
+            "actions": [
+              "装配流程知识化"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "insight_panel_with_chart",
+      "visual_notes": "Catalyst 段页面：主图承担证明，红色锚点放在“GBDL 与本体把工程知”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Catalyst",
+        "capability_map",
+        "语义底座由什么构成？"
+      ],
+      "must_highlight": [
+        "Catalyst",
+        "语义模型"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 9,
+      "section": "Catalyst",
+      "type": "technical_solution",
+      "page_goal": "AI 如何进入仿真环境？",
+      "title": "FMU 让 AI/XAI 像仿真模块一样插入协同仿真，避免重构整套工程架构",
+      "conclusion": "FMU/FMI 提供标准接口，使传统物理仿真、AI 模型、XAI 模型和 HiL 系统可模块化组合。",
+      "core_judgement": "高层应判断：FMU/FMI 提供标准接口，使传统物理仿真、AI 模型、XAI 模型和 HiL 系统可模块化组合。",
+      "chart_proof_goal": "主图必须证明工程对象之间存在可执行流转或生命周期协同，而不是概念并列。",
+      "chart_visual_boundary": [
+        "不得把节点画成无关系散点",
+        "箭头标签必须短语化",
+        "红色只标关键协同或断点"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：FMU/FMI 提供标准接口，使传统物理仿真、AI 模型、XAI 模型和 HiL 系统可模块化组合。",
+        "main_visual_logic": "通过节点流向证明工程对象之间存在输入、处理、输出或协同关系。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "KG": "知识图谱",
+          "SIM": "物理仿真",
+          "AI": "AI 模型",
+          "XAI": "XAI 模型",
+          "COSIM": "协同仿真",
+          "VIS": "可视化/HiL"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得把不同层级概念画成散点",
+          "箭头标签只保留短动作词"
+        ],
+        "edge_roles": {
+          "flow_decompose": [
+            {
+              "from": "KG",
+              "to": "SIM"
+            },
+            {
+              "from": "KG",
+              "to": "AI"
+            },
+            {
+              "from": "AI",
+              "to": "XAI"
+            }
+          ]
+        }
+      },
+      "display_text": [
+        "FMI 标准化输入、输出和参数描述",
+        "AI-FMU 可与微分方程仿真模块共同运行",
+        "设计人员可在物理仿真与 AI 模块之间切换"
+      ],
+      "speaker_notes": "先点明本页属于 Catalyst 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "architecture_flow_diagram",
+      "chart_data": {
+        "nodes": [
+          {
+            "id": "KG",
+            "label": "知识图谱"
+          },
+          {
+            "id": "SIM",
+            "label": "物理仿真"
+          },
+          {
+            "id": "AI",
+            "label": "AI 模型"
+          },
+          {
+            "id": "XAI",
+            "label": "XAI 模型"
+          },
+          {
+            "id": "COSIM",
+            "label": "协同仿真"
+          },
+          {
+            "id": "VIS",
+            "label": "可视化/HiL"
+          }
+        ],
+        "edges": [
+          {
+            "from": "KG",
+            "to": "SIM",
+            "label": "生成"
+          },
+          {
+            "from": "KG",
+            "to": "AI",
+            "label": "训练"
+          },
+          {
+            "from": "AI",
+            "to": "XAI",
+            "label": "解释"
+          },
+          {
+            "from": "SIM",
+            "to": "COSIM",
+            "label": "封装"
+          },
+          {
+            "from": "AI",
+            "to": "COSIM",
+            "label": "封装"
+          },
+          {
+            "from": "COSIM",
+            "to": "VIS",
+            "label": "输出"
+          }
+        ]
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "Catalyst 段页面：主图承担证明，红色锚点放在“FMU 让 AI/XAI”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Catalyst",
+        "architecture_flow_diagram",
+        "AI 如何进入仿真环境？"
+      ],
+      "must_highlight": [
+        "Catalyst",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 10,
+      "section": "Application",
+      "type": "technical_solution",
+      "page_goal": "框架如何落到装配系统？",
+      "title": "自动化装配应用证明：产品结构、装配序列和生产系统可以在同一模型中贯通",
+      "conclusion": "论文案例将产品、生产序列、生产系统及运行数据纳入一致模型，通过模型转换自动生成装配系统结果。",
+      "core_judgement": "高层应判断：该研究案例将产品、生产序列、生产系统及运行数据纳入一致模型，通过模型转换自动生成装配系统结果。",
+      "chart_proof_goal": "主图必须证明产品模型、过程模型和生产系统之间有交付流转与反馈关系。",
+      "chart_visual_boundary": [
+        "泳道必须体现角色差异",
+        "节点不可写成长句",
+        "箭头和交付物流向必须清楚"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文案例将产品、生产序列、生产系统及运行数据纳入一致模型，通过模型转换自动生成装配系统结果。",
+        "main_visual_logic": "通过三条泳道说明产品模型、过程模型与生产系统之间存在交付流转。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "产品模型": "零件/组件 → 产品结构 → 装配约束",
+          "过程模型": "装配序列 → 资源选择 → 工艺参数",
+          "生产系统": "布局生成 → 仿真验证 → 运行反馈"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得把泳道画成普通三栏卡片",
+          "节点文字必须短语化"
+        ]
+      },
+      "display_text": [
+        "产品结构驱动装配序列生成",
+        "装配序列进一步生成生产系统方案",
+        "运行数据再回到知识图谱形成持续修正"
+      ],
+      "speaker_notes": "先点明本页属于 Application 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "swimlane_process",
+      "chart_data": {
+        "lanes": [
+          {
+            "name": "产品模型",
+            "steps": [
+              "零件/组件",
+              "产品结构",
+              "装配约束"
+            ]
+          },
+          {
+            "name": "过程模型",
+            "steps": [
+              "装配序列",
+              "资源选择",
+              "工艺参数"
+            ]
+          },
+          {
+            "name": "生产系统",
+            "steps": [
+              "布局生成",
+              "仿真验证",
+              "运行反馈"
+            ]
+          }
+        ]
+      },
+      "layout_pattern": "roadmap_timeline",
+      "visual_notes": "Application 段页面：主图承担证明，红色锚点放在“自动化装配应用证明：产品”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Application",
+        "swimlane_process",
+        "框架如何落到装配系统？"
+      ],
+      "must_highlight": [
+        "Application",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 11,
+      "section": "Application",
+      "type": "case_proof",
+      "page_goal": "案例证明了什么？",
+      "title": "Festo 滑台案例说明，难以显式建模的摩擦行为可由 AI 学习并由 XAI 解释",
+      "conclusion": "论文用自动装配产线中的气压减摩滑台作为样例，展示机器学习模型与 XAI 决策树可补充传统建模短板。",
+      "core_judgement": "高层应判断：该研究用自动装配产线中的气压减摩滑台作为样例，展示机器学习模型与 XAI 决策树可补充传统建模短板。",
+      "chart_proof_goal": "主图必须证明现状与目标之间存在清晰差距，并从差距导出管理动作。",
+      "chart_visual_boundary": [
+        "不得画成 Excel 大表",
+        "表格只做证据，结论必须独立呈现",
+        "最多强调 1 个关键差异行"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文用自动装配产线中的气压减摩滑台作为样例，展示机器学习模型与 XAI 决策树可补充传统建模短板。",
+        "main_visual_logic": "通过现状与目标、难点与价值的对照证明管理含义。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {},
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得退化为 Excel 大表",
+          "表格不得吞没标题结论"
+        ]
+      },
+      "display_text": [
+        "摩擦行为不易通过传统模型充分描述",
+        "机器学习可学习准确行为模型",
+        "XAI 决策树帮助工程师理解模型依据"
+      ],
+      "speaker_notes": "先点明本页属于 Application 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "comparison_table",
+      "chart_data": {
+        "columns": [
+          "对象",
+          "传统难点",
+          "AI/XAI 作用",
+          "价值"
+        ],
+        "rows": [
+          [
+            "摩擦行为",
+            "难以精确建模",
+            "学习准确模型",
+            "补齐物理模型盲区"
+          ],
+          [
+            "仿真链路",
+            "模块耦合复杂",
+            "FMU 化接入",
+            "降低架构重构成本"
+          ],
+          [
+            "工程解释",
+            "黑箱不可信",
+            "决策树/XAI",
+            "支撑审查与复用"
+          ]
+        ]
+      },
+      "layout_pattern": "left_logic_right_proof",
+      "visual_notes": "Application 段页面：主图承担证明，红色锚点放在“Festo 滑台案例说明”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Application",
+        "comparison_table",
+        "案例证明了什么？"
+      ],
+      "must_highlight": [
+        "Application",
+        "AI/MBSE"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 12,
+      "section": "Application",
+      "type": "architecture",
+      "page_goal": "应用框架的本质价值是什么？",
+      "title": "应用框架的关键不是生成几何，而是把“数据—信息—知识”的引用关系建牢",
+      "conclusion": "论文明确指出数据需要 reference 才成为信息，信息需要 context 才成为知识；知识图谱承担这一转换。",
+      "core_judgement": "高层应判断：该研究明确指出数据需要 reference 才成为信息，信息需要 context 才成为知识；知识图谱承担这一转换。",
+      "chart_proof_goal": "主图必须证明工程对象之间存在可执行流转或生命周期协同，而不是概念并列。",
+      "chart_visual_boundary": [
+        "不得把节点画成无关系散点",
+        "箭头标签必须短语化",
+        "红色只标关键协同或断点"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文明确指出数据需要 reference 才成为信息，信息需要 context 才成为知识；知识图谱承担这一转换。",
+        "main_visual_logic": "通过节点流向证明工程对象之间存在输入、处理、输出或协同关系。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {
+          "D": "数据",
+          "R": "参考实体",
+          "I": "信息",
+          "C": "上下文",
+          "K": "知识图谱",
+          "G": "目标格式"
+        },
+        "insight_panel_logic": [],
+        "forbidden_visualization": [
+          "不得把不同层级概念画成散点",
+          "箭头标签只保留短动作词"
+        ],
+        "edge_roles": {
+          "flow_decompose": [
+            {
+              "from": "D",
+              "to": "R"
+            },
+            {
+              "from": "R",
+              "to": "I"
+            },
+            {
+              "from": "I",
+              "to": "C"
+            }
+          ]
+        }
+      },
+      "display_text": [
+        "产品子模块、装配过程是数据引用对象",
+        "模型到模型转换连接产品实体与生产实体",
+        "设计图谱可映射到几何、仿真、控制等目标格式"
+      ],
+      "speaker_notes": "先点明本页属于 Application 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
+      "chart_type": "architecture_flow_diagram",
+      "chart_data": {
+        "nodes": [
+          {
+            "id": "D",
+            "label": "数据"
+          },
+          {
+            "id": "R",
+            "label": "参考实体"
+          },
+          {
+            "id": "I",
+            "label": "信息"
+          },
+          {
+            "id": "C",
+            "label": "上下文"
+          },
+          {
+            "id": "K",
+            "label": "知识图谱"
+          },
+          {
+            "id": "G",
+            "label": "目标格式"
+          }
+        ],
+        "edges": [
+          {
+            "from": "D",
+            "to": "R",
+            "label": "引用"
+          },
+          {
+            "from": "R",
+            "to": "I",
+            "label": "赋义"
+          },
+          {
+            "from": "I",
+            "to": "C",
+            "label": "关联"
+          },
+          {
+            "from": "C",
+            "to": "K",
+            "label": "沉淀"
+          },
+          {
+            "from": "K",
+            "to": "G",
+            "label": "映射"
+          }
+        ]
+      },
+      "layout_pattern": "stack_architecture_with_right_insights",
+      "visual_notes": "Application 段页面：主图承担证明，红色锚点放在“应用框架的关键不是生成几”相关关键词或关键节点；普通正文页不使用厚重红底条。",
+      "visual_focus": [
+        "Application",
+        "architecture_flow_diagram",
+        "应用框架的本质价值是什么"
+      ],
+      "must_highlight": [
+        "Application",
+        "语义模型"
+      ],
+      "text_density": "medium",
+      "need_compression": false,
+      "data_gaps": []
+    },
+    {
+      "slide_no": 13,
+      "section": "Trends",
+      "type": "context_trend",
+      "page_goal": "未来演进方向是什么？",
+      "title": "趋势判断：工程 AI 将从任务辅助转向可学习、可解释、可审查的 MBSE 共演系统",
+      "conclusion": "论文代表的方向是 AI 结果不再停留于预测输出，而是进入工程模型、仿真和生命周期治理。",
+      "core_judgement": "高层应判断：该研究代表的方向是 AI 结果不再停留于预测输出，而是进入工程模型、仿真和生命周期治理。",
+      "chart_proof_goal": "主图必须证明工程 AI 的成熟度从单点工具演进到自学习闭环，拐点来自语义模型和 FMU 接入。",
+      "chart_visual_boundary": [
+        "不得伪造成精确预测曲线",
+        "拐点标注必须服务策略判断",
+        "右侧洞察不得变成备注列表"
+      ],
+      "chart_semantic_mapping": {
+        "chart_reading_intent": "读者看完主图后应理解：论文代表的方向是 AI 结果不再停留于预测输出，而是进入工程模型、仿真和生命周期治理。",
+        "main_visual_logic": "用阶段性成熟度曲线表达工程 AI 从单点工具到自学习闭环的演进。",
+        "axis_semantics": {
+          "x_axis": "阶段序列，不代表精确年份",
+          "y_axis": "工程闭环成熟度示意，不代表量化指标"
+        },
+        "stage_or_node_meaning": {
+          "阶段一": "单点工具",
+          "阶段二": "模型辅助",
+          "阶段三": "语义+FMU贯通",
+          "阶段四": "自学习闭环"
+        },
+        "insight_panel_logic": [
+          "右侧只解释拐点为何出现",
+          "不得把示意曲线当作精确预测"
+        ],
+        "forbidden_visualization": [
+          "不得画成无来源增长曲线",
+          "不得用大红箭头暗示确定收益"
+        ]
+      },
+      "display_text": [
+        "阶段一：单点 AI 工具",
+        "阶段二：模型辅助设计/验证",
+        "阶段三：语义模型与协同仿真贯通",
+        "阶段四：自学习数字孪生持续回写"
+      ],
+      "speaker_notes": "先点明本页属于 Trends 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
       "chart_type": "trend_curve",
       "chart_data": {
         "x_axis": [
-          "外部压力上升",
-          "单点 AI 瓶颈暴露",
-          "工程流程重构",
-          "语义底座建设"
+          "阶段一",
+          "阶段二",
+          "阶段三",
+          "阶段四"
         ],
         "series": [
           {
-            "name": "系统级工程决策压力（示意）",
+            "name": "工程闭环成熟度",
             "values": [
               1,
               2,
@@ -182,951 +1153,110 @@
         ],
         "annotations": [
           {
-            "x": "单点 AI 瓶颈暴露",
-            "label": "孤立应用缺少工程上下文"
+            "x": "阶段三",
+            "label": "语义模型+FMU 拐点"
           }
         ]
       },
       "layout_pattern": "trend_curve_with_strategy",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P3 主视觉采用 trend_curve_with_strategy，红色锚点给 单点 AI 瓶颈，主图必须服务“本页核心判断是：制造企业不能再把 AI 当作孤立工具导入，系统级工程复杂度要...”这一判断，避免 不得画成无来源的精确增长曲线。",
+      "visual_notes": "Trends 段页面：主图承担证明，红色锚点放在“趋势判断：工程 AI 将”相关关键词或关键节点；普通正文页不使用厚重红底条。",
       "visual_focus": [
-        "单点 AI 瓶颈",
-        "工程流程重构"
+        "Trends",
+        "trend_curve",
+        "未来演进方向是什么？"
       ],
       "must_highlight": [
-        "单点 AI 瓶颈"
+        "Trends",
+        "语义模型"
       ],
       "text_density": "medium",
       "need_compression": false,
       "data_gaps": [
-        "论文未提供复杂度压力的量化指标，趋势图只能作为阶段示意。"
-      ],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应看到外部复杂度压力上升后，孤立 AI 应用无法支撑系统级工程决策，进而需要工程流程与语义底座重构。",
-        "main_visual_logic": "趋势曲线表达从外部压力到单点 AI 瓶颈，再到工程流程重构和语义底座建设的阶段演进，不代表精确量化增长。",
-        "axis_semantics": {
-          "x_axis": "阶段序列，不代表精确年份",
-          "y_axis": "系统级工程决策压力示意，不代表论文实测数据"
-        },
-        "stage_or_node_meaning": {
-          "外部复杂度上升": "客户期望、竞争、可持续和产业转型推高复杂度",
-          "单点 AI 瓶颈暴露": "AI 仍多停留在孤立应用，缺工程上下文",
-          "工程流程重构": "工程流程需要支持 AI 参与与回写",
-          "语义底座成为前提": "语义模型成为 AI 应用前提"
-        },
-        "insight_panel_logic": [
-          "右侧策略解释为什么单点 AI 不够",
-          "策略必须从流程和模型底座推导，不写泛化口号"
-        ],
-        "forbidden_visualization": [
-          "不得画成无来源的精确增长曲线",
-          "不得用大红箭头暗示确定收益",
-          "不得让右侧洞察与曲线无关"
-        ]
-      }
+        "如用于正式对外汇报，需补充组织自身案例、系统边界和内部数据口径"
+      ]
     },
     {
-      "slide_no": 4,
-      "section": "Catalyst",
-      "type": "framework",
-      "page_goal": "解释 Catalyst：七类介入点为什么要求统一生命周期模型。 本页承担四段式中的“催化”角色。",
-      "title": "七类 AI 介入点覆盖产品与生产双 V 生命周期，要求统一工程语义底座",
-      "conclusion": "论文基于产品与生产系统相连的双 V 模型，列出产品运行、生产运行、回收、产品设计、生产系统设计、产品验证和生产系统验证七类 AI 介入点。",
-      "core_judgement": "本页核心判断是：AI+MBSE 的催化点不在单个场景数量，而在七类介入点共同指向一个跨产品与生产生命周期的统一工程底座。",
-      "chart_proof_goal": "架构流转图通过节点和箭头表达输入、语义底座、生成/仿真/学习和回写之间的因果链。",
-      "chart_visual_boundary": [
-        "不得把七类 AI 介入点画成七个孤立散点",
-        "不得把产品 V 与生产 V 画成互不关联的两套图",
-        "红色只用于贯穿主线或 Knowledge Graph 关键节点"
-      ],
-      "display_text": [
-        "产品运行",
-        "生产运行",
-        "回收",
-        "产品设计",
-        "生产系统设计",
-        "产品验证",
-        "生产系统验证"
-      ],
-      "speaker_notes": "先回答“AI 应该嵌入工程流程的哪些位置？”，再解释论文依据（Page 2 Figure 1 and list 1-7），最后收口到“本页核心判断是：AI+MBSE 的催化点不在单个场景数量，而在七类介...”的管理含义。",
-      "chart_type": "architecture_flow_diagram",
-      "chart_data": {
-        "nodes": [
-          {
-            "id": "PV",
-            "label": "产品 V 模型",
-            "group": "生命周期"
-          },
-          {
-            "id": "PrV",
-            "label": "生产系统 V 模型",
-            "group": "生命周期"
-          },
-          {
-            "id": "D",
-            "label": "设计介入",
-            "group": "AI介入"
-          },
-          {
-            "id": "V",
-            "label": "验证介入",
-            "group": "AI介入"
-          },
-          {
-            "id": "O",
-            "label": "运行/回收介入",
-            "group": "AI介入"
-          }
-        ],
-        "edges": [
-          {
-            "from": "PV",
-            "to": "PrV",
-            "label": "产品—生产联动"
-          },
-          {
-            "from": "D",
-            "to": "PV",
-            "label": "设计支持"
-          },
-          {
-            "from": "D",
-            "to": "PrV",
-            "label": "生产系统设计"
-          },
-          {
-            "from": "V",
-            "to": "PV",
-            "label": "产品验证"
-          },
-          {
-            "from": "V",
-            "to": "PrV",
-            "label": "生产系统验证"
-          },
-          {
-            "from": "O",
-            "to": "PV",
-            "label": "运行反馈"
-          },
-          {
-            "from": "O",
-            "to": "PrV",
-            "label": "生产运行反馈"
-          }
-        ]
-      },
-      "layout_pattern": "stack_architecture_with_right_insights",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P4 主视觉采用 stack_architecture_with_right_insights，红色锚点给 双 V 生命周期，主图必须服务“本页核心判断是：AI+MBSE 的催化点不在单个场景数量，而在七类介入点共同...”这一判断，避免 不得把七类 AI 介入点画成七个孤立散点。",
-      "visual_focus": [
-        "双 V 生命周期",
-        "七类介入点"
-      ],
-      "must_highlight": [
-        "双 V 生命周期"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解节点之间的工程流转关系，而不是只看到术语堆叠。",
-        "main_visual_logic": "架构流转图通过节点和箭头表达输入、语义底座、生成/仿真/学习和回写之间的因果链。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "产品 V 模型": "生命周期",
-          "生产系统 V 模型": "生命周期",
-          "设计介入": "AI介入",
-          "验证介入": "AI介入",
-          "运行/回收介入": "AI介入"
-        },
-        "insight_panel_logic": [
-          "右侧洞察解释主图为何需要统一底座和回写机制"
-        ],
-        "forbidden_visualization": [
-          "不得把七类 AI 介入点画成七个孤立散点",
-          "不得把产品 V 与生产 V 画成互不关联的两套图",
-          "不得把所有 AI 节点全部标红导致生命周期主线失焦"
-        ]
-      }
-    },
-    {
-      "slide_no": 5,
-      "section": "Catalyst",
-      "type": "capability_map",
-      "page_goal": "把论文中的 GBDL/ontology/knowledge graph 转译为高层可理解的底座能力。 本页承担四段式中的“催化”角色。",
-      "title": "AI-ready 工程模型 = 语义实体、关系上下文和可回写规则的统一知识图谱",
-      "conclusion": "论文强调，数据需要 reference 才成为信息，信息需要 context 才成为知识；知识图谱必须连接产品模块、装配过程、运行数据和生产运行数据。",
-      "core_judgement": "本页核心判断是：AI-ready 工程模型不是数据仓库，而是把实体、关系、规则和运行数据纳入同一知识图谱的工程语义底座。",
-      "chart_proof_goal": "能力地图把模型底座拆成四个能力域，并分别说明现状、目标态和补齐动作。",
-      "chart_visual_boundary": [
-        "不得把四类能力画成无关系清单",
-        "每个能力域必须包含现状—目标—动作",
-        "红色只用于 AI-ready 工程模型定义"
-      ],
-      "display_text": [
-        "实体：产品模块/装配过程",
-        "关系：模型到模型转换",
-        "规则：GBDL 词汇与规则",
-        "数据：产品与生产运行数据",
-        "上下文：知识图谱"
-      ],
-      "speaker_notes": "先回答“什么样的模型才能支撑 AI 在 MBSE 中有效使用？”，再解释论文依据（Pages 3-5 GBDL / Figure 7），最后收口到“本页核心判断是：AI-ready 工程模型不是数据仓库，而是把实体、...”的管理含义。",
-      "chart_type": "capability_map",
-      "chart_data": {
-        "domains": [
-          {
-            "name": "实体建模",
-            "current_state": "分散在产品/生产模型",
-            "target_state": "产品模块、装配过程和资源统一入图",
-            "actions": [
-              "定义工程对象与关系"
-            ]
-          },
-          {
-            "name": "规则表达",
-            "current_state": "工程知识难以被 AI 读取",
-            "target_state": "GBDL vocabulary/rules 可编译可执行",
-            "actions": [
-              "沉淀规则和约束"
-            ]
-          },
-          {
-            "name": "数据语义",
-            "current_state": "运行数据缺 reference/context",
-            "target_state": "数据与工程实体绑定",
-            "actions": [
-              "建立语义标注"
-            ]
-          },
-          {
-            "name": "知识回写",
-            "current_state": "AI 结果孤立在模型外",
-            "target_state": "AI insight 回写总体模型",
-            "actions": [
-              "建立审查和回写机制"
-            ]
-          }
-        ]
-      },
-      "layout_pattern": "multi_module_solution_overview",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P5 主视觉采用 multi_module_solution_overview，红色锚点给 知识图谱，主图必须服务“本页核心判断是：AI-ready 工程模型不是数据仓库，而是把实体、关系、规...”这一判断，避免 不得把能力域画成松散功能清单。",
-      "visual_focus": [
-        "AI-ready 工程模型",
-        "知识图谱"
-      ],
-      "must_highlight": [
-        "知识图谱"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应判断 AI-ready 工程模型由实体、规则、数据语义和知识回写四类能力共同构成。",
-        "main_visual_logic": "能力地图把模型底座拆成四个能力域，并分别说明现状、目标态和补齐动作。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "实体建模": "产品模块、装配过程和资源统一入图",
-          "规则表达": "GBDL vocabulary/rules 可编译可执行",
-          "数据语义": "数据与工程实体绑定",
-          "知识回写": "AI insight 回写总体模型"
-        },
-        "insight_panel_logic": [
-          "底部收口强调 AI-ready 不等于数据仓库"
-        ],
-        "forbidden_visualization": [
-          "不得把能力域画成松散功能清单",
-          "不得把知识图谱画成普通数据库",
-          "不得把 AI-ready 写成口号而缺少实体/关系/规则"
-        ]
-      }
-    },
-    {
-      "slide_no": 6,
-      "section": "Catalyst",
-      "type": "comparison",
-      "page_goal": "说明 Catalyst 的治理侧条件：没有标准和交换边界，AI 语义底座无法规模化。 本页承担四段式中的“催化”角色。",
-      "title": "标准与本体不是附属文档，而是跨系统模型交换能否成立的前置条件",
-      "conclusion": "论文提到 IOF、IDO、IMF、IDTA 等标准/框架，并指出哪些信息实体应成为强制交换内容仍处于研究阶段。",
-      "core_judgement": "本页核心判断是：AI+MBSE 落地前必须先界定强制交换实体和可选信息边界，否则知识图谱会停留在单项目模型，难以跨系统复用。",
-      "chart_proof_goal": "对比表通过“无统一标准 vs 标准/本体牵引后的目标态”证明标准不是附属文档，而是模型交换前置条件。",
-      "chart_visual_boundary": [
-        "不得退化为标准名词堆叠",
-        "表格必须突出“无标准/目标态/管理含义”差异",
-        "红色只标最小交换集或强制边界"
-      ],
-      "display_text": [
-        "强制交换实体",
-        "可选扩展信息",
-        "本体与标准映射",
-        "跨工具一致性"
-      ],
-      "speaker_notes": "先回答“标准、本体和交换边界为什么重要？”，再解释论文依据（Page 3 standards discussion），最后收口到“本页核心判断是：AI+MBSE 落地前必须先界定强制交换实体和可选信...”的管理含义。",
-      "chart_type": "comparison_table",
-      "chart_data": {
-        "columns": [
-          "维度",
-          "无统一标准",
-          "标准/本体牵引后的目标态",
-          "管理含义"
-        ],
-        "rows": [
-          [
-            "模型实体",
-            "各工具自定义字段",
-            "产品、过程、行为、几何等实体有统一语义",
-            "先定义最小交换集"
-          ],
-          [
-            "关系上下文",
-            "数据有值但缺含义",
-            "数据与模块/过程/资源建立 reference/context",
-            "避免 AI 误读数据"
-          ],
-          [
-            "复用能力",
-            "项目内可用",
-            "跨项目、跨工具、跨生命周期复用",
-            "标准化优先于局部功能堆叠"
-          ],
-          [
-            "治理边界",
-            "AI 结果难回写",
-            "结果可审查、可解释、可沉淀",
-            "需要责任和审查机制"
-          ]
-        ]
-      },
-      "layout_pattern": "two_column_comparison",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P6 主视觉采用 two_column_comparison，红色锚点给 强制交换实体，主图必须服务“本页核心判断是：AI+MBSE 落地前必须先界定强制交换实体和可选信息边界，...”这一判断，避免 不得做成密集 Excel 大表。",
-      "visual_focus": [
-        "强制交换实体",
-        "标准边界"
-      ],
-      "must_highlight": [
-        "强制交换实体"
-      ],
-      "text_density": "medium_high",
-      "need_compression": false,
-      "data_gaps": [
-        "论文没有最终确定强制交换实体清单，需在企业落地中补充。"
-      ],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解标准/本体牵引前后在模型实体、关系上下文和治理边界上的差异。",
-        "main_visual_logic": "对比表通过“无统一标准 vs 标准/本体牵引后的目标态”证明标准不是附属文档，而是模型交换前置条件。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "模型实体": "先定义最小交换集",
-          "关系上下文": "避免 AI 误读数据",
-          "复用能力": "标准化优先于局部功能堆叠",
-          "治理边界": "需要责任和审查机制"
-        },
-        "insight_panel_logic": [
-          "底部收口说明先定义最小交换集"
-        ],
-        "forbidden_visualization": [
-          "不得做成密集 Excel 大表",
-          "不得让标准名称抢过管理含义",
-          "不得把尚未确定的强制实体写成确定事实"
-        ]
-      }
-    },
-    {
-      "slide_no": 7,
-      "section": "Application",
-      "type": "architecture",
-      "page_goal": "解释 Application 主载体：自学习数字孪生如何形成闭环。 本页承担四段式中的“应用”角色。",
-      "title": "自学习数字孪生把真实系统、工程模型、仿真和 AI/XAI 纳入同一闭环",
-      "conclusion": "论文提出 AI-based self-learning digital twin：真实产品与生产系统接入传感器、PPS 和外部数据，模型侧融合产品模型、生产模型、行为模型、仿真和 AI 组件。",
-      "core_judgement": "本页核心判断是：自学习数字孪生的价值不在“镜像展示”，而在真实系统数据、语义模型、仿真验证和 AI/XAI 审查之间形成可回写闭环。",
-      "chart_proof_goal": "分层图按真实系统→语义模型→仿真与 AI→解释审查→模型回写呈现，证明数字孪生不是静态镜像。",
-      "chart_visual_boundary": [
-        "不得画成静态三层架构",
-        "必须体现真实系统到模型回写的闭环方向",
-        "红色只用于回写闭环箭头或 XAI 审查节点"
-      ],
-      "display_text": [
-        "真实系统层",
-        "语义模型层",
-        "仿真与 AI 层",
-        "解释审查层",
-        "模型回写层"
-      ],
-      "speaker_notes": "先回答“论文提出的自学习数字孪生由哪些部分构成？”，再解释论文依据（Pages 3-4 Figure 2），最后收口到“本页核心判断是：自学习数字孪生的价值不在“镜像展示”，而在真实系统数...”的管理含义。",
-      "chart_type": "layered_stack_diagram",
-      "chart_data": {
-        "layers": [
-          {
-            "name": "真实系统层",
-            "items": [
-              "真实产品",
-              "生产系统",
-              "传感器/PPS/外部数据"
-            ]
-          },
-          {
-            "name": "语义模型层",
-            "items": [
-              "产品模型",
-              "生产模型",
-              "行为模型",
-              "语义标注"
-            ]
-          },
-          {
-            "name": "仿真与 AI 层",
-            "items": [
-              "simulation",
-              "machine learning",
-              "AI models"
-            ]
-          },
-          {
-            "name": "解释审查层",
-            "items": [
-              "XAI",
-              "plausibility",
-              "causality"
-            ]
-          },
-          {
-            "name": "模型回写层",
-            "items": [
-              "insight integration",
-              "overall model enrichment",
-              "forecast/simulation"
-            ]
-          }
-        ]
-      },
-      "layout_pattern": "layered_architecture",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P7 主视觉采用 layered_architecture，红色锚点给 回写闭环，主图必须服务“本页核心判断是：自学习数字孪生的价值不在“镜像展示”，而在真实系统数据、语义...”这一判断，避免 不得把数字孪生画成静态三层架构。",
-      "visual_focus": [
-        "自学习数字孪生",
-        "回写闭环"
-      ],
-      "must_highlight": [
-        "回写闭环"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解自学习数字孪生是从真实系统到语义模型、仿真 AI、解释审查和模型回写的层级闭环。",
-        "main_visual_logic": "分层图按真实系统→语义模型→仿真与 AI→解释审查→模型回写呈现，证明数字孪生不是静态镜像。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "真实系统层": "真实产品 / 生产系统 / 传感器/PPS/外部数据",
-          "语义模型层": "产品模型 / 生产模型 / 行为模型 / 语义标注",
-          "仿真与 AI 层": "simulation / machine learning / AI models",
-          "解释审查层": "XAI / plausibility / causality",
-          "模型回写层": "insight integration / overall model enrichment / forecast/simulation"
-        },
-        "insight_panel_logic": [
-          "右侧洞察解释回写闭环和 XAI 的作用"
-        ],
-        "forbidden_visualization": [
-          "不得把数字孪生画成静态三层架构",
-          "不得让 AI/XAI 成为孤立装饰节点",
-          "不得遗漏模型回写层"
-        ]
-      }
-    },
-    {
-      "slide_no": 8,
-      "section": "Application",
-      "type": "architecture",
-      "page_goal": "把论文 Figure 3 / Figure 4 的信息流转成可执行架构链。 本页承担四段式中的“应用”角色。",
-      "title": "GBDL 将本体、词汇和规则编译为知识图谱，是数字孪生可生成、可仿真的底座",
-      "conclusion": "论文说明，GBDL 的 vocabulary 与 rules 可用 UML 表达并存入中央知识图谱，Design Compiler 43 能基于知识图谱生成 3D geometry，并支持构建 FMU 仿真。",
-      "core_judgement": "本页核心判断是：GBDL 的工程价值不是画模型，而是把工程知识编译成可生成几何、可构建仿真、可供 AI 学习的数据链。",
-      "chart_proof_goal": "架构流转图通过节点和箭头表达输入、语义底座、生成/仿真/学习和回写之间的因果链。",
-      "chart_visual_boundary": [
-        "不得把 GBDL 画成普通数据流 ETL",
-        "不得让 Knowledge Graph 只是一个无语义数据库图标",
-        "红色只用于贯穿主线或 Knowledge Graph 关键节点"
-      ],
-      "display_text": [
-        "Ontologies / Vocabulary / Rules",
-        "Knowledge Graph",
-        "3D Geometry",
-        "Simulation / FMU",
-        "Learning Data / XAI"
-      ],
-      "speaker_notes": "先回答“GBDL 在整体框架中承担什么角色？”，再解释论文依据（Pages 4-5 Figures 3-4），最后收口到“本页核心判断是：GBDL 的工程价值不是画模型，而是把工程知识编译成...”的管理含义。",
-      "chart_type": "architecture_flow_diagram",
-      "chart_data": {
-        "nodes": [
-          {
-            "id": "A",
-            "label": "Ontologies / Vocabulary / Rules",
-            "group": "输入"
-          },
-          {
-            "id": "B",
-            "label": "Central Knowledge Graph",
-            "group": "语义底座"
-          },
-          {
-            "id": "C",
-            "label": "3D Geometry",
-            "group": "生成"
-          },
-          {
-            "id": "D",
-            "label": "Simulation / FMUs",
-            "group": "仿真"
-          },
-          {
-            "id": "E",
-            "label": "Learning Data / XAI",
-            "group": "AI"
-          }
-        ],
-        "edges": [
-          {
-            "from": "A",
-            "to": "B",
-            "label": "编译/存储"
-          },
-          {
-            "from": "B",
-            "to": "C",
-            "label": "create"
-          },
-          {
-            "from": "B",
-            "to": "D",
-            "label": "build"
-          },
-          {
-            "from": "B",
-            "to": "E",
-            "label": "generate / learn"
-          },
-          {
-            "from": "E",
-            "to": "B",
-            "label": "save back"
-          }
-        ]
-      },
-      "layout_pattern": "stack_architecture_with_right_insights",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P8 主视觉采用 stack_architecture_with_right_insights，红色锚点给 Knowledge Graph，主图必须服务“本页核心判断是：GBDL 的工程价值不是画模型，而是把工程知识编译成可生成几...”这一判断，避免 不得把 GBDL 画成普通数据流 ETL。",
-      "visual_focus": [
-        "GBDL",
-        "知识图谱",
-        "回写"
-      ],
-      "must_highlight": [
-        "Knowledge Graph"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解节点之间的工程流转关系，而不是只看到术语堆叠。",
-        "main_visual_logic": "架构流转图通过节点和箭头表达输入、语义底座、生成/仿真/学习和回写之间的因果链。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "Ontologies / Vocabulary / Rules": "输入",
-          "Central Knowledge Graph": "语义底座",
-          "3D Geometry": "生成",
-          "Simulation / FMUs": "仿真",
-          "Learning Data / XAI": "AI"
-        },
-        "insight_panel_logic": [
-          "右侧洞察解释主图为何需要统一底座和回写机制"
-        ],
-        "forbidden_visualization": [
-          "不得把 GBDL 画成普通数据流 ETL",
-          "不得让 Knowledge Graph 只是一个无语义数据库图标",
-          "不得遗漏 AI/XAI 结果回写到知识图谱的闭环"
-        ]
-      }
-    },
-    {
-      "slide_no": 9,
-      "section": "Application",
-      "type": "architecture",
-      "page_goal": "说明 Application 的接口层：FMU 如何降低 AI/XAI 接入复杂度。 本页承担四段式中的“应用”角色。",
-      "title": "FMU 让传统仿真、AI 模型和 XAI 模型在同一协同仿真环境中可插拔",
-      "conclusion": "论文指出，FMI/FMU 提供标准接口，支持把不同仿真工具、AI/XAI 模型乃至 HiL 系统接入模块化 co-simulation 环境。",
-      "core_judgement": "本页核心判断是：AI 在 MBSE 中要稳定落地，关键是通过 FMU 接口化，而不是把 AI 模型硬塞进单体仿真架构。",
-      "chart_proof_goal": "价值闭环从模型拆分、FMU 封装、协同仿真、XAI 审查到模型回写，证明可插拔接口比单体仿真更适合 AI 接入。",
-      "chart_visual_boundary": [
-        "不得把闭环画成装饰性圆环",
-        "必须体现 FMU 封装和 XAI 审查两个关键节点",
-        "红色只用于 FMU 接口化节点"
-      ],
-      "display_text": [
-        "模型拆分",
-        "FMU 封装",
-        "Co-Simulation",
-        "AI/XAI 插件",
-        "结果解释与回写"
-      ],
-      "speaker_notes": "先回答“AI/XAI 如何接入工程仿真流程？”，再解释论文依据（Pages 4-5 Section 4 / Figure 5），最后收口到“本页核心判断是：AI 在 MBSE 中要稳定落地，关键是通过 FMU...”的管理含义。",
-      "chart_type": "value_chain_loop",
-      "chart_data": {
-        "steps": [
-          {
-            "name": "模型拆分",
-            "description": "把复杂系统拆为可独立仿真的子模型"
-          },
-          {
-            "name": "FMU 封装",
-            "description": "用 modelDescription.xml 定义输入输出和参数"
-          },
-          {
-            "name": "Co-Simulation",
-            "description": "在统一环境中协同运行传统仿真与 AI-FMU"
-          },
-          {
-            "name": "XAI 审查",
-            "description": "解释关键特征、相关性和可疑结果"
-          },
-          {
-            "name": "回写模型",
-            "description": "将有效结果沉淀回知识图谱和工程模型"
-          }
-        ]
-      },
-      "layout_pattern": "stack_architecture_with_right_insights",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P9 主视觉采用 stack_architecture_with_right_insights，红色锚点给 FMU，主图必须服务“本页核心判断是：AI 在 MBSE 中要稳定落地，关键是通过 FMU 接口化...”这一判断，避免 不得把 FMU 画成普通文件夹图标。",
-      "visual_focus": [
-        "FMU",
-        "AI/XAI 可插拔"
-      ],
-      "must_highlight": [
-        "FMU"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解 FMU 让传统仿真、AI 模型、XAI 和 HiL 以接口化方式协同。",
-        "main_visual_logic": "价值闭环从模型拆分、FMU 封装、协同仿真、XAI 审查到模型回写，证明可插拔接口比单体仿真更适合 AI 接入。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "模型拆分": "把复杂系统拆为可独立仿真的子模型",
-          "FMU 封装": "用 modelDescription.xml 定义输入输出和参数",
-          "Co-Simulation": "在统一环境中协同运行传统仿真与 AI-FMU",
-          "XAI 审查": "解释关键特征、相关性和可疑结果",
-          "回写模型": "将有效结果沉淀回知识图谱和工程模型"
-        },
-        "insight_panel_logic": [
-          "右侧洞察强调接口化和回写机制"
-        ],
-        "forbidden_visualization": [
-          "不得把 FMU 画成普通文件夹图标",
-          "不得省略 XAI 审查步骤",
-          "不得把闭环画成无方向的圆环装饰"
-        ]
-      }
-    },
-    {
-      "slide_no": 10,
-      "section": "Application",
-      "type": "case",
-      "page_goal": "解释 Application 的样板页：案例如何证明方法链，而非变成素材墙。 本页承担四段式中的“应用”角色。",
-      "title": "自动化装配样板证明路径可行，但价值在流程生成与知识回写，不在单个案例展示",
-      "conclusion": "论文以 Festo automated assembly plant 为样例，展示从产品结构生成装配序列和装配系统，并基于滑块摩擦行为学习机器学习模型与 XAI 决策树。",
-      "core_judgement": "本页核心判断是：样板案例的价值不是展示某条装配线，而是验证 GBDL—知识图谱—仿真—AI/XAI—回写这条工程链路可以闭合。",
-      "chart_proof_goal": "泳道图按工程模型、自动生成、AI/XAI、治理回写分工，证明样板不是素材展示，而是流程闭合验证。",
-      "chart_visual_boundary": [
-        "不得做成图片墙或案例素材墙",
-        "必须按泳道表达工程模型—生成—AI/XAI—回写",
-        "红色只用于链路闭合结果"
-      ],
-      "display_text": [
-        "产品结构",
-        "装配序列",
-        "装配系统",
-        "摩擦行为学习",
-        "XAI 决策树",
-        "模型回写"
-      ],
-      "speaker_notes": "先回答“论文中的自动化装配样例证明了什么？”，再解释论文依据（Page 5 Section 5 / Figures 6-8），最后收口到“本页核心判断是：样板案例的价值不是展示某条装配线，而是验证 GBDL...”的管理含义。",
-      "chart_type": "swimlane_process",
-      "chart_data": {
-        "lanes": [
-          {
-            "name": "工程模型",
-            "steps": [
-              "产品结构",
-              "部件/总成",
-              "装配约束"
-            ]
-          },
-          {
-            "name": "自动生成",
-            "steps": [
-              "装配序列",
-              "装配系统",
-              "3D/Unity 场景"
-            ]
-          },
-          {
-            "name": "AI/XAI",
-            "steps": [
-              "摩擦行为数据",
-              "ML 模型",
-              "XAI 决策树"
-            ]
-          },
-          {
-            "name": "治理回写",
-            "steps": [
-              "合理性审查",
-              "模型沉淀",
-              "下一轮仿真"
-            ]
-          }
-        ]
-      },
-      "layout_pattern": "left_logic_right_proof",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P10 主视觉采用 left_logic_right_proof，红色锚点给 链路闭合，主图必须服务“本页核心判断是：样板案例的价值不是展示某条装配线，而是验证 GBDL—知识图...”这一判断，避免 不得退化为 Festo 图片墙。",
-      "visual_focus": [
-        "装配样板",
-        "工程链路闭合"
-      ],
-      "must_highlight": [
-        "链路闭合"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [
-        "论文样例证明方法可行，但未给出企业规模化收益指标。"
-      ],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解自动化装配样例证明了从工程模型到生成、AI/XAI 和治理回写的端到端链路。",
-        "main_visual_logic": "泳道图按工程模型、自动生成、AI/XAI、治理回写分工，证明样板不是素材展示，而是流程闭合验证。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "工程模型": "产品结构 → 部件/总成 → 装配约束",
-          "自动生成": "装配序列 → 装配系统 → 3D/Unity 场景",
-          "AI/XAI": "摩擦行为数据 → ML 模型 → XAI 决策树",
-          "治理回写": "合理性审查 → 模型沉淀 → 下一轮仿真"
-        },
-        "insight_panel_logic": [
-          "右侧证明区只放样板验证含义，不做图片墙"
-        ],
-        "forbidden_visualization": [
-          "不得退化为 Festo 图片墙",
-          "不得只展示装配线而不展示流程链",
-          "不得省略 XAI 决策树和模型回写"
-        ]
-      }
-    },
-    {
-      "slide_no": 11,
+      "slide_no": 14,
       "section": "Trends",
-      "type": "roadmap",
-      "page_goal": "把论文 Outlook 转成高层可拍板的阶段路径。 本页承担四段式中的“趋势”角色。",
-      "title": "落地趋势将从“AI 场景试点”转向“语义底座—接口标准—治理回写”的阶段化建设",
-      "conclusion": "论文仍处于框架概念与样板验证阶段，下一步企业落地应先选择自动化产线或装配系统样板，再固化知识图谱、FMU 接口、XAI 审查和模型回写责任。",
-      "core_judgement": "本页核心判断是：AI+MBSE 的趋势不是快速铺开更多 AI 点，而是按样板、接口、治理三阶段把工程语义闭环做实。",
-      "chart_proof_goal": "路线图按阶段目标、关键动作和验收产出递进，证明不是并列计划，而是能力逐步沉淀。",
+      "type": "decision_table",
+      "page_goal": "高层下一步该拍什么？",
+      "title": "落地建议：先选可验证装配样板，再沉淀语义模型、FMU 接口与 AI 审查机制",
+      "conclusion": "面向组织落地，应把论文框架转译为样板牵引、模型治理、仿真接口、XAI 审查四类拍板事项。",
+      "core_judgement": "高层应判断：面向组织落地，应把该研究框架转译为样板牵引、模型治理、仿真接口、XAI 审查四类拍板事项。",
+      "chart_proof_goal": "主图必须证明落地需要明确拍板事项、资源机制和可验收产出，而不是泛化倡议。",
       "chart_visual_boundary": [
-        "不得退化为并列计划",
-        "每阶段必须有目标和验收产出",
-        "红色只用于阶段门槛或样板验证"
-      ],
-      "display_text": [
-        "阶段一：样板验证",
-        "阶段二：底座沉淀",
-        "阶段三：规模复制",
-        "阶段四：治理运营"
-      ],
-      "speaker_notes": "先回答“企业应如何把论文框架转成落地路径？”，再解释论文依据（Sections 5-6 Conclusions and Outlook），最后收口到“本页核心判断是：AI+MBSE 的趋势不是快速铺开更多 AI 点，而...”的管理含义。",
-      "chart_type": "roadmap_timeline_chart",
-      "chart_data": {
-        "stages": [
-          {
-            "name": "样板验证",
-            "time": "0-3个月",
-            "goals": [
-              "选择自动化产线/装配系统",
-              "验证 GBDL + 仿真 + AI/XAI 链路"
-            ],
-            "deliverables": [
-              "样板对象清单",
-              "数据/模型缺口清单"
-            ]
-          },
-          {
-            "name": "底座沉淀",
-            "time": "3-6个月",
-            "goals": [
-              "建立知识图谱实体与关系",
-              "定义 FMU 接口与 XAI 审查口径"
-            ],
-            "deliverables": [
-              "最小语义模型",
-              "接口规范草案"
-            ]
-          },
-          {
-            "name": "规模复制",
-            "time": "6-12个月",
-            "goals": [
-              "扩展到多工位/多产品族",
-              "沉淀模型回写流程"
-            ],
-            "deliverables": [
-              "复用模板",
-              "治理机制"
-            ]
-          },
-          {
-            "name": "治理运营",
-            "time": "12个月+",
-            "goals": [
-              "建立模型版本、责任和审计机制",
-              "持续优化仿真与预测能力"
-            ],
-            "deliverables": [
-              "运营指标",
-              "审查闭环"
-            ]
-          }
-        ]
-      },
-      "layout_pattern": "roadmap_timeline",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P11 主视觉采用 roadmap_timeline，红色锚点给 样板验证，主图必须服务“本页核心判断是：AI+MBSE 的趋势不是快速铺开更多 AI 点，而是按样板...”这一判断，避免 不得画成并列任务清单。",
-      "visual_focus": [
-        "样板验证",
-        "治理回写"
-      ],
-      "must_highlight": [
-        "样板验证"
-      ],
-      "text_density": "medium",
-      "need_compression": false,
-      "data_gaps": [
-        "具体周期需结合企业系统复杂度、数据可用性和组织责任进一步校准。"
+        "拍板事项必须独立突出",
+        "表格不得铺满全页",
+        "红色只标最高优先拍板项"
       ],
       "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应理解 AI+MBSE 落地应按样板验证、底座沉淀、规模复制和治理运营推进。",
-        "main_visual_logic": "路线图按阶段目标、关键动作和验收产出递进，证明不是并列计划，而是能力逐步沉淀。",
-        "axis_semantics": {
-          "x_axis": "阶段顺序和建议周期，需结合企业实际校准",
-          "y_axis": "不适用"
-        },
-        "stage_or_node_meaning": {
-          "样板验证": "样板对象清单 / 数据/模型缺口清单",
-          "底座沉淀": "最小语义模型 / 接口规范草案",
-          "规模复制": "复用模板 / 治理机制",
-          "治理运营": "运营指标 / 审查闭环"
-        },
-        "insight_panel_logic": [
-          "右侧洞察强调阶段门槛和治理责任"
-        ],
+        "chart_reading_intent": "读者看完主图后应理解：面向组织落地，应把论文框架转译为样板牵引、模型治理、仿真接口、XAI 审查四类拍板事项。",
+        "main_visual_logic": "用拍板事项、资源机制和产出对应关系证明落地路径需要管理决策。",
+        "axis_semantics": {},
+        "stage_or_node_meaning": {},
+        "insight_panel_logic": [],
         "forbidden_visualization": [
-          "不得画成并列任务清单",
-          "不得缺少阶段验收产出",
-          "不得把周期写成确定承诺"
+          "不得让表格吞没拍板事项",
+          "不得只写原则而无产出"
         ]
-      }
-    },
-    {
-      "slide_no": 12,
-      "section": "Trends",
-      "type": "decision",
-      "page_goal": "形成 Trends 收口：把论文洞察转为高层拍板事项。 本页承担四段式中的“趋势”角色。",
-      "title": "高层需要拍板的不是单个 AI 用例，而是 AI-ready 工程模型的责任边界和验收机制",
-      "conclusion": "要让 AI 真正参与 MBSE，需明确样板范围、知识图谱实体、FMU 接口、XAI 审查、模型回写和跨部门责任，否则框架难以从论文概念进入工程常态。",
-      "core_judgement": "本页最终判断是：AI-ready 工程模型 = 可被 AI 读取、验证、解释、回写并受控治理的工程模型体系。",
-      "chart_proof_goal": "决策表把拍板事项、建议决策、责任边界和验收产出对应起来，证明 AI-ready 工程模型需要治理机制支撑。",
-      "chart_visual_boundary": [
-        "不得让表格吞没“高层拍板事项”",
-        "必须突出责任边界和验收产出",
-        "红色只用于最终定义或关键拍板项"
-      ],
+      },
       "display_text": [
-        "样板范围",
-        "知识图谱实体",
-        "FMU 接口",
-        "XAI 审查",
-        "模型回写责任",
-        "验收指标"
+        "先做样板，不直接全域铺开",
+        "先固化语义模型，再扩展 AI 场景",
+        "AI 结果必须可解释、可审查、可回写"
       ],
-      "speaker_notes": "先回答“最终需要高层决策什么？”，再解释论文依据（Abstract; Sections 2-6），最后收口到“本页最终判断是：AI-ready 工程模型 = 可被 AI 读取、验...”的管理含义。",
+      "speaker_notes": "先点明本页属于 Trends 段，再解释主图如何支撑标题判断，最后收口到工程管理动作或风险边界。",
       "chart_type": "decision_table",
       "chart_data": {
         "columns": [
           "拍板事项",
-          "建议决策",
-          "责任边界",
-          "验收产出"
+          "推荐方案",
+          "资源/机制",
+          "产出"
         ],
         "rows": [
           [
-            "样板范围",
-            "优先选择自动化装配或高频变更产线",
-            "业务/工程/IT共同确认",
-            "样板对象与数据清单"
+            "样板边界",
+            "选择自动装配关键环节",
+            "业务+工程联合小组",
+            "可验证闭环样板"
           ],
           [
-            "知识图谱实体",
-            "定义产品、过程、行为、几何、资源最小实体集",
-            "工程模型负责人牵头",
-            "最小语义模型"
+            "语义模型",
+            "优先建产品/生产/行为模型",
+            "模型责任人与命名规范",
+            "AI-ready 工程底座"
           ],
           [
             "FMU 接口",
-            "先统一输入输出、参数和模型版本规则",
-            "仿真与软件团队负责",
-            "FMU 接口规范"
+            "统一仿真模块接入方式",
+            "仿真工具链治理",
+            "可替换 AI-FMU"
           ],
           [
             "XAI 审查",
-            "AI 结果先解释、再审查、后回写",
-            "质量/工程专家负责",
-            "审查记录和准入规则"
-          ],
-          [
-            "模型回写责任",
-            "明确谁批准、谁维护、谁回滚",
-            "工程治理组织负责",
-            "版本、审计和回滚机制"
+            "AI 输出先解释后回写",
+            "审查与追溯机制",
+            "可信模型沉淀"
           ]
         ]
       },
       "layout_pattern": "risk_decision_matrix",
-      "visual_notes": "global_design_defaults: 白底、红黑灰、弱页脚、红色克制；page_design_overrides: P12 主视觉采用 risk_decision_matrix，红色锚点给 验收机制，主图必须服务“本页最终判断是：AI-ready 工程模型 = 可被 AI 读取、验证、解释...”这一判断，避免 不得让表格吞没拍板事项。",
+      "visual_notes": "Trends 段页面：主图承担证明，红色锚点放在“落地建议：先选可验证装配”相关关键词或关键节点；普通正文页不使用厚重红底条。",
       "visual_focus": [
-        "AI-ready 工程模型",
-        "验收机制"
+        "Trends",
+        "decision_table",
+        "高层下一步该拍什么？"
       ],
       "must_highlight": [
-        "验收机制"
+        "Trends",
+        "语义模型"
       ],
-      "text_density": "medium_high",
+      "text_density": "medium",
       "need_compression": false,
       "data_gaps": [
-        "企业内部责任组织、系统清单和预算约束待补。"
-      ],
-      "chart_semantic_mapping": {
-        "chart_reading_intent": "读者应明确高层需要拍板的不是单个 AI 用例，而是样板范围、模型实体、接口、审查和回写责任。",
-        "main_visual_logic": "决策表把拍板事项、建议决策、责任边界和验收产出对应起来，证明 AI-ready 工程模型需要治理机制支撑。",
-        "axis_semantics": {},
-        "stage_or_node_meaning": {
-          "样板范围": "样板对象与数据清单",
-          "知识图谱实体": "最小语义模型",
-          "FMU 接口": "FMU 接口规范",
-          "XAI 审查": "审查记录和准入规则",
-          "模型回写责任": "版本、审计和回滚机制"
-        },
-        "insight_panel_logic": [
-          "右侧或底部收口给出 AI-ready 工程模型最终定义"
-        ],
-        "forbidden_visualization": [
-          "不得让表格吞没拍板事项",
-          "不得只列任务而不列责任边界",
-          "不得把待补企业信息写成确定事实"
-        ]
-      }
+        "如用于正式对外汇报，需补充组织自身案例、系统边界和内部数据口径"
+      ]
     }
   ]
 }
