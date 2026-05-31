@@ -1,3 +1,5 @@
 # 忽略名为 logs 的文件夹
 tmp/
 deliverables/
+projeck/PPT_image/
+projeck/work
